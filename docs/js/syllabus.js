@@ -1,13 +1,15 @@
 // Syllabus functionality for Telc A1 German Flashcards
 
+// Import getContentPath from flashcards.js
+import { getContentPath } from './flashcards.js';
+
 // Load and initialize syllabus data
 async function loadSyllabusData() {
     try {
-        const response = await fetch('../content/syllabus_a1.json');
+        const response = await fetch(getContentPath('syllabus_a1.json'));
         if (!response.ok) {
             throw new Error(`Failed to load syllabus data. Status: ${response.status}`);
         }
-        
         const syllabusData = await response.json();
         return syllabusData;
     } catch (error) {

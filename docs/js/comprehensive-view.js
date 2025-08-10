@@ -6,6 +6,7 @@ function getContentPath(filename) {
     const base = isGithubPages ? `/${repo}/content/` : 'content/';
     return base + filename;
 }
+
 export class ComprehensiveView {
     constructor() {
         this.container = document.getElementById('comprehensive-view');
