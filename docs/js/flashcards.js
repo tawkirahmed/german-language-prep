@@ -1,5 +1,5 @@
 // Helper to get correct content path for local and GitHub Pages
-function getContentPath(filename) {
+export function getContentPath(filename) {
     const repo = 'german-language-prep';
     const isGithubPages = window.location.hostname.endsWith('github.io') && window.location.pathname.includes(repo);
     const base = isGithubPages ? `/${repo}/content/` : 'content/';
