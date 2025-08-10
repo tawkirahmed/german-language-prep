@@ -2,10 +2,35 @@ export class ComprehensiveView {
     constructor() {
         this.container = document.getElementById('comprehensive-view');
         this.contentArea = this.container.querySelector('.content-area');
+        this.sidebar = this.container.querySelector('.sidebar');
         this.sidebarNav = this.container.querySelector('.sidebar-nav');
         this.currentSection = null;
         this.data = {};
-        
+
+
+        // Add sidebar toggle button for mobile
+        this.sidebarToggleBtn = document.createElement('button');
+        this.sidebarToggleBtn.className = 'sidebar-toggle';
+        this.sidebarToggleBtn.innerHTML = '<i class="fas fa-bars"></i>';
+        this.sidebarToggleBtn.setAttribute('aria-label', 'Open navigation menu');
+        this.container.insertBefore(this.sidebarToggleBtn, this.sidebar);
+
+        // Add overlay for sidebar
+        this.sidebarOverlay = document.createElement('div');
+        this.sidebarOverlay.className = 'sidebar-overlay';
+        this.sidebarOverlay.style.display = 'none';
+        this.sidebarOverlay.style.position = 'fixed';
+        this.sidebarOverlay.style.top = '0';
+        this.sidebarOverlay.style.left = '0';
+        this.sidebarOverlay.style.width = '100vw';
+        this.sidebarOverlay.style.height = '100vh';
+        this.sidebarOverlay.style.background = 'rgba(0,0,0,0.18)';
+        this.sidebarOverlay.style.zIndex = '999';
+        this.sidebarOverlay.style.transition = 'opacity 0.2s';
+        this.sidebarOverlay.style.pointerEvents = 'auto';
+        this.sidebarOverlay.style.touchAction = 'none';
+        this.container.appendChild(this.sidebarOverlay);
+
         this.initializeEventListeners();
     }
 
@@ -681,17 +706,18 @@ export class ComprehensiveView {
     }
 
     initializeEventListeners() {
+        // Sidebar nav click
         this.sidebarNav.addEventListener('click', (e) => {
             const link = e.target.closest('.sidebar-link, .sidebar-sublink');
             if (!link) return;
-            
+
             e.preventDefault();
-            
+
             if (link.classList.contains('sidebar-link')) {
                 // Handle main section click
                 const section = link.closest('.sidebar-section');
                 const subsections = section.querySelector('.sidebar-subsections');
-                
+
                 // Toggle subsections visibility
                 if (subsections) {
                     this.sidebarNav.querySelectorAll('.sidebar-section').forEach(s => {
@@ -699,19 +725,56 @@ export class ComprehensiveView {
                     });
                     section.classList.toggle('expanded');
                 }
-                
+
                 // Always show section content (even if subsections exist)
                 this.showSection(link.dataset.section);
+
+                // Do NOT close sidebar on mobile for main section click
+                // Only overlay or outside click should close sidebar
             } else if (link.classList.contains('sidebar-sublink')) {
                 // Handle subsection click
                 this.showSection(link.dataset.section, link.dataset.subsection);
+                // Do NOT close sidebar on mobile for subsection click
             }
-            
+
             // Update active states
             this.sidebarNav.querySelectorAll('.sidebar-link, .sidebar-sublink').forEach(l => {
                 l.classList.remove('active');
             });
             link.classList.add('active');
+        });
+
+        // Sidebar toggle button click
+        this.sidebarToggleBtn.addEventListener('click', () => {
+            this.sidebar.classList.toggle('open');
+            if (this.sidebar.classList.contains('open')) {
+                this.sidebarOverlay.style.display = 'block';
+            } else {
+                this.sidebarOverlay.style.display = 'none';
+            }
+        });
+
+        // Overlay click closes sidebar
+        this.sidebarOverlay.addEventListener('click', () => {
+            this.sidebar.classList.remove('open');
+            this.sidebarOverlay.style.display = 'none';
+        });
+
+        // Close sidebar when clicking outside (mobile only)
+        document.addEventListener('click', (e) => {
+            if (window.innerWidth > 900) return;
+            if (!this.sidebar.contains(e.target) && !this.sidebarToggleBtn.contains(e.target) && !this.sidebarOverlay.contains(e.target)) {
+                this.sidebar.classList.remove('open');
+                this.sidebarOverlay.style.display = 'none';
+            }
+        });
+
+        // Responsive: close sidebar on resize if desktop
+        window.addEventListener('resize', () => {
+            if (window.innerWidth > 900) {
+                this.sidebar.classList.remove('open');
+                this.sidebarOverlay.style.display = 'none';
+            }
         });
     }
 }
