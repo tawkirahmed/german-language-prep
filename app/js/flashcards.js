@@ -48,6 +48,13 @@ const allCardsContainer = document.getElementById('all-cards-container');
 const backToCategoriesBtn = document.getElementById('back-to-categories');
 const backToSubcategoriesBtn = document.getElementById('back-to-subcategories');
 
+// Search elements
+const searchInput = document.getElementById('search-input');
+const searchClearBtn = document.getElementById('search-clear-btn');
+const searchResultsPanel = document.getElementById('search-results-panel');
+const searchResultsList = document.getElementById('search-results-list');
+const closeSearchResultsBtn = document.getElementById('close-search-results');
+
 // Reading-specific elements
 const readingTitle = document.getElementById('reading-title');
 const readingText = document.getElementById('reading-text');
@@ -351,6 +358,33 @@ function init() {
     toggleVocabularyBtn.addEventListener('click', toggleVocabulary);
     checkAnswersBtn.addEventListener('click', checkAnswers);
     
+    // Search listeners
+    searchInput.addEventListener('input', () => {
+        performSearch();
+        searchClearBtn.classList.toggle('hidden', searchInput.value === '');
+    });
+    searchInput.addEventListener('keydown', (e) => {
+        if (e.key === 'Enter') {
+            e.preventDefault(); // Prevent form submission
+        }
+    });
+    searchClearBtn.addEventListener('click', () => {
+        searchInput.value = '';
+        searchResultsPanel.classList.add('hidden');
+        searchClearBtn.classList.add('hidden');
+        searchInput.focus();
+    });
+    closeSearchResultsBtn.addEventListener('click', () => {
+        searchResultsPanel.classList.add('hidden');
+    });
+    
+    // Hide search results when clicking outside
+    document.addEventListener('click', (e) => {
+        if (!e.target.closest('.search-container')) {
+            searchResultsPanel.classList.add('hidden');
+        }
+    });
+
     // Listening functions are now imported at the top of the file
     
     // Listening specific listeners
@@ -1740,6 +1774,89 @@ function checkAnswers() {
     // Scroll to the results
     resultsFeedback.scrollIntoView({ behavior: 'smooth' });
 }
+
+// Search functionality
+function performSearch() {
+    const query = searchInput.value.trim().toLowerCase();
+    if (query.length < 2) {
+        searchResultsPanel.classList.add('hidden');
+        return;
+    }
+
+    const allContent = [];
+
+    // Gather all content from different categories
+    for (const category in contentData) {
+        if (typeof contentData[category] === 'object') {
+            for (const subcategory in contentData[category]) {
+                if (Array.isArray(contentData[category][subcategory])) {
+                    contentData[category][subcategory].forEach(item => {
+                        allContent.push({ ...item, category, subcategory });
+                    });
+                }
+            }
+        }
+    }
+
+    const results = allContent.filter(item => {
+        const german = (item.german || item.front || item.infinitive || '').toLowerCase();
+        const english = (item.english || item.back || '').toLowerCase();
+        return german.includes(query) || english.includes(query);
+    });
+
+    displaySearchResults(results);
+}
+
+function displaySearchResults(results) {
+    searchResultsList.innerHTML = '';
+
+    if (results.length === 0) {
+        searchResultsList.innerHTML = '<div class="result-item no-results"><p>No results found.</p></div>';
+    } else {
+        results.forEach(item => {
+            const resultItem = document.createElement('div');
+            resultItem.className = 'result-item';
+            
+            const german = item.german || item.front || item.infinitive;
+            const english = item.english || item.back;
+            const category = item.category.replace('_', ' ');
+            const subcategory = item.subcategory.replace(/([A-Z])/g, ' $1').trim();
+
+            resultItem.innerHTML = `
+                <div class="result-content">
+                    <h4>${german}</h4>
+                    <p>${english}</p>
+                </div>
+                <div class="result-category">
+                    <small>${category} > ${subcategory}</small>
+                </div>
+            `;
+            
+            resultItem.addEventListener('click', () => {
+                // Navigate to the specific card/item
+                handleCategorySelection(item.category, item.category);
+                if (contentData[item.category][item.subcategory]) {
+                    handleSubcategorySelection(item.subcategory, item.subcategory);
+                    
+                    const cardIndex = contentData[item.category][item.subcategory].findIndex(i => (i.german || i.front || i.infinitive) === german);
+                    if (cardIndex !== -1) {
+                        currentCardIndex = cardIndex;
+                        displayCard(currentCardIndex);
+                    }
+                }
+                searchResultsPanel.classList.add('hidden');
+            });
+            searchResultsList.appendChild(resultItem);
+        });
+    }
+
+    searchResultsPanel.classList.remove('hidden');
+}
+
+function showSearchResultsView() {
+    // This function is no longer needed as the search results are shown in a panel
+}
+
 
 // Initialize the application when DOM is loaded
 document.addEventListener('DOMContentLoaded', init);

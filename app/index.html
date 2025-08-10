@@ -16,6 +16,11 @@
 <body>
     <header>
         <h1>Telc A1 German Flashcards</h1>
+        <div class="search-container">
+            <i class="fas fa-search search-icon"></i>
+            <input type="search" id="search-input" placeholder="Search all content...">
+            <button id="search-clear-btn" class="search-clear-btn hidden">&times;</button>
+        </div>
         <div class="action-buttons">
             <div class="view-toggle">
                 <label class="toggle-switch">
@@ -35,6 +40,13 @@
             <span id="home-link" class="breadcrumb-link active">Home</span>
             <span id="category-link" class="breadcrumb-link hidden"></span>
             <span id="subcategory-link" class="breadcrumb-link hidden"></span>
+        </div>
+
+        <!-- Search Results Panel -->
+        <div id="search-results-panel" class="search-results-panel hidden">
+            <h2>Search Results</h2>
+            <div id="search-results-list"></div>
+            <button id="close-search-results" class="close-button">&times;</button>
         </div>
 
         <!-- Category Selection View -->
