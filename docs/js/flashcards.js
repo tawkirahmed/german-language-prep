@@ -19,7 +19,8 @@ export let contentData = {
     writing: null,
     modal_verbs: null,
     separable_verbs: null,
-    syllabus: null
+    syllabus: null,
+    adjectives_adverbs: null
 };
 
 // Import writing functions
@@ -105,7 +106,8 @@ const subcategoryBreadcrumb = document.getElementById('subcategory-link');
         reading: 'fa-book-reader',
         listening: 'fa-headphones',
         writing: 'fa-pencil-alt',
-        syllabus: 'fa-graduation-cap'
+        syllabus: 'fa-graduation-cap',
+        adjectives_adverbs: 'fa-adjust'
     };
     
     // Add category buttons if they don't exist
@@ -567,7 +569,8 @@ async function loadContent() {
             displayError('Failed to load listening exercises. Please try again later.');
         }
         // Load other content types
-        const contentTypes = ['vocabulary', 'grammar', 'irregular_verbs', 'phrases', 'reading', 'writing'];
+
+    const contentTypes = ['vocabulary', 'grammar', 'irregular_verbs', 'phrases', 'reading', 'writing', 'adjectives_adverbs'];
 
         for (const contentType of contentTypes) {
             try {
@@ -670,6 +673,12 @@ function populateCategoryCards() {
             label: 'Common Phrases', 
             description: 'Useful everyday expressions',
             count: getSubcategoryCount('phrases')
+        },
+        { 
+            value: 'adjectives_adverbs',
+            label: 'Adjectives & Adverbs',
+            description: 'Key A1 adjectives and adverbs',
+            count: contentData.adjectives_adverbs?.length || 0
         },
         { 
             value: 'reading', 
@@ -859,6 +868,19 @@ function handleSubcategorySelection(subcategory, displayName) {
         }
     }
 
+    // For adjectives/adverbs, treat as a flat list
+    if (currentCategory === 'adjectives_adverbs') {
+        currentCards = (contentData.adjectives_adverbs || []).map(item => ({
+            front: item.german,
+            back: item.english + (item.type ? ` (${item.type})` : ''),
+            examples: []
+        }));
+        currentCardIndex = 0;
+        updateCardButtons();
+        displayCard(currentCardIndex);
+        showFlashcardView();
+        return;
+    }
     // For other categories, load flashcard view
     loadCards(currentCategory, currentSubcategory);
     showFlashcardView();

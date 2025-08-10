@@ -55,7 +55,8 @@ export class ComprehensiveView {
             'vocabulary.json',
             'grammar.json',
             'phrases.json',
-            'irregular_verbs.json'
+            'irregular_verbs.json',
+            'adjectives_adverbs.json'
         ];
 
         // Load each file independently so one failure doesn't break the rest
@@ -90,6 +91,11 @@ export class ComprehensiveView {
                     id: key,
                     title: formatTitle(key)
                 }))
+            },
+            { 
+                id: 'adjectives_adverbs',
+                title: 'Adjectives & Adverbs',
+                subsections: []
             },
             { 
                 id: 'grammar',
@@ -186,6 +192,8 @@ export class ComprehensiveView {
         switch (sectionId) {
             case 'vocabulary':
                 return this.data.vocabulary;
+            case 'adjectives_adverbs':
+                return this.data.adjectives_adverbs;
             case 'grammar':
                 return this.data.grammar;
             case 'phrases':
@@ -207,6 +215,8 @@ export class ComprehensiveView {
         switch (sectionId) {
             case 'vocabulary':
                 return this.renderVocabulary(subsectionId ? { [subsectionId]: data[subsectionId] } : data);
+            case 'adjectives_adverbs':
+                return this.renderAdjectivesAdverbs(data);
             case 'grammar':
                 return this.renderGrammar(subsectionId ? { [subsectionId]: data[subsectionId] } : data);
             case 'phrases': {
@@ -225,6 +235,45 @@ export class ComprehensiveView {
             default:
                 return '';
         }
+    }
+
+    renderAdjectivesAdverbs(data) {
+        if (!Array.isArray(data)) return '';
+        // Group by type for display
+        const adjectives = data.filter(item => item.type.includes('adjective'));
+        const adverbs = data.filter(item => item.type.includes('adverb') && !item.type.includes('adjective'));
+        const renderItems = (items) => items.map(item => `
+            <div class="item">
+                <div class="item-header">
+                    <span class="item-title">${item.german}</span>
+                    <span class="item-translation">${item.english}</span>
+                </div>
+                ${item.examples ? `
+                    <div class="item-examples">
+                        ${Array.isArray(item.examples) ? item.examples.map(ex => `
+                            <div class="example-item">
+                                <span class="example-german">${ex.german}</span>
+                                <span class="example-english">${ex.english}</span>
+                            </div>
+                        `).join('') : `<div class="example-item">${item.examples}</div>`}
+                    </div>
+                ` : ''}
+            </div>
+        `).join('');
+        return `
+            <div class="subcategory-section">
+                <h3>Adjectives</h3>
+                <div class="items">
+                    ${renderItems(adjectives)}
+                </div>
+            </div>
+            <div class="subcategory-section">
+                <h3>Adverbs</h3>
+                <div class="items">
+                    ${renderItems(adverbs)}
+                </div>
+            </div>
+        `;
     }
 
     renderVocabulary(data) {
@@ -482,6 +531,7 @@ export class ComprehensiveView {
     }
 
     renderQuestions(data, subsectionId) {
+        // Render all question words in a single row each, showing up to 2 examples per word
         const renderQuestionWordsTable = (basic) => `
             <div class="subcategory-section">
                 <h3>Question Words</h3>
@@ -496,21 +546,28 @@ export class ComprehensiveView {
                             </tr>
                         </thead>
                         <tbody>
-                            ${basic.map(row => row.examples && row.examples.length ? row.examples.slice(0, 2).map(ex => `
-                                <tr>
-                                    <td class="question-word">${row.word}</td>
-                                    <td>${row.english}</td>
-                                    <td class="question-example">${ex.german}</td>
-                                    <td class="question-example">${ex.english}</td>
-                                </tr>
-                            `).join('') : `
-                                <tr>
-                                    <td class="question-word">${row.word}</td>
-                                    <td>${row.english}</td>
-                                    <td></td>
-                                    <td></td>
-                                </tr>
-                            `).join('')}
+                            ${basic.map(row => {
+                                if (row.examples && row.examples.length) {
+                                    // Show up to 2 examples for each word
+                                    return row.examples.slice(0, 2).map((ex, idx) => `
+                                        <tr>
+                                            <td class="question-word">${idx === 0 ? row.word : ''}</td>
+                                            <td>${idx === 0 ? row.english : ''}</td>
+                                            <td class="question-example">${ex.german}</td>
+                                            <td class="question-example">${ex.english}</td>
+                                        </tr>
+                                    `).join('');
+                                } else {
+                                    return `
+                                        <tr>
+                                            <td class="question-word">${row.word}</td>
+                                            <td>${row.english}</td>
+                                            <td></td>
+                                            <td></td>
+                                        </tr>
+                                    `;
+                                }
+                            }).join('')}
                         </tbody>
                     </table>
                 </div>
@@ -575,7 +632,12 @@ export class ComprehensiveView {
         if (subsectionId === 'yesNoQuestions') return renderYesNo(yn);
         if (subsectionId === 'negativeQuestions') return renderNegativeQuestions(neg);
 
-        return renderQuestionWordsTable(basic) + renderYesNo(yn) + renderNegativeQuestions(neg);
+        // Show all question words, yes/no, and negative questions
+        return [
+            renderQuestionWordsTable(basic),
+            renderYesNo(yn),
+            renderNegativeQuestions(neg)
+        ].join('');
     }
 
     renderTime(data, subsectionId) {

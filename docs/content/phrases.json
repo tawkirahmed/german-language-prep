@@ -234,6 +234,22 @@
   "questionWords": {
     "basicQuestions": [
       {
+        "word": "wer",
+        "english": "who",
+        "examples": [
+          {"german": "Wer ist das?", "english": "Who is that?"},
+          {"german": "Wer kommt mit?", "english": "Who is coming along?"}
+        ]
+      },
+      {
+        "word": "was",
+        "english": "what",
+        "examples": [
+          {"german": "Was machst du?", "english": "What are you doing?"},
+          {"german": "Was ist das?", "english": "What is that?"}
+        ]
+      },
+      {
         "word": "wo",
         "english": "where",
         "examples": [
@@ -255,6 +271,46 @@
         "examples": [
           {"german": "Wohin gehst du?", "english": "Where are you going?"},
           {"german": "Wohin fährst du in Urlaub?", "english": "Where are you going on vacation?"}
+        ]
+      },
+      {
+        "word": "wann",
+        "english": "when",
+        "examples": [
+          {"german": "Wann beginnt der Kurs?", "english": "When does the course start?"},
+          {"german": "Wann kommst du?", "english": "When are you coming?"}
+        ]
+      },
+      {
+        "word": "warum",
+        "english": "why",
+        "examples": [
+          {"german": "Warum lernst du Deutsch?", "english": "Why are you learning German?"},
+          {"german": "Warum bist du müde?", "english": "Why are you tired?"}
+        ]
+      },
+      {
+        "word": "wie",
+        "english": "how",
+        "examples": [
+          {"german": "Wie geht es dir?", "english": "How are you?"},
+          {"german": "Wie heißt du?", "english": "What is your name?"}
+        ]
+      },
+      {
+        "word": "wie viel",
+        "english": "how much",
+        "examples": [
+          {"german": "Wie viel kostet das?", "english": "How much does this cost?"},
+          {"german": "Wie viel Uhr ist es?", "english": "What time is it?"}
+        ]
+      },
+      {
+        "word": "welcher/welche/welches",
+        "english": "which",
+        "examples": [
+          {"german": "Welches Buch liest du?", "english": "Which book are you reading?"},
+          {"german": "Welche Farbe magst du?", "english": "Which color do you like?"}
         ]
       }
     ],
