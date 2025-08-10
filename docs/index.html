@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#4a6da7">
     <title>Telc A1 German Flashcards</title>
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/print.css" media="print">
@@ -16,15 +17,15 @@
 <body>
     <header>
         <h1>Telc A1 German Flashcards</h1>
-        <div class="search-container">
-            <i class="fas fa-search search-icon"></i>
-            <input type="search" id="search-input" placeholder="Search all content...">
-            <button id="search-clear-btn" class="search-clear-btn hidden">&times;</button>
+        <div class="search-container" role="search">
+            <i class="fas fa-search search-icon" aria-hidden="true"></i>
+            <input type="search" id="search-input" placeholder="Search all content..." aria-label="Search all content">
+            <button id="search-clear-btn" class="search-clear-btn hidden" aria-label="Clear search">&times;</button>
         </div>
-        <div class="action-buttons">
+        <div class="action-buttons" aria-label="Actions">
             <div class="view-toggle">
                 <label class="toggle-switch">
-                    <input type="checkbox" id="view-mode-toggle">
+                    <input type="checkbox" id="view-mode-toggle" aria-label="Toggle comprehensive view">
                     <span class="toggle-slider"></span>
                 </label>
                 <span class="toggle-label">Comprehensive View</span>
@@ -46,11 +47,11 @@
         <div id="search-results-panel" class="search-results-panel hidden">
             <h2>Search Results</h2>
             <div id="search-results-list"></div>
-            <button id="close-search-results" class="close-button">&times;</button>
+            <button id="close-search-results" class="close-button" aria-label="Close search results">&times;</button>
         </div>
 
         <!-- Category Selection View -->
-        <div id="category-view" class="card-grid">
+        <div id="category-view" class="card-grid" aria-live="polite">
             <!-- Categories will be dynamically loaded here -->
         </div>
         
@@ -88,7 +89,7 @@
         <!-- Flashcard View -->
         <div id="flashcard-view" class="hidden">
             <div id="flashcard-container">
-                <div class="flashcard">
+                <div class="flashcard" aria-live="polite">
                     <div class="flashcard-inner">
                         <div class="flashcard-front">
                             <p class="flashcard-text">Select a category and subcategory to start</p>
@@ -200,7 +201,7 @@
                     <div id="transcript-panel" class="transcript-panel hidden">
                         <div class="panel-header">
                             <h3>Transcript</h3>
-                            <button id="close-transcript-btn" class="close-panel-btn">
+                            <button id="close-transcript-btn" class="close-panel-btn" aria-label="Close transcript">
                                 <i class="fas fa-times"></i>
                             </button>
                         </div>
@@ -212,7 +213,7 @@
                     <div id="vocabulary-panel-listening" class="vocabulary-panel hidden">
                         <div class="panel-header">
                             <h3>Vocabulary</h3>
-                            <button id="close-vocabulary-btn" class="close-panel-btn">
+                            <button id="close-vocabulary-btn" class="close-panel-btn" aria-label="Close vocabulary panel">
                                 <i class="fas fa-times"></i>
                             </button>
                         </div>
@@ -279,7 +280,7 @@
     <!-- Plural Rules Modal -->
     <div id="plural-rules-modal" class="modal hidden">
         <div class="modal-content">
-            <span class="close-button">&times;</span>
+            <span class="close-button" aria-label="Close modal">&times;</span>
             <h2>German Plural Rules</h2>
             <div class="modal-body">
                 <p>In German, there are several patterns for forming plurals:</p>

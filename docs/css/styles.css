@@ -37,12 +37,16 @@ h1 {
     color: var(--primary-color);
     text-align: center;
     margin-bottom: 20px;
+    /* Make title responsive */
+    font-size: clamp(22px, 6vw, 36px);
 }
 
 .action-buttons {
     display: flex;
     gap: 15px;
     margin-top: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 button {
@@ -64,6 +68,10 @@ button {
     min-width: 120px;
     text-align: center;
     justify-content: center;
+    /* Better tap targets on mobile */
+    min-height: 44px;
+    touch-action: manipulation;
+    -webkit-tap-highlight-color: transparent;
 }
 
 button:hover {
@@ -272,13 +280,29 @@ button i {
     margin-bottom: 10px;
 }
 
-.example-item {
-    background-color: rgba(255, 255, 255, 0.1);
-    padding: 10px;
-    border-radius: 6px;
-    margin-bottom: 15px;
+/* Meta info blocks on card back */
+.meta-info {
+    background-color: rgba(255, 255, 255, 0.08);
     border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 8px;
+    padding: 10px 12px;
+    margin: 10px 0;
 }
+
+.meta-info p { margin: 6px 0; }
+
+/* Generic item info blocks in comprehensive view */
+.item-explanation, .item-note, .item-similar, .item-exam-tip {
+    margin: 8px 0 10px 0;
+    padding: 10px 12px;
+    background: #f7f9fc;
+    border-left: 3px solid var(--primary-color);
+    border-radius: 6px;
+}
+
+.item-note { border-left-color: #8e44ad; }
+.item-similar { border-left-color: #16a085; }
+.item-exam-tip { border-left-color: #e67e22; }
 
 /* Styling for conjugation */
 .conjugation {
@@ -357,6 +381,13 @@ button i {
     margin-top: 20px;
     flex-wrap: wrap;
     width: 100%;
+    /* Keep controls in view on mobile */
+    position: sticky;
+    bottom: 0;
+    background: linear-gradient(180deg, rgba(249,249,249,0), rgba(249,249,249,0.95));
+    padding: 10px 8px calc(10px + env(safe-area-inset-bottom));
+    box-shadow: 0 -4px 10px rgba(0,0,0,0.06);
+    z-index: 20;
 }
 
 /* Updated styles for consistent button alignment */
@@ -796,33 +827,72 @@ footer {
 
 /* Media query for smaller screens */
 @media (max-width: 768px) {
+    body {
+        padding: 12px;
+    }
+    header {
+        position: sticky;
+        top: 0;
+        background: linear-gradient(180deg, #fff, rgba(255,255,255,0.96));
+        z-index: 100;
+        padding-bottom: 8px;
+        box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+    }
     .card-grid {
         grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
     }
-    
     .flashcard {
-        width: 90%;
-        height: 300px;
-    }
-    
-    .flashcard-text {
-        font-size: 22px;
-    }
-    
-    .examples {
-        font-size: 16px;
-    }
-    
-    .controls {
-        flex-direction: column;
-        align-items: center;
-    }
-    
-    button {
         width: 100%;
-        max-width: 300px;
+        max-width: 600px;
+        aspect-ratio: 3 / 2;
+        height: auto;
+    }
+    .flashcard-front, .flashcard-back {
+        padding: 16px;
+    }
+    .flashcard-text {
+        font-size: clamp(20px, 6vw, 24px);
+    }
+    .examples {
+        font-size: clamp(14px, 3.8vw, 16px);
+        max-width: 100%;
+        padding: 0;
+    }
+    .controls {
+        gap: 10px;
+    }
+    /* Make most buttons full-width but keep the sidebar toggle and bottom drawer bar compact */
+    button:not(.sidebar-toggle):not(.bottom-drawer-bar) {
+        width: 100%;
+        max-width: 320px;
         justify-content: center;
     }
+    /* Hide desktop-only actions on mobile */
+    #print-btn, #export-pdf-btn {
+        display: none !important;
+    }
+    /* Ensure drawer bar button remains compact */
+    button.bottom-drawer-bar { width: auto; max-width: none; }
+}
+
+/* On desktop, never force buttons full-width */
+@media (min-width: 769px) {
+    button { width: auto; max-width: none; }
+}
+
+/* Make search available in comprehensive mode on mobile */
+@media (max-width: 900px) {
+    body.comprehensive-mode #navigation-breadcrumb { display: none !important; }
+    body.comprehensive-mode header {
+        position: sticky;
+        top: 0;
+        background: linear-gradient(180deg, #fff, rgba(255,255,255,0.96));
+        z-index: 100;
+        padding-bottom: 8px;
+        box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+    }
+    body.comprehensive-mode header h1,
+    body.comprehensive-mode header .action-buttons { display: none !important; }
 }
 
 /* Animation for card transitions */
@@ -845,6 +915,9 @@ footer {
     position: relative;
     align-items: center;
 }
+
+/* Hide native iOS/Safari clear button to avoid duplicate X next to our custom clear */
+#search-input::-webkit-search-cancel-button { -webkit-appearance: none; }
 
 .search-icon {
     position: absolute;
@@ -885,19 +958,32 @@ footer {
     display: none; /* Hide the old search button */
 }
 
+/* Repositioned to be anchored near the search input; JS adjusts exact top/left/width */
 .search-results-panel {
-    position: absolute;
-    top: calc(100% + 5px); /* Position below the input */
-    left: 0;
-    right: 0;
+    position: fixed;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 80px; /* fallback if JS not yet applied */
     background-color: white;
     border: 1px solid #ddd;
     border-radius: var(--border-radius);
     box-shadow: var(--box-shadow);
-    z-index: 100;
-    max-height: 400px;
+    z-index: 1000;
+    max-height: 60vh;
     overflow-y: auto;
+    width: min(600px, calc(100vw - 24px));
+    overscroll-behavior: contain;
 }
+
+/* Panel header polish */
+.search-results-panel h2 {
+    margin: 12px 16px 8px;
+    font-size: 20px;
+    color: var(--text-color);
+}
+
+/* Remove extra close icon inside search results panel */
+#close-search-results { display: none !important; }
 
 #search-results-list .result-item {
     padding: 12px 15px;
@@ -954,6 +1040,27 @@ footer {
 
 #close-search-results:hover {
     color: var(--text-color);
+}
+
+#search-results-list .result-item .result-category small { white-space: nowrap; }
+
+/* Highlight styling */
+.search-results-panel mark {
+    background: #fff3b0;
+    color: inherit;
+    padding: 0 2px;
+    border-radius: 3px;
+}
+
+/* Better mobile sizing for search panel */
+@media (max-width: 768px) {
+    .search-results-panel {
+        left: 8px !important;
+        right: 8px !important;
+        transform: none !important;
+        width: calc(100vw - 16px) !important;
+        max-height: 70vh;
+    }
 }
 
 /* Main styles for the flashcard application */

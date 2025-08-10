@@ -8,6 +8,21 @@ export function getContentPath(filename) {
 // Flashcard application for Telc A1 German - Updated with Card-based Navigation
 import { loadSyllabusData, addSyllabusCard, handleSyllabusSelection } from './syllabus.js';
 
+// Small helpers for search UX
+const escapeHtml = (str = '') => str
+    .replace(/&/g, '&amp;')
+    .replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;')
+    .replace(/"/g, '&quot;')
+    .replace(/'/g, '&#039;');
+const highlightMatch = (text = '', query = '') => {
+    if (!text || !query) return escapeHtml(text);
+    const q = query.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+    return escapeHtml(text).replace(new RegExp(`(${q})`, 'ig'), '<mark>$1</mark>');
+};
+const toTitle = (s = '') => s.replace(/_/g, ' ').replace(/\b\w/g, c => c.toUpperCase());
+const formatSubcat = (s = '') => toTitle(s.replace(/([A-Z])/g, ' $1')).trim();
+
 // Data structure
 export let contentData = {
     vocabulary: null,
@@ -62,6 +77,18 @@ const searchClearBtn = document.getElementById('search-clear-btn');
 const searchResultsPanel = document.getElementById('search-results-panel');
 const searchResultsList = document.getElementById('search-results-list');
 const closeSearchResultsBtn = document.getElementById('close-search-results');
+
+// Utility: position the floating search results panel under the search input
+function positionSearchPanel() {
+    if (!searchInput || !searchResultsPanel) return;
+    const rect = searchInput.getBoundingClientRect();
+    // Use fixed so coordinates are viewport-relative
+    searchResultsPanel.style.position = 'fixed';
+    searchResultsPanel.style.top = `${Math.round(rect.bottom + 6)}px`;
+    searchResultsPanel.style.left = `${Math.round(rect.left)}px`;
+    searchResultsPanel.style.right = 'auto';
+    searchResultsPanel.style.width = `${Math.round(rect.width)}px`;
+}
 
 // Reading-specific elements
 const readingTitle = document.getElementById('reading-title');
@@ -371,6 +398,14 @@ function init() {
     searchInput.addEventListener('input', () => {
         performSearch();
         searchClearBtn.classList.toggle('hidden', searchInput.value === '');
+        positionSearchPanel();
+    });
+    searchInput.addEventListener('focus', () => {
+        // Reposition when focusing and show panel if there is text
+        positionSearchPanel();
+        if (searchInput.value.trim().length >= 2 && !searchResultsPanel.classList.contains('hidden')) {
+            positionSearchPanel();
+        }
     });
     searchInput.addEventListener('keydown', (e) => {
         if (e.key === 'Enter') {
@@ -386,10 +421,24 @@ function init() {
     closeSearchResultsBtn.addEventListener('click', () => {
         searchResultsPanel.classList.add('hidden');
     });
+
+    // ESC to close search panel
+    document.addEventListener('keydown', (e) => {
+        if (e.key === 'Escape') {
+            searchResultsPanel.classList.add('hidden');
+        }
+    });
+
+    // Keep panel aligned on resize/scroll
+    window.addEventListener('resize', positionSearchPanel);
+    window.addEventListener('scroll', () => {
+        if (!searchResultsPanel.classList.contains('hidden')) positionSearchPanel();
+    }, { passive: true });
     
-    // Hide search results when clicking outside
+    // Hide search results when clicking outside search area or panel
     document.addEventListener('click', (e) => {
-        if (!e.target.closest('.search-container')) {
+        const insideSearch = e.target.closest('.search-container') || e.target.closest('#search-results-panel');
+        if (!insideSearch) {
             searchResultsPanel.classList.add('hidden');
         }
     });
@@ -943,7 +992,11 @@ function loadCards(category, subcategory) {
                 const card = {
                     front: item.german,
                     back: item.english,
-                    examples: item.examples
+                    examples: item.examples,
+                    explanation: item.explanation,
+                    note: item.note,
+                    similar: item.similar,
+                    examTip: item.examTip
                 };
 
                 // Add plural form if it exists (for nouns)
@@ -1095,6 +1148,42 @@ function displayCard(index) {
         if (showPluralRulesBtn) {
             showPluralRulesBtn.style.display = 'none';
         }
+    }
+
+    // Show explanation, note, similar, exam tips when available
+    if (card.explanation || card.note || card.similar || card.examTip) {
+        const metaDiv = document.createElement('div');
+        metaDiv.classList.add('meta-info');
+        metaDiv.style.width = '100%';
+        metaDiv.style.textAlign = 'left';
+        metaDiv.style.margin = '10px 0';
+        metaDiv.style.padding = '12px 15px';
+        metaDiv.style.backgroundColor = 'rgba(255,255,255,0.08)';
+        metaDiv.style.borderRadius = '8px';
+
+        if (card.explanation) {
+            const p = document.createElement('p');
+            p.innerHTML = `<strong>Usage:</strong> ${card.explanation}`;
+            metaDiv.appendChild(p);
+        }
+        if (card.note) {
+            const p = document.createElement('p');
+            p.innerHTML = `<strong>Note:</strong> ${card.note}`;
+            metaDiv.appendChild(p);
+        }
+        if (card.similar) {
+            const p = document.createElement('p');
+            const val = Array.isArray(card.similar) ? card.similar.join(', ') : card.similar;
+            p.innerHTML = `<strong>Similar:</strong> ${val}`;
+            metaDiv.appendChild(p);
+        }
+        if (card.examTip) {
+            const p = document.createElement('p');
+            p.innerHTML = `<strong>Exam tip:</strong> ${card.examTip}`;
+            metaDiv.appendChild(p);
+        }
+
+        examplesContainer.appendChild(metaDiv);
     }
     
     // Add usage information for modal verbs
@@ -1798,10 +1887,21 @@ function performSearch() {
 
     // Gather all content from different categories
     for (const category in contentData) {
-        if (typeof contentData[category] === 'object') {
-            for (const subcategory in contentData[category]) {
-                if (Array.isArray(contentData[category][subcategory])) {
-                    contentData[category][subcategory].forEach(item => {
+        const categoryData = contentData[category];
+        if (!categoryData) continue;
+
+        // Handle flat array categories (e.g., adjectives_adverbs)
+        if (Array.isArray(categoryData)) {
+            categoryData.forEach(item => {
+                allContent.push({ ...item, category, subcategory: '' });
+            });
+            continue;
+        }
+
+        if (typeof categoryData === 'object') {
+            for (const subcategory in categoryData) {
+                if (Array.isArray(categoryData[subcategory])) {
+                    categoryData[subcategory].forEach(item => {
                         allContent.push({ ...item, category, subcategory });
                     });
                 }
@@ -1824,35 +1924,52 @@ function displaySearchResults(results) {
     if (results.length === 0) {
         searchResultsList.innerHTML = '<div class="result-item no-results"><p>No results found.</p></div>';
     } else {
+        const q = searchInput.value.trim();
         results.forEach(item => {
             const resultItem = document.createElement('div');
             resultItem.className = 'result-item';
             
-            const german = item.german || item.front || item.infinitive;
-            const english = item.english || item.back;
-            const category = item.category.replace('_', ' ');
-            const subcategory = item.subcategory.replace(/([A-Z])/g, ' $1').trim();
+            const germanRaw = item.german || item.front || item.infinitive || '';
+            const englishRaw = item.english || item.back || '';
+            const categoryLabel = toTitle(item.category || '');
+            const subcatLabel = formatSubcat(item.subcategory || '');
+
+            const germanHTML = highlightMatch(germanRaw, q);
+            const englishHTML = highlightMatch(englishRaw, q);
 
             resultItem.innerHTML = `
                 <div class="result-content">
-                    <h4>${german}</h4>
-                    <p>${english}</p>
+                    <h4>${germanHTML}</h4>
+                    <p>${englishHTML}</p>
                 </div>
                 <div class="result-category">
-                    <small>${category} > ${subcategory}</small>
+                    <small>${categoryLabel}${subcatLabel ? ` > ${subcatLabel}` : ''}</small>
                 </div>
             `;
             
             resultItem.addEventListener('click', () => {
                 // Navigate to the specific card/item
-                handleCategorySelection(item.category, item.category);
-                if (contentData[item.category][item.subcategory]) {
-                    handleSubcategorySelection(item.subcategory, item.subcategory);
-                    
-                    const cardIndex = contentData[item.category][item.subcategory].findIndex(i => (i.german || i.front || i.infinitive) === german);
-                    if (cardIndex !== -1) {
-                        currentCardIndex = cardIndex;
-                        displayCard(currentCardIndex);
+                if (item.category === 'adjectives_adverbs') {
+                    handleCategorySelection('adjectives_adverbs', 'Adjectives & Adverbs');
+                    currentCards = (contentData.adjectives_adverbs || []).map(it => ({
+                        front: it.german,
+                        back: it.english + (it.type ? ` (${it.type})` : ''),
+                        examples: []
+                    }));
+                    const idx = currentCards.findIndex(c => c.front === germanRaw);
+                    currentCardIndex = Math.max(0, idx);
+                    displayCard(currentCardIndex);
+                    showFlashcardView();
+                } else {
+                    handleCategorySelection(item.category, categoryLabel);
+                    if (contentData[item.category] && contentData[item.category][item.subcategory]) {
+                        handleSubcategorySelection(item.subcategory, subcatLabel || item.subcategory);
+                        const list = contentData[item.category][item.subcategory];
+                        const cardIndex = list.findIndex(i => (i.german || i.front || i.infinitive) === germanRaw);
+                        if (cardIndex !== -1) {
+                            currentCardIndex = cardIndex;
+                            displayCard(currentCardIndex);
+                        }
                     }
                 }
                 searchResultsPanel.classList.add('hidden');
@@ -1861,13 +1978,13 @@ function displaySearchResults(results) {
         });
     }
 
+    positionSearchPanel();
     searchResultsPanel.classList.remove('hidden');
 }
 
-function showSearchResultsView() {
-    // This function is no longer needed as the search results are shown in a panel
+// Bootstrap application
+if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', init);
+} else {
+    init();
 }
-
-
-// Initialize the application when DOM is loaded
-document.addEventListener('DOMContentLoaded', init);

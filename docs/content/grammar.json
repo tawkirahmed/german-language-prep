@@ -642,7 +642,8 @@
         {"german": "Ich trinke Kaffee.", "english": "I drink coffee."},
         {"german": "Heute trinke ich Kaffee.", "english": "Today I drink coffee."},
         {"german": "In Berlin wohne ich.", "english": "In Berlin I live."}
-      ]
+      ],
+      "examTip": "Nur ein Satzteil vor dem Verb! Stelle nur ein Element auf Position 1, dann kommt sofort das konjugierte Verb."
     },
     {
       "topic": "Time–Manner–Place (TMP)",
@@ -651,7 +652,8 @@
       "examples": [
         {"german": "Ich gehe morgen mit dem Bus zur Arbeit.", "english": "I go to work tomorrow by bus."},
         {"german": "Wir treffen uns heute Abend im Park.", "english": "We meet this evening in the park."}
-      ]
+      ],
+      "examTip": "Merkhilfe: Wann? Wie? Wo? — Zeit, Art/Weise, Ort."
     },
     {
       "topic": "Position of 'nicht' (negation)",
@@ -661,7 +663,8 @@
         {"german": "Ich trinke heute nicht Kaffee.", "english": "I am not drinking coffee today."},
         {"german": "Er kommt nicht aus Spanien.", "english": "He is not from Spain."},
         {"german": "Sie macht die Tür nicht auf.", "english": "She does not open the door."}
-      ]
+      ],
+      "examTip": "Schreibe 'nicht' vor das, was verneint wird. Nicht vor dem Subjekt!"
     },
     {
       "topic": "Yes/No questions (Ja/Nein)",
@@ -670,7 +673,8 @@
       "examples": [
         {"german": "Kommst du aus Deutschland?", "english": "Are you from Germany?"},
         {"german": "Trinkst du Tee?", "english": "Do you drink tea?"}
-      ]
+      ],
+      "examTip": "Verb zuerst! Antworte mit ja/nein (+ doch bei negativen Fragen)."
     },
     {
       "topic": "W-questions (Fragewort-Fragen)",
@@ -679,7 +683,8 @@
       "examples": [
         {"german": "Wo wohnst du?", "english": "Where do you live?"},
         {"german": "Wann beginnt der Kurs?", "english": "When does the course start?"}
-      ]
+      ],
+      "examTip": "Fragewort am Anfang, dann sofort das Verb (Position 2)."
     }
   ],
   "modalVerbsUsage": [
@@ -691,7 +696,8 @@
         {"german": "Ich kann Deutsch sprechen.", "english": "I can speak German."},
         {"german": "Wir müssen heute arbeiten.", "english": "We have to work today."},
         {"german": "Möchtest du mitkommen?", "english": "Would you like to come along?"}
-      ]
+      ],
+      "examTip": "Infinitiv ans Ende! Häufiger Fehler: das zweite Verb vergessen."
     },
     {
       "topic": "Negation with modal verbs",
@@ -699,7 +705,8 @@
       "explanation": "The modal stays in position 2.",
       "examples": [
         {"german": "Ich kann heute nicht kommen.", "english": "I cannot come today."}
-      ]
+      ],
+      "examTip": "Reihenfolge: Subjekt – Modal (Pos.2) – ... – nicht – Infinitiv."
     }
   ],
   "perfectTenseBasics": [
@@ -708,7 +715,8 @@
       "rule": "Auxiliary (haben/sein) + Partizip II (past participle) at the end.",
       "explanation": "Use 'haben' with most verbs. Use 'sein' with verbs of movement/change of state (gehen, kommen, fahren, aufstehen) and with 'sein/bleiben/passieren'.",
       "examples": [
-      ]
+      ],
+      "examTip": "Bewegung/Zustandswechsel → meist 'sein'. Sonst in A1 meistens 'haben'."
     },
     {
       "topic": "Forming Partizip II",
@@ -719,7 +727,8 @@
         {"german": "Er hat studiert.", "english": "He has studied."},
         {"german": "Sie hat besucht.", "english": "She visited."},
         {"german": "Wir haben aufgemacht.", "english": "We opened."}
-      ]
+      ],
+      "examTip": "-ieren & untrennbare Präfixe → kein 'ge-'. Trennbar → Präfix + ge- + Stamm + -t."
     }
   ]
 }

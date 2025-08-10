@@ -720,8 +720,8 @@
         "english": "It is just after seven (07:02)",
         "official": "Es ist sieben Uhr zwei.",
         "examples": [
-          {"german": "Wir beginnen kurz nach sieben.", "english": "We start just after seven."},
-          {"german": "Komm bitte kurz nach sieben.", "english": "Please come just after seven."}
+          {"german": "Der Unterricht beginnt um sieben Uhr zwei.", "english": "Class starts at 07:02."},
+          {"german": "Der Bus fährt um sieben Uhr zwei.", "english": "The bus leaves at 07:02."}
         ]
       }
     ],
@@ -1056,6 +1056,7 @@
     {
       "german": "Guten Tag, ich möchte...",
       "english": "Hello, I would like...",
+      "explanation": "Polite request formula. ‘möchte’ is softer than ‘will’.",
       "examples": [
         {"german": "Guten Tag, ich möchte ein Kilo Äpfel.", "english": "Hello, I would like a kilo of apples."},
         {"german": "Guten Tag, ich möchte ein Brot.", "english": "Hello, I would like a loaf of bread."}
@@ -1064,6 +1065,7 @@
     {
       "german": "Was kostet das?",
       "english": "How much does this cost?",
+      "explanation": "Everyday price question. ‘das’ can be replaced: Was kostet dieser Pullover?",
       "examples": [
         {"german": "Entschuldigung, was kostet das?", "english": "Excuse me, how much does this cost?"},
         {"german": "Was kostet dieser Pullover?", "english": "How much does this sweater cost?"}
@@ -1072,6 +1074,7 @@
     {
       "german": "Wie viel kostet...?",
       "english": "How much does... cost?",
+      "explanation": "Use with a noun for specific items.",
       "examples": [
         {"german": "Wie viel kostet ein Kilo Äpfel?", "english": "How much does a kilo of apples cost?"},
         {"german": "Wie viel kostet die Jacke?", "english": "How much does the jacket cost?"}
@@ -1080,6 +1083,7 @@
     {
       "german": "Das ist zu teuer.",
       "english": "That's too expensive.",
+      "explanation": "Useful for negotiating or declining.",
       "examples": [
         {"german": "Das ist zu teuer für mich.", "english": "That's too expensive for me."},
         {"german": "120 Euro? Das ist zu teuer.", "english": "120 euros? That's too expensive."}
@@ -1088,6 +1092,8 @@
     {
       "german": "Haben Sie...?",
       "english": "Do you have...?",
+      "explanation": "Polite question in shops; formal ‘Sie’.",
+      "examTip": "Capitalize ‘Sie’.",
       "examples": [
         {"german": "Haben Sie frisches Brot?", "english": "Do you have fresh bread?"},
         {"german": "Haben Sie dieses Hemd in Blau?", "english": "Do you have this shirt in blue?"}
@@ -1096,6 +1102,7 @@
     {
       "german": "Ich nehme das.",
       "english": "I'll take this.",
+      "explanation": "Set phrase to decide on an item.",
       "examples": [
         {"german": "Das gefällt mir. Ich nehme das.", "english": "I like this. I'll take it."},
         {"german": "Ich nehme das Buch.", "english": "I'll take the book."}
@@ -1104,6 +1111,7 @@
     {
       "german": "Ich möchte bezahlen.",
       "english": "I would like to pay.",
+      "explanation": "Use to ask for checkout.",
       "examples": [
         {"german": "Entschuldigung, ich möchte bezahlen.", "english": "Excuse me, I would like to pay."},
         {"german": "Ich möchte jetzt bezahlen, bitte.", "english": "I would like to pay now, please."}
@@ -1112,6 +1120,7 @@
     {
       "german": "Kann ich mit Karte bezahlen?",
       "english": "Can I pay with card?",
+      "explanation": "Alternative: Mit Karte, bitte.",
       "examples": [
         {"german": "Entschuldigung, kann ich mit Karte bezahlen?", "english": "Excuse me, can I pay with card?"},
         {"german": "Akzeptieren Sie Kreditkarten?", "english": "Do you accept credit cards?"}
@@ -1122,6 +1131,7 @@
     {
       "german": "Einen Tisch für... Personen, bitte.",
       "english": "A table for... people, please.",
+      "explanation": "Standard way to request a table.",
       "examples": [
         {"german": "Guten Abend, einen Tisch für zwei Personen, bitte.", "english": "Good evening, a table for two people, please."},
         {"german": "Einen Tisch für vier Personen, bitte.", "english": "A table for four people, please."}
@@ -1130,6 +1140,7 @@
     {
       "german": "Die Speisekarte, bitte.",
       "english": "The menu, please.",
+      "explanation": "Very common polite request.",
       "examples": [
         {"german": "Entschuldigung, die Speisekarte, bitte.", "english": "Excuse me, the menu, please."},
         {"german": "Können wir die Speisekarte haben, bitte?", "english": "Can we have the menu, please?"}
@@ -1138,6 +1149,7 @@
     {
       "german": "Ich möchte bestellen.",
       "english": "I would like to order.",
+      "explanation": "Use when ready to order; plural: Wir möchten bestellen.",
       "examples": [
         {"german": "Entschuldigung, ich möchte bestellen.", "english": "Excuse me, I would like to order."},
         {"german": "Wir möchten jetzt bestellen.", "english": "We would like to order now."}
@@ -1146,6 +1158,7 @@
     {
       "german": "Ich hätte gern...",
       "english": "I would like...",
+      "explanation": "Polite ordering formula; similar to ‘ich möchte’.",
       "examples": [
         {"german": "Ich hätte gern die Suppe.", "english": "I would like the soup."},
         {"german": "Ich hätte gern einen Salat.", "english": "I would like a salad."}
@@ -1154,6 +1167,7 @@
     {
       "german": "Was können Sie empfehlen?",
       "english": "What can you recommend?",
+      "explanation": "Ask the server for recommendations.",
       "examples": [
         {"german": "Was können Sie empfehlen?", "english": "What can you recommend?"},
         {"german": "Welches Gericht können Sie empfehlen?", "english": "Which dish can you recommend?"}
@@ -1162,6 +1176,7 @@
     {
       "german": "Die Rechnung, bitte.",
       "english": "The bill, please.",
+      "explanation": "Set phrase to ask for the bill.",
       "examples": [
         {"german": "Entschuldigung, die Rechnung, bitte.", "english": "Excuse me, the bill, please."},
         {"german": "Können wir die Rechnung haben, bitte?", "english": "Can we have the bill, please?"}
@@ -1170,6 +1185,7 @@
     {
       "german": "Zusammen oder getrennt?",
       "english": "Together or separate?",
+      "explanation": "Question from the server about paying together or separately.",
       "examples": [
         {"german": "Zusammen oder getrennt bezahlen?", "english": "Pay together or separately?"},
         {"german": "Zusammen oder getrennt?", "english": "Together or separate?"}
@@ -1178,6 +1194,7 @@
     {
       "german": "Das Essen war sehr gut.",
       "english": "The food was very good.",
+      "explanation": "Polite feedback.",
       "examples": [
         {"german": "Danke, das Essen war sehr gut.", "english": "Thank you, the food was very good."},
         {"german": "Das Essen war sehr gut, vielen Dank.", "english": "The food was very good, thank you very much."}
@@ -1486,6 +1503,7 @@
     {
       "german": "Hallo, hier ist...",
       "english": "Hello, this is...",
+      "explanation": "Standard way to introduce yourself on the phone.",
       "examples": [
         {"german": "Hallo, hier ist Thomas Schmidt.", "english": "Hello, this is Thomas Schmidt."},
         {"german": "Guten Tag, hier ist Anna Müller.", "english": "Hello, this is Anna Müller."}
@@ -1494,6 +1512,8 @@
     {
       "german": "Kann ich bitte mit... sprechen?",
       "english": "Can I speak to... please?",
+      "explanation": "Polite request on the phone. Use Herrn/Frau + Nachname in the accusative (mit Herrn Meier).",
+      "examTip": "‘Herrn’ with -n in accusative singular (mit Herrn Müller).",
       "examples": [
         {"german": "Kann ich bitte mit Herrn Müller sprechen?", "english": "Can I speak to Mr. Müller, please?"},
         {"german": "Guten Tag, kann ich bitte mit Frau Schmidt sprechen?", "english": "Hello, can I speak to Mrs. Schmidt, please?"}
@@ -1502,6 +1522,7 @@
     {
       "german": "Wer ist am Apparat?",
       "english": "Who is speaking?",
+      "explanation": "Formal way to ask who is on the line.",
       "examples": [
         {"german": "Entschuldigung, wer ist am Apparat?", "english": "Excuse me, who is speaking?"},
         {"german": "Mit wem spreche ich?", "english": "Who am I speaking with?"}
@@ -1510,6 +1531,7 @@
     {
       "german": "Einen Moment, bitte.",
       "english": "One moment, please.",
+      "explanation": "Useful holding phrase while connecting or fetching someone.",
       "examples": [
         {"german": "Einen Moment, bitte. Ich verbinde Sie.", "english": "One moment, please. I'll connect you."},
         {"german": "Einen Moment, bitte. Ich hole ihn.", "english": "One moment, please. I'll get him."}
@@ -1518,6 +1540,7 @@
     {
       "german": "Ich rufe später noch einmal an.",
       "english": "I'll call again later.",
+      "explanation": "Use to end a call politely if the person is not available.",
       "examples": [
         {"german": "Okay, ich rufe später noch einmal an.", "english": "Okay, I'll call again later."},
         {"german": "Kein Problem, ich rufe später noch einmal an.", "english": "No problem, I'll call again later."}
@@ -1526,6 +1549,8 @@
     {
       "german": "Können Sie das bitte wiederholen?",
       "english": "Could you repeat that, please?",
+      "explanation": "Formal ‘Sie’. Alternative: noch einmal, bitte.",
+      "examTip": "Capitalize ‘Sie’.",
       "examples": [
         {"german": "Entschuldigung, können Sie das bitte wiederholen?", "english": "Excuse me, could you repeat that, please?"},
         {"german": "Können Sie das bitte noch einmal sagen?", "english": "Could you please say that again?"}
@@ -1534,6 +1559,7 @@
     {
       "german": "Ich verstehe nicht gut.",
       "english": "I don't understand well.",
+      "explanation": "Combine with a request: Können Sie bitte langsamer sprechen?",
       "examples": [
         {"german": "Entschuldigung, ich verstehe nicht gut.", "english": "Excuse me, I don't understand well."},
         {"german": "Ich verstehe nicht gut, können Sie langsamer sprechen?", "english": "I don't understand well, could you speak more slowly?"}

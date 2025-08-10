@@ -3,6 +3,8 @@
     {
       "german": "Hallo",
       "english": "Hello",
+      "explanation": "Neutral/informal greeting usable at any time of day.",
+      "similar": "Hi (very informal), Guten Tag (neutral/formal)",
       "examples": [
         {"german": "Hallo, wie geht es dir?", "english": "Hello, how are you?"},
         {"german": "Hallo, mein Name ist Thomas.", "english": "Hello, my name is Thomas."}
@@ -11,6 +13,8 @@
     {
       "german": "Guten Morgen",
       "english": "Good morning",
+      "explanation": "Used in the morning until around noon; polite/neutral.",
+      "examTip": "Avoid after 12:00 – use ‘Guten Tag’.",
       "examples": [
         {"german": "Guten Morgen! Wie hast du geschlafen?", "english": "Good morning! How did you sleep?"},
         {"german": "Guten Morgen, schönes Wetter heute!", "english": "Good morning, nice weather today!"}
@@ -19,6 +23,8 @@
     {
       "german": "Guten Tag",
       "english": "Good day/afternoon",
+      "explanation": "Neutral/formal greeting from late morning through afternoon.",
+      "similar": "Hallo (informal), Guten Abend (evening)",
       "examples": [
         {"german": "Guten Tag, kann ich Ihnen helfen?", "english": "Good day, can I help you?"},
         {"german": "Guten Tag, Herr Müller.", "english": "Good day, Mr. Müller."}
@@ -27,6 +33,7 @@
     {
       "german": "Guten Abend",
       "english": "Good evening",
+      "explanation": "Used in the evening; polite/neutral.",
       "examples": [
         {"german": "Guten Abend, willkommen im Restaurant.", "english": "Good evening, welcome to the restaurant."},
         {"german": "Guten Abend zusammen!", "english": "Good evening everyone!"}
@@ -35,6 +42,9 @@
     {
       "german": "Auf Wiedersehen",
       "english": "Goodbye",
+      "explanation": "Formal/polite farewell when leaving.",
+      "similar": "Tschüss (informal)",
+      "examTip": "Use in shops, offices or with ‘Sie’.",
       "examples": [
         {"german": "Auf Wiedersehen, bis morgen!", "english": "Goodbye, see you tomorrow!"},
         {"german": "Auf Wiedersehen, schönen Tag noch!", "english": "Goodbye, have a nice day!"}
@@ -43,6 +53,8 @@
     {
       "german": "Tschüss",
       "english": "Bye (informal)",
+      "explanation": "Informal farewell among friends/family.",
+      "examTip": "Avoid in formal situations – prefer ‘Auf Wiedersehen’.",
       "examples": [
         {"german": "Tschüss, bis später!", "english": "Bye, see you later!"},
         {"german": "Tschüss, wir sehen uns morgen!", "english": "Bye, see you tomorrow!"}
@@ -51,6 +63,7 @@
     {
       "german": "Bis bald",
       "english": "See you soon",
+      "explanation": "Use when you expect to meet again soon.",
       "examples": [
         {"german": "Bis bald, mein Freund!", "english": "See you soon, my friend!"},
         {"german": "Bis bald im Café!", "english": "See you soon at the café!"}
@@ -59,6 +72,7 @@
     {
       "german": "Wie geht es dir?",
       "english": "How are you? (informal)",
+      "explanation": "Informal (du). Use with friends/family.",
       "examples": [
         {"german": "Hallo Lisa, wie geht es dir?", "english": "Hello Lisa, how are you?"},
         {"german": "Wie geht es dir nach deinem Urlaub?", "english": "How are you after your vacation?"}
@@ -67,6 +81,8 @@
     {
       "german": "Wie geht es Ihnen?",
       "english": "How are you? (formal)",
+      "explanation": "Formal (Sie). Use with strangers or in formal contexts.",
+      "examTip": "Capitalize ‘Ihnen’.",
       "examples": [
         {"german": "Guten Tag Frau Schmidt, wie geht es Ihnen?", "english": "Good day Mrs. Schmidt, how are you?"},
         {"german": "Wie geht es Ihnen heute?", "english": "How are you today?"}
@@ -75,6 +91,8 @@
     {
       "german": "Mir geht es gut",
       "english": "I am fine",
+      "explanation": "Common response to ‘Wie geht es…?’.",
+      "similar": "Es geht (so) = so-so",
       "examples": [
         {"german": "Mir geht es gut, danke.", "english": "I am fine, thank you."},
         {"german": "Mir geht es gut, und dir?", "english": "I am fine, and you?"}
@@ -85,6 +103,8 @@
     {
       "german": "Ich heiße...",
       "english": "My name is...",
+      "explanation": "Everyday/introduction phrase using the verb ‘heißen’.",
+      "similar": "Mein Name ist … (more formal)",
       "examples": [
         {"german": "Ich heiße Thomas.", "english": "My name is Thomas."},
         {"german": "Hallo, ich heiße Anna Schmidt.", "english": "Hello, my name is Anna Schmidt."}
@@ -93,6 +113,7 @@
     {
       "german": "Mein Name ist...",
       "english": "My name is...",
+      "explanation": "More formal/polite than ‘Ich heiße …’. Often used in official contexts.",
       "examples": [
         {"german": "Mein Name ist Peter Müller.", "english": "My name is Peter Müller."},
         {"german": "Guten Tag, mein Name ist Maria.", "english": "Hello, my name is Maria."}
@@ -101,6 +122,8 @@
     {
       "german": "Wie heißen Sie?",
       "english": "What is your name? (formal)",
+      "explanation": "Formal (Sie).",
+      "examTip": "Capitalize ‘Sie’. Verb: heißen.",
       "examples": [
         {"german": "Guten Tag, wie heißen Sie?", "english": "Hello, what is your name?"},
         {"german": "Entschuldigung, wie heißen Sie noch mal?", "english": "Excuse me, what is your name again?"}
@@ -109,6 +132,7 @@
     {
       "german": "Wie heißt du?",
       "english": "What is your name? (informal)",
+      "explanation": "Informal (du).",
       "examples": [
         {"german": "Hallo, wie heißt du?", "english": "Hello, what is your name?"},
         {"german": "Wie heißt du denn?", "english": "What's your name then?"}
@@ -117,6 +141,8 @@
     {
       "german": "Woher kommen Sie?",
       "english": "Where are you from? (formal)",
+      "explanation": "Formal (Sie).",
+      "examTip": "Capitalize ‘Sie’.",
       "examples": [
         {"german": "Woher kommen Sie, Herr Weber?", "english": "Where are you from, Mr. Weber?"},
         {"german": "Entschuldigung, woher kommen Sie?", "english": "Excuse me, where are you from?"}
@@ -125,6 +151,7 @@
     {
       "german": "Woher kommst du?",
       "english": "Where are you from? (informal)",
+      "explanation": "Informal (du).",
       "examples": [
         {"german": "Woher kommst du ursprünglich?", "english": "Where are you originally from?"},
         {"german": "Hallo, woher kommst du?", "english": "Hello, where are you from?"}
@@ -133,6 +160,8 @@
     {
       "german": "Ich komme aus...",
       "english": "I come from...",
+      "explanation": "‘aus’ + Dativ. Countries may take an article (aus der Schweiz, aus dem Iran).",
+      "examTip": "Remember article with some countries (der/die/das).",
       "examples": [
         {"german": "Ich komme aus Deutschland.", "english": "I come from Germany."},
         {"german": "Ich komme aus der Schweiz.", "english": "I come from Switzerland."}
@@ -141,6 +170,7 @@
     {
       "german": "Wo wohnen Sie?",
       "english": "Where do you live? (formal)",
+      "explanation": "Formal (Sie). wohnen = to reside.",
       "examples": [
         {"german": "Wo wohnen Sie in Berlin?", "english": "Where do you live in Berlin?"},
         {"german": "Entschuldigung, wo wohnen Sie?", "english": "Excuse me, where do you live?"}
@@ -149,6 +179,7 @@
     {
       "german": "Wo wohnst du?",
       "english": "Where do you live? (informal)",
+      "explanation": "Informal (du).",
       "examples": [
         {"german": "Wo wohnst du genau?", "english": "Where exactly do you live?"},
         {"german": "Hallo, wo wohnst du in München?", "english": "Hello, where do you live in Munich?"}
@@ -157,6 +188,7 @@
     {
       "german": "Ich wohne in...",
       "english": "I live in...",
+      "explanation": "‘in’ + Dativ for cities/streets (ich wohne in Berlin / in der Bahnhofstraße).",
       "examples": [
         {"german": "Ich wohne in Berlin.", "english": "I live in Berlin."},
         {"german": "Ich wohne in der Bahnhofstraße.", "english": "I live on Bahnhofstraße."}
@@ -175,6 +207,8 @@
     {
       "german": "eins",
       "english": "one",
+      "explanation": "Standalone ‘eins’; before nouns use ‘ein’/‘eine’.",
+      "examTip": "Zahlwort vor Nomen: ein Mann, eine Frau (nicht: eins Mann).",
       "examples": [
         {"german": "Ich habe nur ein Kind.", "english": "I only have one child."},
         {"german": "Nummer eins ist der Gewinner.", "english": "Number one is the winner."}
@@ -404,6 +438,7 @@
       "german": "die Familie",
       "english": "family",
       "plural": "die Familien",
+      "explanation": "Kollektivbegriff; grammatisch Singular (die Familie ist …).",
       "examples": [
         {"german": "Meine Familie ist groß.", "english": "My family is big."},
         {"german": "Ich besuche meine Familie am Wochenende.", "english": "I visit my family on the weekend."}
@@ -413,6 +448,8 @@
       "german": "die Eltern",
       "english": "parents",
       "plural": "die Eltern (always plural)",
+      "explanation": "Immer Plural; das Verb steht im Plural (Meine Eltern sind …).",
+      "examTip": "Verb im Plural: Meine Eltern wohnen/sind …",
       "examples": [
         {"german": "Meine Eltern leben in Berlin.", "english": "My parents live in Berlin."},
         {"german": "Wo wohnen deine Eltern?", "english": "Where do your parents live?"}
@@ -422,6 +459,7 @@
       "german": "der Vater",
       "english": "father",
       "plural": "die Väter",
+      "explanation": "Plural mit Umlaut (ä).",
       "examples": [
         {"german": "Mein Vater arbeitet als Lehrer.", "english": "My father works as a teacher."},
         {"german": "Wie alt ist dein Vater?", "english": "How old is your father?"}
@@ -431,6 +469,7 @@
       "german": "die Mutter",
       "english": "mother",
       "plural": "die Mütter",
+      "explanation": "Plural mit Umlaut (ü).",
       "examples": [
         {"german": "Meine Mutter kocht gerne.", "english": "My mother likes to cook."},
         {"german": "Die Mutter liest dem Kind ein Buch vor.", "english": "The mother is reading a book to the child."}
@@ -440,6 +479,7 @@
       "german": "der Bruder",
       "english": "brother",
       "plural": "die Brüder",
+      "explanation": "Plural mit Umlaut (ü).",
       "examples": [
         {"german": "Mein Bruder ist älter als ich.", "english": "My brother is older than me."},
         {"german": "Hast du einen Bruder?", "english": "Do you have a brother?"}
@@ -458,6 +498,7 @@
       "german": "der Sohn",
       "english": "son",
       "plural": "die Söhne",
+      "explanation": "Plural mit Umlaut (ö).",
       "examples": [
         {"german": "Ihr Sohn ist sehr intelligent.", "english": "Her son is very intelligent."},
         {"german": "Mein Sohn ist fünf Jahre alt.", "english": "My son is five years old."}
@@ -467,6 +508,7 @@
       "german": "die Tochter",
       "english": "daughter",
       "plural": "die Töchter",
+      "explanation": "Plural mit Umlaut (ö).",
       "examples": [
         {"german": "Seine Tochter spielt Klavier.", "english": "His daughter plays the piano."},
         {"german": "Wie alt ist Ihre Tochter?", "english": "How old is your daughter?"}
@@ -540,6 +582,7 @@
       "german": "das Brot",
       "english": "bread",
       "plural": "die Brote",
+      "explanation": "Zählbar als Laib/Stück: ein Brot, zwei Brote.",
       "examples": [
         {"german": "Ich esse gerne frisches Brot.", "english": "I like to eat fresh bread."},
         {"german": "Das Brot schmeckt gut.", "english": "The bread tastes good."}
@@ -549,6 +592,7 @@
       "german": "der Käse",
       "english": "cheese",
       "plural": "die Käsesorten",
+      "explanation": "Meist unzählbar; für Sorten ‘Käsesorten’.",
       "examples": [
         {"german": "Ich mag deutschen Käse.", "english": "I like German cheese."},
         {"german": "Der Käse ist lecker.", "english": "The cheese is delicious."}
@@ -558,6 +602,8 @@
       "german": "die Milch",
       "english": "milk",
       "plural": "no plural",
+      "explanation": "Unzählbar als Getränk; kein Plural im Alltag.",
+      "examTip": "Nicht ‘die Milche’.",
       "examples": [
         {"german": "Ich trinke jeden Morgen Milch.", "english": "I drink milk every morning."},
         {"german": "Die Milch ist frisch.", "english": "The milk is fresh."}
@@ -603,6 +649,7 @@
       "german": "der Kaffee",
       "english": "coffee",
       "plural": "die Kaffees/Kaffeesorten",
+      "explanation": "Als Getränk zählbar in Tassen/Sorten: zwei Kaffee / zwei Tassen Kaffee.",
       "examples": [
         {"german": "Ich trinke morgens gerne Kaffee.", "english": "I like to drink coffee in the morning."},
         {"german": "Der Kaffee ist heiß.", "english": "The coffee is hot."}

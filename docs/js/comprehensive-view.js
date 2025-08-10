@@ -16,29 +16,48 @@ export class ComprehensiveView {
         this.currentSection = null;
         this.data = {};
 
-
-        // Add sidebar toggle button for mobile
+        // Add sidebar toggle button for mobile (kept for desktop; hidden on mobile after drawer)
         this.sidebarToggleBtn = document.createElement('button');
         this.sidebarToggleBtn.className = 'sidebar-toggle';
         this.sidebarToggleBtn.innerHTML = '<i class="fas fa-bars"></i>';
         this.sidebarToggleBtn.setAttribute('aria-label', 'Open navigation menu');
         this.container.insertBefore(this.sidebarToggleBtn, this.sidebar);
 
-        // Add overlay for sidebar
+        // Overlay (used by both sidebar and drawer)
         this.sidebarOverlay = document.createElement('div');
         this.sidebarOverlay.className = 'sidebar-overlay';
         this.sidebarOverlay.style.display = 'none';
-        this.sidebarOverlay.style.position = 'fixed';
-        this.sidebarOverlay.style.top = '0';
-        this.sidebarOverlay.style.left = '0';
-        this.sidebarOverlay.style.width = '100vw';
-        this.sidebarOverlay.style.height = '100vh';
-        this.sidebarOverlay.style.background = 'rgba(0,0,0,0.18)';
-        this.sidebarOverlay.style.zIndex = '999';
-        this.sidebarOverlay.style.transition = 'opacity 0.2s';
-        this.sidebarOverlay.style.pointerEvents = 'auto';
-        this.sidebarOverlay.style.touchAction = 'none';
         this.container.appendChild(this.sidebarOverlay);
+
+        // Bottom drawer for mobile
+        this.drawerBar = document.createElement('button');
+        this.drawerBar.className = 'bottom-drawer-bar';
+        this.drawerBar.setAttribute('aria-expanded', 'false');
+        this.drawerBar.setAttribute('aria-controls', 'bottom-drawer-sheet');
+        this.drawerBar.innerHTML = `
+            <span class="drawer-handle" aria-hidden="true"></span>
+            <span class="drawer-label"><i class="fas fa-compass"></i> Browse</span>
+            <span class="drawer-chevron" aria-hidden="true">▴</span>
+        `;
+        this.container.appendChild(this.drawerBar);
+
+        this.bottomDrawer = document.createElement('div');
+        this.bottomDrawer.className = 'bottom-drawer-sheet';
+        this.bottomDrawer.id = 'bottom-drawer-sheet';
+        this.bottomDrawer.setAttribute('role', 'dialog');
+        this.bottomDrawer.setAttribute('aria-modal', 'true');
+        this.bottomDrawer.innerHTML = `
+            <div class="bottom-drawer-header">
+                <div class="drawer-drag-handle" aria-hidden="true"></div>
+                <div class="bottom-drawer-title">Browse Sections</div>
+                <button class="bottom-drawer-close" aria-label="Close">✕</button>
+            </div>
+            <div class="bottom-drawer-content">
+                <ul class="drawer-nav"></ul>
+            </div>
+        `;
+        this.container.appendChild(this.bottomDrawer);
+        this.drawerNav = this.bottomDrawer.querySelector('.drawer-nav');
 
         this.initializeEventListeners();
     }
@@ -85,86 +104,44 @@ export class ComprehensiveView {
             .map(key => ({ id: key, title: formatTitle(key) }));
 
         const sections = [
-            { 
-                id: 'vocabulary',
-                title: 'Vocabulary',
-                subsections: Object.keys(this.data.vocabulary || {}).map(key => ({
-                    id: key,
-                    title: formatTitle(key)
-                }))
-            },
-            { 
-                id: 'adjectives_adverbs',
-                title: 'Adjectives & Adverbs',
-                subsections: []
-            },
-            {
-                id: 'prepositions_conjunctions',
-                title: 'Prepositions & Conjunctions',
-                subsections: []
-            },
-            { 
-                id: 'grammar',
-                title: 'Grammar',
-                subsections: Object.keys(this.data.grammar || {}).map(key => ({
-                    id: key,
-                    title: formatTitle(key)
-                }))
-            },
-            {
-                id: 'verbs',
-                title: 'Verbs',
-                subsections: Object.keys((this.data.phrases && this.data.phrases.verbs) || {}).map(key => ({
-                    id: key,
-                    title: formatTitle(key)
-                }))
-            },
-            {
-                id: 'questions',
-                title: 'Questions',
-                subsections: (() => {
-                    const q = (this.data.phrases && this.data.phrases.questionWords) || {};
-                    const subs = [];
-                    if (q.basicQuestions) subs.push({ id: 'questionWords', title: 'Question Words' });
-                    if (q.yesNoQuestions) subs.push({ id: 'yesNoQuestions', title: 'Yes/No Questions' });
-                    if (q.negativeQuestions) subs.push({ id: 'negativeQuestions', title: 'Negative Questions' });
-                    return subs;
-                })()
-            },
-            {
-                id: 'time',
-                title: 'Time',
-                subsections: Object.keys((this.data.phrases && this.data.phrases.time) || {}).map(key => ({
-                    id: key,
-                    title: formatTitle(key)
-                }))
-            },
-            { 
-                id: 'phrases',
-                title: 'Phrases',
-                subsections: phraseSubsections
-            }
-            // Removed separate 'Irregular Verbs' section; verbs now consolidated
+            { id: 'vocabulary', title: 'Vocabulary',
+              subsections: Object.keys(this.data.vocabulary || {}).map(key => ({ id: key, title: formatTitle(key) })) },
+            { id: 'adjectives_adverbs', title: 'Adjectives & Adverbs', subsections: [] },
+            { id: 'prepositions_conjunctions', title: 'Prepositions & Conjunctions', subsections: [] },
+            { id: 'grammar', title: 'Grammar',
+              subsections: Object.keys(this.data.grammar || {}).map(key => ({ id: key, title: formatTitle(key) })) },
+            { id: 'verbs', title: 'Verbs',
+              subsections: Object.keys((this.data.phrases && this.data.phrases.verbs) || {}).map(key => ({ id: key, title: formatTitle(key) })) },
+            { id: 'questions', title: 'Questions', subsections: (() => {
+                const q = (this.data.phrases && this.data.phrases.questionWords) || {};
+                const subs = [];
+                if (q.basicQuestions) subs.push({ id: 'questionWords', title: 'Question Words' });
+                if (q.yesNoQuestions) subs.push({ id: 'yesNoQuestions', title: 'Yes/No Questions' });
+                if (q.negativeQuestions) subs.push({ id: 'negativeQuestions', title: 'Negative Questions' });
+                return subs; })() },
+            { id: 'time', title: 'Time',
+              subsections: Object.keys((this.data.phrases && this.data.phrases.time) || {}).map(key => ({ id: key, title: formatTitle(key) })) },
+            { id: 'phrases', title: 'Phrases', subsections: phraseSubsections }
         ];
 
-        this.sidebarNav.innerHTML = sections.map(section => `
+        const navMarkup = sections.map(section => `
             <li class="sidebar-section">
-                <a href="#" data-section="${section.id}" class="sidebar-link">
+                <a href="javascript:void(0)" data-section="${section.id}" class="sidebar-link" aria-expanded="false">
                     ${section.title}
                 </a>
                 ${section.subsections.length ? `
                     <div class="sidebar-subsections" data-parent="${section.id}">
                         ${section.subsections.map(sub => `
-                            <a href="#" data-section="${section.id}" 
-                               data-subsection="${sub.id}" 
-                               class="sidebar-sublink">
-                                ${sub.title}
-                            </a>
+                            <a href="javascript:void(0)" data-section="${section.id}" data-subsection="${sub.id}" class="sidebar-sublink">${sub.title}</a>
                         `).join('')}
                     </div>
                 ` : ''}
             </li>
         `).join('');
+
+        // Populate both sidebar and drawer navigations
+        this.sidebarNav.innerHTML = navMarkup;
+        if (this.drawerNav) this.drawerNav.innerHTML = navMarkup;
     }
 
     showSection(sectionId, subsectionId) {
@@ -257,6 +234,9 @@ export class ComprehensiveView {
                     <span class="item-title">${item.german}</span>
                     <span class="item-translation">${item.english}</span>
                 </div>
+                ${item.explanation ? `
+                    <div class="item-explanation">${item.explanation}</div>
+                ` : ''}
                 ${item.examples ? `
                     <div class="item-examples">
                         ${Array.isArray(item.examples) ? item.examples.map(ex => `
@@ -267,6 +247,7 @@ export class ComprehensiveView {
                         `).join('') : `<div class="example-item">${item.examples}</div>`}
                     </div>
                 ` : ''}
+                ${item.examTip ? `<div class="item-exam-tip"><strong>Exam tip:</strong> ${item.examTip}</div>` : ''}
             </div>
         `).join('');
         return `
@@ -296,6 +277,7 @@ export class ComprehensiveView {
                     <span class="item-title">${item.german}</span>
                     <span class="item-translation">${item.english}</span>
                 </div>
+                ${item.explanation ? `<div class="item-explanation">${item.explanation}</div>` : ''}
                 ${item.examples ? `
                     <div class="item-examples">
                         ${Array.isArray(item.examples) ? item.examples.map(ex => `
@@ -306,6 +288,7 @@ export class ComprehensiveView {
                         `).join('') : `<div class="example-item">${item.examples}</div>`}
                     </div>
                 ` : ''}
+                ${item.similar ? `<div class="item-similar"><strong>Similar:</strong> ${Array.isArray(item.similar) ? item.similar.join(', ') : item.similar}</div>` : ''}
             </div>
         `).join('');
         return `
@@ -341,6 +324,10 @@ export class ComprehensiveView {
                                     <span class="item-title">${item.german}</span>
                                     <span class="item-translation">${item.english}</span>
                                 </div>
+                                ${item.explanation ? `<div class="item-explanation">${item.explanation}</div>` : ''}
+                                ${item.note ? `<div class="item-note"><strong>Note:</strong> ${item.note}</div>` : ''}
+                                ${item.similar ? `<div class="item-similar"><strong>Similar:</strong> ${Array.isArray(item.similar) ? item.similar.join(', ') : item.similar}</div>` : ''}
+                                ${item.examTip ? `<div class="item-exam-tip"><strong>Exam tip:</strong> ${item.examTip}</div>` : ''}
                                 ${item.examples ? `
                                     <div class="item-examples">
                                         ${Array.isArray(item.examples) ? 
@@ -377,6 +364,37 @@ export class ComprehensiveView {
                 </div>
             `;
         }).join('');
+    }
+
+    renderPhrases(data) {
+        const formatTitle = (t) => t.replace(/([A-Z])/g, ' $1').replace(/^./, s => s.toUpperCase());
+        return Object.entries(data).map(([category, phrases]) => `
+            <div class="category">
+                <h3>${formatTitle(category)}</h3>
+                <div class="items">
+                    ${Array.isArray(phrases) ? phrases.map(phrase => `
+                        <div class="item">
+                            <div class="item-header">
+                                <strong class="item-title">${phrase.german}</strong> 
+                                <span class="item-translation">${phrase.english || ''}</span>
+                            </div>
+                            ${phrase.explanation ? `<div class="item-explanation">${phrase.explanation}</div>` : ''}
+                            ${phrase.examTip ? `<div class="item-exam-tip"><strong>Exam tip:</strong> ${phrase.examTip}</div>` : ''}
+                            ${phrase.examples ? `
+                                <div class="item-examples">
+                                    ${phrase.examples.map(ex => `
+                                        <div class="example-item">
+                                            <span class="example-german">${ex.german}</span>
+                                            <span class="example-english">${ex.english}</span>
+                                        </div>
+                                    `).join('')}
+                                </div>
+                            ` : ''}
+                        </div>
+                    `).join('') : `<div class="item">No data</div>`}
+                </div>
+            </div>
+        `).join('');
     }
 
     renderGrammar(data) {
@@ -421,6 +439,7 @@ export class ComprehensiveView {
                                             </ul>
                                         </div>
                                     ` : ''}
+                                    ${item.examTip ? `<div class="item-exam-tip"><strong>Exam tip:</strong> ${item.examTip}</div>` : ''}
                                 </div>
                             `).join('') : `
                                 <div class="item">
@@ -466,6 +485,7 @@ export class ComprehensiveView {
                                         </ul>
                                     </div>
                                 ` : ''}
+                                ${item.examTip ? `<div class="item-exam-tip"><strong>Exam tip:</strong> ${item.examTip}</div>` : ''}
                             </div>
                         `).join('')}
                     </div>
@@ -498,6 +518,8 @@ export class ComprehensiveView {
                                 <strong class="item-title">${phrase.german}</strong> 
                                 <span class="item-translation">${phrase.english || ''}</span>
                             </div>
+                            ${phrase.explanation ? `<div class="item-explanation">${phrase.explanation}</div>` : ''}
+                            ${phrase.examTip ? `<div class="item-exam-tip"><strong>Exam tip:</strong> ${phrase.examTip}</div>` : ''}
                             ${phrase.examples ? `
                                 <div class="item-examples">
                                     ${phrase.examples.map(ex => `
@@ -825,75 +847,124 @@ export class ComprehensiveView {
     }
 
     initializeEventListeners() {
-        // Sidebar nav click
-        this.sidebarNav.addEventListener('click', (e) => {
-            const link = e.target.closest('.sidebar-link, .sidebar-sublink');
-            if (!link) return;
+        // Bind nav interactions for a given container
+        const bindNav = (container) => {
+            if (!container) return;
+            const activate = (e) => {
+                const link = e.target.closest('.sidebar-link, .sidebar-sublink');
+                if (!link || !container.contains(link)) return;
+                e.preventDefault();
 
-            e.preventDefault();
-
-            if (link.classList.contains('sidebar-link')) {
-                // Handle main section click
-                const section = link.closest('.sidebar-section');
-                const subsections = section.querySelector('.sidebar-subsections');
-
-                // Toggle subsections visibility
-                if (subsections) {
-                    this.sidebarNav.querySelectorAll('.sidebar-section').forEach(s => {
-                        if (s !== section) s.classList.remove('expanded');
-                    });
-                    section.classList.toggle('expanded');
+                if (link.classList.contains('sidebar-link')) {
+                    const section = link.closest('.sidebar-section');
+                    const subsections = section.querySelector('.sidebar-subsections');
+                    if (subsections) {
+                        container.querySelectorAll('.sidebar-section').forEach(s => { if (s !== section) s.classList.remove('expanded'); });
+                        section.classList.toggle('expanded');
+                        link.setAttribute('aria-expanded', section.classList.contains('expanded'));
+                    }
+                    // Show section content (behind the drawer) for context
+                    this.showSection(link.dataset.section);
+                    // IMPORTANT: Only close the drawer on mobile if there are NO subsections
+                    if (!subsections && window.innerWidth <= 900) this.closeDrawer();
+                } else if (link.classList.contains('sidebar-sublink')) {
+                    this.showSection(link.dataset.section, link.dataset.subsection);
+                    if (window.innerWidth <= 900) this.closeDrawer();
                 }
 
-                // Always show section content (even if subsections exist)
-                this.showSection(link.dataset.section);
+                container.querySelectorAll('.sidebar-link, .sidebar-sublink').forEach(l => l.classList.remove('active'));
+                link.classList.add('active');
+            };
 
-                // Do NOT close sidebar on mobile for main section click
-                // Only overlay or outside click should close sidebar
-            } else if (link.classList.contains('sidebar-sublink')) {
-                // Handle subsection click
-                this.showSection(link.dataset.section, link.dataset.subsection);
-                // Do NOT close sidebar on mobile for subsection click
-            }
+            container.addEventListener('click', activate);
+            container.addEventListener('touchstart', activate, { passive: false });
+        };
 
-            // Update active states
-            this.sidebarNav.querySelectorAll('.sidebar-link, .sidebar-sublink').forEach(l => {
-                l.classList.remove('active');
-            });
-            link.classList.add('active');
-        });
+        // Bind both sidebar and drawer
+        bindNav(this.sidebarNav);
+        bindNav(this.drawerNav);
 
-        // Sidebar toggle button click
+        // Sidebar toggle (desktop mainly)
         this.sidebarToggleBtn.addEventListener('click', () => {
             this.sidebar.classList.toggle('open');
             if (this.sidebar.classList.contains('open')) {
                 this.sidebarOverlay.style.display = 'block';
+                document.body.classList.add('sidebar-open');
             } else {
                 this.sidebarOverlay.style.display = 'none';
+                document.body.classList.remove('sidebar-open');
             }
         });
 
-        // Overlay click closes sidebar
-        this.sidebarOverlay.addEventListener('click', () => {
-            this.sidebar.classList.remove('open');
-            this.sidebarOverlay.style.display = 'none';
-        });
+        // Bottom drawer interactions
+        const openDrawer = () => this.openDrawer();
+        const closeDrawer = () => this.closeDrawer();
 
-        // Close sidebar when clicking outside (mobile only)
-        document.addEventListener('click', (e) => {
-            if (window.innerWidth > 900) return;
-            if (!this.sidebar.contains(e.target) && !this.sidebarToggleBtn.contains(e.target) && !this.sidebarOverlay.contains(e.target)) {
-                this.sidebar.classList.remove('open');
-                this.sidebarOverlay.style.display = 'none';
-            }
+        this.drawerBar.addEventListener('click', (e) => {
+            e.preventDefault();
+            if (this.bottomDrawer.classList.contains('open')) closeDrawer(); else openDrawer();
         });
+        this.bottomDrawer.querySelector('.bottom-drawer-close').addEventListener('click', closeDrawer);
 
-        // Responsive: close sidebar on resize if desktop
+        // Swipe down to close (drag handle)
+        let startY = null, currentY = null, dragging = false;
+        const handle = this.bottomDrawer.querySelector('.drawer-drag-handle');
+        const onStart = (e) => { dragging = true; startY = (e.touches ? e.touches[0].clientY : e.clientY); this.bottomDrawer.classList.add('dragging'); };
+        const onMove = (e) => {
+            if (!dragging) return;
+            currentY = (e.touches ? e.touches[0].clientY : e.clientY);
+            const dy = Math.max(0, currentY - startY);
+            this.bottomDrawer.style.transform = `translateY(${dy}px)`;
+        };
+        const onEnd = () => {
+            if (!dragging) return;
+            dragging = false;
+            this.bottomDrawer.classList.remove('dragging');
+            const dy = Math.max(0, (currentY || startY) - startY);
+            this.bottomDrawer.style.transform = '';
+            if (dy > 80) closeDrawer(); else openDrawer();
+        };
+        ['touchstart','mousedown'].forEach(ev => handle.addEventListener(ev, onStart, { passive: true }));
+        ['touchmove','mousemove'].forEach(ev => window.addEventListener(ev, onMove, { passive: true }));
+        ['touchend','mouseup','mouseleave'].forEach(ev => window.addEventListener(ev, onEnd));
+
+        // Overlay click closes either
+        this.sidebarOverlay.addEventListener('click', () => { this.closeDrawer(); this.closeSidebar(); });
+
+        // Keyboard close
+        document.addEventListener('keydown', (e) => { if (e.key === 'Escape') { this.closeDrawer(); this.closeSidebar(); } });
+
+        // Resize behavior
         window.addEventListener('resize', () => {
             if (window.innerWidth > 900) {
-                this.sidebar.classList.remove('open');
-                this.sidebarOverlay.style.display = 'none';
+                this.closeDrawer();
+                this.closeSidebar();
             }
         });
+    }
+
+    openDrawer() {
+        this.bottomDrawer.classList.add('open');
+        this.drawerBar.classList.add('open');
+        this.drawerBar.setAttribute('aria-expanded', 'true');
+        this.sidebarOverlay.style.display = 'block';
+        document.body.classList.add('drawer-open');
+    }
+
+    closeDrawer() {
+        this.bottomDrawer.classList.remove('open');
+        this.drawerBar.classList.remove('open');
+        this.drawerBar.setAttribute('aria-expanded', 'false');
+        this.sidebarOverlay.style.display = 'none';
+        document.body.classList.remove('drawer-open');
+    }
+
+    closeSidebar() {
+        this.sidebar.classList.remove('open');
+        document.body.classList.remove('sidebar-open');
+        // Do not hide overlay here if drawer is open
+        if (!this.bottomDrawer.classList.contains('open')) {
+            this.sidebarOverlay.style.display = 'none';
+        }
     }
 }
