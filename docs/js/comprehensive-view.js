@@ -1,3 +1,11 @@
+// Helper to get correct content path for local and GitHub Pages
+function getContentPath(filename) {
+    // If running on GitHub Pages, the repo name is in the path
+    const repo = 'german-language-prep';
+    const isGithubPages = window.location.hostname.endsWith('github.io') && window.location.pathname.includes(repo);
+    const base = isGithubPages ? `/${repo}/content/` : 'content/';
+    return base + filename;
+}
 export class ComprehensiveView {
     constructor() {
         this.container = document.getElementById('comprehensive-view');
@@ -52,7 +60,7 @@ export class ComprehensiveView {
         // Load each file independently so one failure doesn't break the rest
         for (const file of files) {
             try {
-                const res = await fetch(`/content/${file}`);
+                const res = await fetch(getContentPath(file));
                 if (!res.ok) throw new Error(`${res.status} ${res.statusText}`);
                 const data = await res.json();
                 this.data[file.replace('.json', '')] = data;

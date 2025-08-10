@@ -1,3 +1,10 @@
+// Helper to get correct content path for local and GitHub Pages
+function getContentPath(filename) {
+    const repo = 'german-language-prep';
+    const isGithubPages = window.location.hostname.endsWith('github.io') && window.location.pathname.includes(repo);
+    const base = isGithubPages ? `/${repo}/content/` : 'content/';
+    return base + filename;
+}
 // Flashcard application for Telc A1 German - Updated with Card-based Navigation
 import { loadSyllabusData, addSyllabusCard, handleSyllabusSelection } from './syllabus.js';
 
@@ -534,7 +541,7 @@ async function loadContent() {
     try {
         // Load model tests content first
         try {
-            const modelTestsResponse = await fetch('/content/model_tests.json');
+            const modelTestsResponse = await fetch(getContentPath('model_tests.json'));
             if (modelTestsResponse.ok) {
                 contentData.model_tests = await modelTestsResponse.json();
                 console.log('Successfully loaded model tests data');
@@ -548,7 +555,7 @@ async function loadContent() {
 
         // Load listening content
         try {
-            const listeningResponse = await fetch('/content/listening.json');
+            const listeningResponse = await fetch(getContentPath('listening.json'));
             if (listeningResponse.ok) {
                 contentData.listening = await listeningResponse.json();
                 console.log('Successfully loaded listening data');
@@ -558,49 +565,31 @@ async function loadContent() {
         } catch (error) {
             console.error('Error loading listening data:', error);
             displayError('Failed to load listening exercises. Please try again later.');
-        }        // Load other content types
+        }
+        // Load other content types
         const contentTypes = ['vocabulary', 'grammar', 'irregular_verbs', 'phrases', 'reading', 'writing'];
-        
+
         for (const contentType of contentTypes) {
             try {
-                // Optimized paths based on successful loading pattern
-                const possiblePaths = [
-                    `/content/${contentType}.json`,
-                ];
-                
-                let loaded = false;
-                let lastError = null;
-                
-                // Try each path until one works
-                for (const path of possiblePaths) {
-                    try {
-                        console.log(`Trying to load from: ${path}`);
-                        const response = await fetch(path);
-                        if (response.ok) {
-                            contentData[contentType] = await response.json();
-                            
-                            // Extract modal verbs if they exist in irregular_verbs.json
-                            if (contentType === 'irregular_verbs' && contentData[contentType].modalVerbs) {
-                                contentData.modal_verbs = { modalVerbs: contentData[contentType].modalVerbs };
-                            }
-                            
-                            // Extract separable verbs if they exist in vocabulary.json
-                            if (contentType === 'vocabulary' && contentData[contentType].separableVerbs) {
-                                contentData.separable_verbs = { separableVerbs: contentData[contentType].separableVerbs };
-                            }
-                            
-                            console.log(`Successfully loaded ${contentType} from ${path}`);
-                            loaded = true;
-                            break;
-                        }
-                    } catch (pathError) {
-                        lastError = pathError;
-                        console.warn(`Failed to load from ${path}: ${pathError.message}`);
+                const path = getContentPath(`${contentType}.json`);
+                console.log(`Trying to load from: ${path}`);
+                const response = await fetch(path);
+                if (response.ok) {
+                    contentData[contentType] = await response.json();
+
+                    // Extract modal verbs if they exist in irregular_verbs.json
+                    if (contentType === 'irregular_verbs' && contentData[contentType].modalVerbs) {
+                        contentData.modal_verbs = { modalVerbs: contentData[contentType].modalVerbs };
                     }
-                }
-                
-                if (!loaded) {
-                    throw new Error(`Failed to load ${contentType} data from any path. Last error: ${lastError?.message}`);
+
+                    // Extract separable verbs if they exist in vocabulary.json
+                    if (contentType === 'vocabulary' && contentData[contentType].separableVerbs) {
+                        contentData.separable_verbs = { separableVerbs: contentData[contentType].separableVerbs };
+                    }
+
+                    console.log(`Successfully loaded ${contentType} from ${path}`);
+                } else {
+                    throw new Error(`Failed to load ${contentType} data from ${path}`);
                 }
             } catch (error) {
                 console.error(`Error loading ${contentType} data:`, error);
