@@ -1,0 +1,20 @@
+[
+  { "german": "in", "english": "in", "type": "preposition", "examples": [ { "german": "Ich bin in Berlin.", "english": "I am in Berlin." }, { "german": "Das Buch ist in der Tasche.", "english": "The book is in the bag." } ] },
+  { "german": "auf", "english": "on", "type": "preposition", "examples": [ { "german": "Das Glas steht auf dem Tisch.", "english": "The glass is on the table." } ] },
+  { "german": "unter", "english": "under", "type": "preposition", "examples": [ { "german": "Die Katze ist unter dem Stuhl.", "english": "The cat is under the chair." } ] },
+  { "german": "über", "english": "over, above", "type": "preposition", "examples": [ { "german": "Die Lampe hängt über dem Tisch.", "english": "The lamp hangs above the table." } ] },
+  { "german": "neben", "english": "next to", "type": "preposition", "examples": [ { "german": "Der Stuhl steht neben dem Bett.", "english": "The chair is next to the bed." } ] },
+  { "german": "zwischen", "english": "between", "type": "preposition", "examples": [ { "german": "Die Schule ist zwischen dem Park und dem Kino.", "english": "The school is between the park and the cinema." } ] },
+  { "german": "vor", "english": "in front of, before", "type": "preposition", "examples": [ { "german": "Das Auto steht vor dem Haus.", "english": "The car is in front of the house." } ] },
+  { "german": "hinter", "english": "behind", "type": "preposition", "examples": [ { "german": "Der Garten ist hinter dem Haus.", "english": "The garden is behind the house." } ] },
+  { "german": "mit", "english": "with", "type": "preposition", "examples": [ { "german": "Ich gehe mit meinem Freund ins Kino.", "english": "I go to the cinema with my friend." } ] },
+  { "german": "ohne", "english": "without", "type": "preposition", "examples": [ { "german": "Ich trinke Tee ohne Zucker.", "english": "I drink tea without sugar." } ] },
+  { "german": "und", "english": "and", "type": "conjunction", "examples": [ { "german": "Ich habe einen Bruder und eine Schwester.", "english": "I have a brother and a sister." } ] },
+  { "german": "oder", "english": "or", "type": "conjunction", "examples": [ { "german": "Möchtest du Tee oder Kaffee?", "english": "Would you like tea or coffee?" } ] },
+  { "german": "aber", "english": "but", "type": "conjunction", "examples": [ { "german": "Ich mag Pizza, aber ich esse lieber Pasta.", "english": "I like pizza, but I prefer pasta." } ] },
+  { "german": "denn", "english": "because, for", "type": "conjunction", "examples": [ { "german": "Ich bleibe zu Hause, denn ich bin müde.", "english": "I stay at home because I am tired." } ] },
+  { "german": "weil", "english": "because", "type": "conjunction", "examples": [ { "german": "Ich lerne Deutsch, weil ich in Deutschland lebe.", "english": "I am learning German because I live in Germany." } ] },
+  { "german": "dass", "english": "that", "type": "conjunction", "examples": [ { "german": "Ich weiß, dass du müde bist.", "english": "I know that you are tired." } ] },
+  { "german": "wenn", "english": "if, when", "type": "conjunction", "examples": [ { "german": "Wenn es regnet, bleibe ich zu Hause.", "english": "If it rains, I stay at home." } ] },
+  { "german": "als", "english": "when (past)", "type": "conjunction", "examples": [ { "german": "Als ich Kind war, hatte ich einen Hund.", "english": "When I was a child, I had a dog." } ] }
+]

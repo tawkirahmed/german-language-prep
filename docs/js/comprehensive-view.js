@@ -56,7 +56,8 @@ export class ComprehensiveView {
             'grammar.json',
             'phrases.json',
             'irregular_verbs.json',
-            'adjectives_adverbs.json'
+            'adjectives_adverbs.json',
+            'prepositions_conjunctions.json'
         ];
 
         // Load each file independently so one failure doesn't break the rest
@@ -95,6 +96,11 @@ export class ComprehensiveView {
             { 
                 id: 'adjectives_adverbs',
                 title: 'Adjectives & Adverbs',
+                subsections: []
+            },
+            {
+                id: 'prepositions_conjunctions',
+                title: 'Prepositions & Conjunctions',
                 subsections: []
             },
             { 
@@ -194,6 +200,8 @@ export class ComprehensiveView {
                 return this.data.vocabulary;
             case 'adjectives_adverbs':
                 return this.data.adjectives_adverbs;
+            case 'prepositions_conjunctions':
+                return this.data.prepositions_conjunctions;
             case 'grammar':
                 return this.data.grammar;
             case 'phrases':
@@ -217,6 +225,8 @@ export class ComprehensiveView {
                 return this.renderVocabulary(subsectionId ? { [subsectionId]: data[subsectionId] } : data);
             case 'adjectives_adverbs':
                 return this.renderAdjectivesAdverbs(data);
+            case 'prepositions_conjunctions':
+                return this.renderPrepositionsConjunctions(data);
             case 'grammar':
                 return this.renderGrammar(subsectionId ? { [subsectionId]: data[subsectionId] } : data);
             case 'phrases': {
@@ -235,6 +245,44 @@ export class ComprehensiveView {
             default:
                 return '';
         }
+    }
+
+    renderPrepositionsConjunctions(data) {
+        if (!Array.isArray(data)) return '';
+        const preps = data.filter(item => item.type.includes('preposition'));
+        const conjs = data.filter(item => item.type.includes('conjunction'));
+        const renderItems = (items) => items.map(item => `
+            <div class="item">
+                <div class="item-header">
+                    <span class="item-title">${item.german}</span>
+                    <span class="item-translation">${item.english}</span>
+                </div>
+                ${item.examples ? `
+                    <div class="item-examples">
+                        ${Array.isArray(item.examples) ? item.examples.map(ex => `
+                            <div class="example-item">
+                                <span class="example-german">${ex.german}</span>
+                                <span class="example-english">${ex.english}</span>
+                            </div>
+                        `).join('') : `<div class="example-item">${item.examples}</div>`}
+                    </div>
+                ` : ''}
+            </div>
+        `).join('');
+        return `
+            <div class="subcategory-section">
+                <h3>Prepositions</h3>
+                <div class="items">
+                    ${renderItems(preps)}
+                </div>
+            </div>
+            <div class="subcategory-section">
+                <h3>Conjunctions</h3>
+                <div class="items">
+                    ${renderItems(conjs)}
+                </div>
+            </div>
+        `;
     }
 
     renderAdjectivesAdverbs(data) {
