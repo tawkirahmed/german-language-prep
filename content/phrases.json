@@ -1,0 +1,1596 @@
+{
+  "verbs": {
+    "regularVerbs": [
+      {
+        "infinitive": "machen",
+        "english": "to do/make",
+        "present": {
+          "ich": "mache",
+          "du": "machst",
+          "er/sie/es": "macht",
+          "wir": "machen",
+          "ihr": "macht",
+          "sie/Sie": "machen"
+        },
+        "examples": [
+          {"german": "Ich mache meine Hausaufgaben.", "english": "I do my homework."},
+          {"german": "Was machst du am Wochenende?", "english": "What are you doing on the weekend?"}
+        ]
+      },
+      {
+        "infinitive": "arbeiten",
+        "english": "to work",
+        "present": {
+          "ich": "arbeite",
+          "du": "arbeitest",
+          "er/sie/es": "arbeitet",
+          "wir": "arbeiten",
+          "ihr": "arbeitet",
+          "sie/Sie": "arbeiten"
+        },
+        "examples": [
+          {"german": "Ich arbeite in einer Firma.", "english": "I work in a company."},
+          {"german": "Wo arbeitest du?", "english": "Where do you work?"}
+        ]
+      },
+      {
+        "infinitive": "wohnen",
+        "english": "to live",
+        "present": {
+          "ich": "wohne",
+          "du": "wohnst",
+          "er/sie/es": "wohnt",
+          "wir": "wohnen",
+          "ihr": "wohnt",
+          "sie/Sie": "wohnen"
+        },
+        "examples": [
+          {"german": "Ich wohne in Berlin.", "english": "I live in Berlin."},
+          {"german": "Wo wohnst du?", "english": "Where do you live?"}
+        ]
+      },
+      {
+        "infinitive": "lernen",
+        "english": "to learn",
+        "present": {
+          "ich": "lerne",
+          "du": "lernst",
+          "er/sie/es": "lernt",
+          "wir": "lernen",
+          "ihr": "lernt",
+          "sie/Sie": "lernen"
+        },
+        "examples": [
+          {"german": "Ich lerne Deutsch.", "english": "I am learning German."},
+          {"german": "Wir lernen jeden Tag.", "english": "We study every day."}
+        ]
+      },
+      {
+        "infinitive": "spielen",
+        "english": "to play",
+        "present": {
+          "ich": "spiele",
+          "du": "spielst",
+          "er/sie/es": "spielt",
+          "wir": "spielen",
+          "ihr": "spielt",
+          "sie/Sie": "spielen"
+        },
+        "examples": [
+          {"german": "Die Kinder spielen im Park.", "english": "The children are playing in the park."},
+          {"german": "Spielst du Fußball?", "english": "Do you play football?"}
+        ]
+      },
+      {
+        "infinitive": "kaufen",
+        "english": "to buy",
+        "present": {
+          "ich": "kaufe",
+          "du": "kaufst",
+          "er/sie/es": "kauft",
+          "wir": "kaufen",
+          "ihr": "kauft",
+          "sie/Sie": "kaufen"
+        },
+        "examples": [
+          {"german": "Ich kaufe Brot.", "english": "I am buying bread."},
+          {"german": "Kaufst du das Hemd?", "english": "Are you buying the shirt?"}
+        ]
+      },
+      {
+        "infinitive": "hören",
+        "english": "to hear/listen",
+        "present": {
+          "ich": "höre",
+          "du": "hörst",
+          "er/sie/es": "hört",
+          "wir": "hören",
+          "ihr": "hört",
+          "sie/Sie": "hören"
+        },
+        "examples": [
+          {"german": "Ich höre Musik.", "english": "I listen to music."},
+          {"german": "Hörst du den Lehrer?", "english": "Do you hear the teacher?"}
+        ]
+      },
+      {
+        "infinitive": "fragen",
+        "english": "to ask",
+        "present": {
+          "ich": "frage",
+          "du": "fragst",
+          "er/sie/es": "fragt",
+          "wir": "fragen",
+          "ihr": "fragt",
+          "sie/Sie": "fragen"
+        },
+        "examples": [
+          {"german": "Ich frage den Lehrer.", "english": "I ask the teacher."},
+          {"german": "Fragst du oft?", "english": "Do you ask often?"}
+        ]
+      },
+      {
+        "infinitive": "sagen",
+        "english": "to say",
+        "present": {
+          "ich": "sage",
+          "du": "sagst",
+          "er/sie/es": "sagt",
+          "wir": "sagen",
+          "ihr": "sagt",
+          "sie/Sie": "sagen"
+        },
+        "examples": [
+          {"german": "Er sagt die Wahrheit.", "english": "He tells the truth."},
+          {"german": "Was sagst du?", "english": "What are you saying?"}
+        ]
+      },
+      {
+        "infinitive": "brauchen",
+        "english": "to need",
+        "present": {
+          "ich": "brauche",
+          "du": "brauchst",
+          "er/sie/es": "braucht",
+          "wir": "brauchen",
+          "ihr": "braucht",
+          "sie/Sie": "brauchen"
+        },
+        "examples": [
+          {"german": "Ich brauche Hilfe.", "english": "I need help."},
+          {"german": "Brauchst du Geld?", "english": "Do you need money?"}
+        ]
+      },
+      {
+        "infinitive": "reisen",
+        "english": "to travel",
+        "present": {
+          "ich": "reise",
+          "du": "reist",
+          "er/sie/es": "reist",
+          "wir": "reisen",
+          "ihr": "reist",
+          "sie/Sie": "reisen"
+        },
+        "examples": [
+          {"german": "Wir reisen im Sommer.", "english": "We travel in summer."},
+          {"german": "Reist ihr nach Deutschland?", "english": "Are you traveling to Germany?"}
+        ]
+      }
+    ],
+    "irregularVerbs": [
+      {
+        "infinitive": "sein",
+        "english": "to be",
+        "present": {
+          "ich": "bin",
+          "du": "bist",
+          "er/sie/es": "ist",
+          "wir": "sind",
+          "ihr": "seid",
+          "sie/Sie": "sind"
+        },
+        "examples": [
+          {"german": "Ich bin Student.", "english": "I am a student."},
+          {"german": "Wo bist du?", "english": "Where are you?"}
+        ]
+      },
+      {
+        "infinitive": "haben",
+        "english": "to have",
+        "present": {
+          "ich": "habe",
+          "du": "hast",
+          "er/sie/es": "hat",
+          "wir": "haben",
+          "ihr": "habt",
+          "sie/Sie": "haben"
+        },
+        "examples": [
+          {"german": "Ich habe einen Hund.", "english": "I have a dog."},
+          {"german": "Hast du Zeit?", "english": "Do you have time?"}
+        ]
+      }
+    ],
+    "modalVerbs": [
+      {
+        "infinitive": "können",
+        "english": "can/to be able to",
+        "present": {
+          "ich": "kann",
+          "du": "kannst",
+          "er/sie/es": "kann",
+          "wir": "können",
+          "ihr": "könnt",
+          "sie/Sie": "können"
+        },
+        "examples": [
+          {"german": "Ich kann Deutsch sprechen.", "english": "I can speak German."},
+          {"german": "Kannst du schwimmen?", "english": "Can you swim?"}
+        ]
+      }
+    ]
+  },
+  "questionWords": {
+    "basicQuestions": [
+      {
+        "word": "wo",
+        "english": "where",
+        "examples": [
+          {"german": "Wo wohnst du?", "english": "Where do you live?"},
+          {"german": "Wo ist der Bahnhof?", "english": "Where is the train station?"}
+        ]
+      },
+      {
+        "word": "woher",
+        "english": "where from",
+        "examples": [
+          {"german": "Woher kommst du?", "english": "Where do you come from?"},
+          {"german": "Woher kommen Sie?", "english": "Where do you come from? (formal)"}
+        ]
+      },
+      {
+        "word": "wohin",
+        "english": "where to",
+        "examples": [
+          {"german": "Wohin gehst du?", "english": "Where are you going?"},
+          {"german": "Wohin fährst du in Urlaub?", "english": "Where are you going on vacation?"}
+        ]
+      }
+    ],
+    "yesNoQuestions": [
+      {
+        "german": "Sprechen Sie Deutsch?",
+        "english": "Do you speak German?",
+        "response": {
+          "positive": "Ja, ich spreche Deutsch.",
+          "negative": "Nein, ich spreche kein Deutsch."
+        }
+      },
+      {
+        "german": "Haben Sie Zeit?",
+        "english": "Do you have time?",
+        "response": {
+          "positive": "Ja, ich habe Zeit.",
+          "negative": "Nein, ich habe keine Zeit."
+        }
+      }
+    ],
+    "negativeQuestions": [
+      {
+        "rule": "Responding to Negative Questions with 'Doch'",
+        "explanation": "When a yes/no question is phrased in the negative, you can't just answer with 'ja' (yes). You use 'doch' to contradict the negative question and mean 'yes, on the contrary'. Use 'nein' to agree with the negative question.",
+        "examples": [
+          {
+            "german": "Kommst du nicht mit?",
+            "english": "Aren't you coming with us?"
+          },
+          {
+            "german": "<strong>Doch</strong>, ich komme mit.",
+            "english": "<strong>Yes</strong>, I am coming with you. (contradicting the negative)"
+          },
+          {
+            "german": "<strong>Nein</strong>, ich komme nicht mit.",
+            "english": "<strong>No</strong>, I am not coming with you. (agreeing with the negative)"
+          }
+        ]
+      },
+      {
+        "examples": [
+          {
+            "german": "Hast du keinen Hunger?",
+            "english": "Aren't you hungry?"
+          },
+          {
+            "german": "<strong>Doch</strong>, ich habe Hunger.",
+            "english": "<strong>Yes</strong>, I am hungry."
+          },
+          {
+            "german": "<strong>Nein</strong>, ich habe keinen Hunger.",
+            "english": "<strong>No</strong>, I am not hungry."
+          }
+        ]
+      }
+    ]
+  },
+  "time": {
+    "officialTime": [
+      {
+        "german": "Es ist vierzehn Uhr dreißig.",
+        "english": "It is 14:30",
+        "unofficial": "Es ist halb drei.",
+        "examples": [
+          {"german": "Der Zug fährt um vierzehn Uhr dreißig.", "english": "The train departs at 14:30."},
+          {"german": "Das Meeting beginnt um vierzehn Uhr dreißig.", "english": "The meeting starts at 14:30."}
+        ]
+      },
+      {
+        "german": "Es ist acht Uhr.",
+        "english": "It is 08:00",
+        "unofficial": "Es ist acht.",
+        "examples": [
+          {"german": "Der Kurs beginnt um acht Uhr.", "english": "The course starts at 8:00."},
+          {"german": "Ich stehe um acht Uhr auf.", "english": "I get up at 8:00."}
+        ]
+      },
+      {
+        "german": "Es ist neun Uhr fünfzehn.",
+        "english": "It is 09:15",
+        "unofficial": "Es ist Viertel nach neun.",
+        "examples": [
+          {"german": "Der Bus fährt um neun Uhr fünfzehn.", "english": "The bus leaves at 09:15."},
+          {"german": "Der Arzttermin ist um neun Uhr fünfzehn.", "english": "The doctor’s appointment is at 09:15."}
+        ]
+      },
+      {
+        "german": "Es ist elf Uhr fünfundvierzig.",
+        "english": "It is 11:45",
+        "unofficial": "Es ist Viertel vor zwölf.",
+        "examples": [
+          {"german": "Die Pause endet um elf Uhr fünfundvierzig.", "english": "The break ends at 11:45."},
+          {"german": "Der Zug kommt um elf Uhr fünfundvierzig an.", "english": "The train arrives at 11:45."}
+        ]
+      },
+      {
+        "german": "Es ist sieben Uhr fünf.",
+        "english": "It is 07:05",
+        "unofficial": "Es ist fünf nach sieben.",
+        "examples": [
+          {"german": "Der Wecker klingelt um sieben Uhr fünf.", "english": "The alarm rings at 07:05."},
+          {"german": "Der Bus fährt um sieben Uhr fünf.", "english": "The bus leaves at 07:05."}
+        ]
+      },
+      {
+        "german": "Es ist zwölf Uhr dreißig.",
+        "english": "It is 12:30",
+        "unofficial": "Es ist halb eins.",
+        "examples": [
+          {"german": "Das Mittagessen beginnt um zwölf Uhr dreißig.", "english": "Lunch starts at 12:30."},
+          {"german": "Wir treffen uns um zwölf Uhr dreißig.", "english": "We meet at 12:30."}
+        ]
+      },
+      {
+        "german": "Es ist achtzehn Uhr zwanzig.",
+        "english": "It is 18:20",
+        "unofficial": "Es ist zwanzig nach sechs.",
+        "examples": [
+          {"german": "Der Film beginnt um achtzehn Uhr zwanzig.", "english": "The movie starts at 18:20."},
+          {"german": "Der Zug fährt um achtzehn Uhr zwanzig ab.", "english": "The train departs at 18:20."}
+        ]
+      },
+      {
+        "german": "Es ist einundzwanzig Uhr vierzig.",
+        "english": "It is 21:40",
+        "unofficial": "Es ist zwanzig vor zehn.",
+        "examples": [
+          {"german": "Das Konzert endet um einundzwanzig Uhr vierzig.", "english": "The concert ends at 21:40."},
+          {"german": "Der Bus kommt um einundzwanzig Uhr vierzig.", "english": "The bus arrives at 21:40."}
+        ]
+      },
+      {
+        "german": "Es ist null Uhr.",
+        "english": "It is 00:00",
+        "unofficial": "Es ist Mitternacht.",
+        "examples": [
+          {"german": "Es ist null Uhr am Neujahrstag.", "english": "It is midnight on New Year's Day."},
+          {"german": "Der Laden schließt um null Uhr.", "english": "The shop closes at midnight."}
+        ]
+      },
+      {
+        "german": "Es ist zwölf Uhr.",
+        "english": "It is 12:00",
+        "unofficial": "Es ist Mittag.",
+        "examples": [
+          {"german": "Das Treffen beginnt um zwölf Uhr.", "english": "The meeting starts at twelve."},
+          {"german": "Wir essen um zwölf Uhr.", "english": "We eat at twelve o'clock."}
+        ]
+      },
+      {
+        "german": "Es ist dreizehn Uhr zehn.",
+        "english": "It is 13:10",
+        "unofficial": "Es ist zehn nach eins.",
+        "examples": [
+          {"german": "Der Kurs beginnt um dreizehn Uhr zehn.", "english": "The course starts at 13:10."},
+          {"german": "Komm bitte um dreizehn Uhr zehn.", "english": "Please come at 13:10."}
+        ]
+      },
+      {
+        "german": "Es ist sechzehn Uhr fünfzig.",
+        "english": "It is 16:50",
+        "unofficial": "Es ist zehn vor fünf.",
+        "examples": [
+          {"german": "Der Bus fährt um sechzehn Uhr fünfzig.", "english": "The bus leaves at 16:50."},
+          {"german": "Das Meeting endet um sechzehn Uhr fünfzig.", "english": "The meeting ends at 16:50."}
+        ]
+      },
+      {
+        "german": "Es ist zweiundzwanzig Uhr fünfunddreißig.",
+        "english": "It is 22:35",
+        "unofficial": "Es ist fünfundzwanzig vor elf.",
+        "examples": [
+          {"german": "Der Film endet um zweiundzwanzig Uhr fünfunddreißig.", "english": "The movie ends at 22:35."},
+          {"german": "Der Zug kommt um zweiundzwanzig Uhr fünfunddreißig an.", "english": "The train arrives at 22:35."}
+        ]
+      },
+      {
+        "german": "Es ist siebzehn Uhr fünfundzwanzig.",
+        "english": "It is 17:25",
+        "unofficial": "Es ist fünfundzwanzig nach fünf.",
+        "examples": [
+          {"german": "Wir treffen uns um siebzehn Uhr fünfundzwanzig.", "english": "We meet at 17:25."},
+          {"german": "Der Bus kommt um siebzehn Uhr fünfundzwanzig.", "english": "The bus arrives at 17:25."}
+        ]
+      },
+      {
+        "german": "Es ist siebzehn Uhr fünfunddreißig.",
+        "english": "It is 17:35",
+        "unofficial": "Es ist fünfundzwanzig vor sechs.",
+        "examples": [
+          {"german": "Der Anruf ist um siebzehn Uhr fünfunddreißig.", "english": "The call is at 17:35."},
+          {"german": "Wir gehen um siebzehn Uhr fünfunddreißig los.", "english": "We leave at 17:35."}
+        ]
+      },
+      {
+        "german": "Es ist ein Uhr fünfzehn.",
+        "english": "It is 01:15",
+        "unofficial": "Es ist Viertel nach eins.",
+        "examples": [
+          {"german": "Der Zug fährt um ein Uhr fünfzehn.", "english": "The train departs at 01:15."},
+          {"german": "Der Wecker klingelt um ein Uhr fünfzehn.", "english": "The alarm rings at 01:15."}
+        ]
+      },
+      {
+        "german": "Es ist zwölf Uhr fünfundvierzig.",
+        "english": "It is 12:45",
+        "unofficial": "Es ist Viertel vor eins.",
+        "examples": [
+          {"german": "Die Sitzung endet um zwölf Uhr fünfundvierzig.", "english": "The meeting ends at 12:45."},
+          {"german": "Wir essen um zwölf Uhr fünfundvierzig.", "english": "We eat at 12:45."}
+        ]
+      },
+      {
+        "german": "Es ist sechs Uhr achtundfünfzig.",
+        "english": "It is 06:58",
+        "unofficial": "Es ist kurz vor sieben.",
+        "examples": [
+          {"german": "Der Zug kommt um sechs Uhr achtundfünfzig.", "english": "The train arrives at 06:58."},
+          {"german": "Ich bin um sechs Uhr achtundfünfzig da.", "english": "I'll be there at 06:58."}
+        ]
+      },
+      {
+        "german": "Es ist sieben Uhr zwei.",
+        "english": "It is 07:02",
+        "unofficial": "Es ist kurz nach sieben.",
+        "examples": [
+          {"german": "Der Unterricht beginnt um sieben Uhr zwei.", "english": "Class starts at 07:02."},
+          {"german": "Der Bus fährt um sieben Uhr zwei.", "english": "The bus leaves at 07:02."}
+        ]
+      }
+    ],
+    "unofficialTime": [
+      {
+        "german": "Es ist halb drei.",
+        "english": "It is half past two (14:30)",
+        "official": "Es ist vierzehn Uhr dreißig.",
+        "examples": [
+          {"german": "Wir treffen uns um halb drei.", "english": "We'll meet at half past two."},
+          {"german": "Der Film beginnt um halb drei.", "english": "The movie starts at half past two."}
+        ]
+      },
+      {
+        "german": "Es ist acht.",
+        "english": "It is eight o'clock (08:00)",
+        "official": "Es ist acht Uhr.",
+        "examples": [
+          {"german": "Wir beginnen um acht.", "english": "We start at eight."},
+          {"german": "Der Unterricht ist um acht.", "english": "Class is at eight."}
+        ]
+      },
+      {
+        "german": "Es ist Viertel nach neun.",
+        "english": "It is quarter past nine (09:15)",
+        "official": "Es ist neun Uhr fünfzehn.",
+        "examples": [
+          {"german": "Der Termin ist Viertel nach neun.", "english": "The appointment is at quarter past nine."},
+          {"german": "Komm bitte Viertel nach neun.", "english": "Please come at quarter past nine."}
+        ]
+      },
+      {
+        "german": "Es ist Viertel vor zwölf.",
+        "english": "It is quarter to twelve (11:45)",
+        "official": "Es ist elf Uhr fünfundvierzig.",
+        "examples": [
+          {"german": "Wir essen Viertel vor zwölf.", "english": "We eat at quarter to twelve."},
+          {"german": "Der Kurs endet Viertel vor zwölf.", "english": "The course ends at quarter to twelve."}
+        ]
+      },
+      {
+        "german": "Es ist fünf nach sieben.",
+        "english": "It is five past seven (07:05)",
+        "official": "Es ist sieben Uhr fünf.",
+        "examples": [
+          {"german": "Der Bus kommt fünf nach sieben.", "english": "The bus arrives at five past seven."},
+          {"german": "Ich bin fünf nach sieben zu Hause.", "english": "I am home at five past seven."}
+        ]
+      },
+      {
+        "german": "Es ist halb eins.",
+        "english": "It is half past twelve (12:30)",
+        "official": "Es ist zwölf Uhr dreißig.",
+        "examples": [
+          {"german": "Wir treffen uns halb eins.", "english": "We meet at half past twelve."},
+          {"german": "Der Laden öffnet halb eins wieder.", "english": "The shop opens again at half past twelve."}
+        ]
+      },
+      {
+        "german": "Es ist zwanzig nach sechs.",
+        "english": "It is twenty past six (18:20)",
+        "official": "Es ist achtzehn Uhr zwanzig.",
+        "examples": [
+          {"german": "Das Spiel beginnt zwanzig nach sechs.", "english": "The game starts at twenty past six."},
+          {"german": "Wir treffen uns zwanzig nach sechs.", "english": "We meet at twenty past six."}
+        ]
+      },
+      {
+        "german": "Es ist zwanzig vor zehn.",
+        "english": "It is twenty to ten (21:40)",
+        "official": "Es ist einundzwanzig Uhr vierzig.",
+        "examples": [
+          {"german": "Der Film endet zwanzig vor zehn.", "english": "The movie ends at twenty to ten."},
+          {"german": "Ich komme zwanzig vor zehn nach Hause.", "english": "I come home at twenty to ten."}
+        ]
+      },
+      {
+        "german": "Es ist Mitternacht.",
+        "english": "It is midnight (00:00)",
+        "official": "Es ist null Uhr.",
+        "examples": [
+          {"german": "Wir feiern bis Mitternacht.", "english": "We celebrate until midnight."},
+          {"german": "Der Park schließt um Mitternacht.", "english": "The park closes at midnight."}
+        ]
+      },
+      {
+        "german": "Es ist Mittag.",
+        "english": "It is noon (12:00)",
+        "official": "Es ist zwölf Uhr.",
+        "examples": [
+          {"german": "Wir treffen uns am Mittag.", "english": "We meet at noon."},
+          {"german": "Mittag ist um zwölf.", "english": "Noon is at twelve."}
+        ]
+      },
+      {
+        "german": "Es ist zehn nach eins.",
+        "english": "It is ten past one (13:10)",
+        "official": "Es ist dreizehn Uhr zehn.",
+        "examples": [
+          {"german": "Komm bitte zehn nach eins.", "english": "Please come at ten past one."},
+          {"german": "Der Termin ist zehn nach eins.", "english": "The appointment is at ten past one."}
+        ]
+      },
+      {
+        "german": "Es ist zehn vor fünf.",
+        "english": "It is ten to five (16:50)",
+        "official": "Es ist sechzehn Uhr fünfzig.",
+        "examples": [
+          {"german": "Der Bus fährt zehn vor fünf.", "english": "The bus leaves at ten to five."},
+          {"german": "Wir sehen uns zehn vor fünf.", "english": "See you at ten to five."}
+        ]
+      },
+      {
+        "german": "Es ist fünfundzwanzig vor elf.",
+        "english": "It is twenty-five to eleven (22:35)",
+        "official": "Es ist zweiundzwanzig Uhr fünfunddreißig.",
+        "examples": [
+          {"german": "Der Film endet fünfundzwanzig vor elf.", "english": "The movie ends at twenty-five to eleven."},
+          {"german": "Ich komme fünfundzwanzig vor elf nach Hause.", "english": "I come home at twenty-five to eleven."}
+        ]
+      },
+      {
+        "german": "Es ist fünf nach halb elf.",
+        "english": "It is five past half past ten (22:35)",
+        "official": "Es ist zweiundzwanzig Uhr fünfunddreißig.",
+        "examples": [
+          {"german": "Das Konzert endet fünf nach halb elf.", "english": "The concert ends at five past half past ten."},
+          {"german": "Wir gehen fünf nach halb elf.", "english": "We leave at five past half past ten."}
+        ]
+      },
+      {
+        "german": "Es ist fünfundzwanzig nach fünf.",
+        "english": "It is twenty-five past five (17:25)",
+        "official": "Es ist siebzehn Uhr fünfundzwanzig.",
+        "examples": [
+          {"german": "Der Anruf ist fünfundzwanzig nach fünf.", "english": "The call is at twenty-five past five."},
+          {"german": "Wir treffen uns fünfundzwanzig nach fünf.", "english": "We meet at twenty-five past five."}
+        ]
+      },
+      {
+        "german": "Es ist fünfundzwanzig vor sechs.",
+        "english": "It is twenty-five to six (17:35)",
+        "official": "Es ist siebzehn Uhr fünfunddreißig.",
+        "examples": [
+          {"german": "Der Bus kommt fünfundzwanzig vor sechs.", "english": "The bus arrives at twenty-five to six."},
+          {"german": "Wir gehen fünfundzwanzig vor sechs los.", "english": "We leave at twenty-five to six."}
+        ]
+      },
+      {
+        "german": "Es ist Viertel nach eins.",
+        "english": "It is quarter past one (01:15)",
+        "official": "Es ist ein Uhr fünfzehn.",
+        "examples": [
+          {"german": "Der Termin ist Viertel nach eins.", "english": "The appointment is at quarter past one."},
+          {"german": "Komm bitte Viertel nach eins.", "english": "Please come at quarter past one."}
+        ]
+      },
+      {
+        "german": "Es ist Viertel vor eins.",
+        "english": "It is quarter to one (12:45)",
+        "official": "Es ist zwölf Uhr fünfundvierzig.",
+        "examples": [
+          {"german": "Wir essen Viertel vor eins.", "english": "We eat at quarter to one."},
+          {"german": "Der Bus fährt Viertel vor eins.", "english": "The bus leaves at quarter to one."}
+        ]
+      },
+      {
+        "german": "Es ist kurz vor sieben.",
+        "english": "It is just before seven (06:58)",
+        "official": "Es ist sechs Uhr achtundfünfzig.",
+        "examples": [
+          {"german": "Ich komme kurz vor sieben.", "english": "I'll come just before seven."},
+          {"german": "Der Zug fährt kurz vor sieben.", "english": "The train departs just before seven."}
+        ]
+      },
+      {
+        "german": "Es ist kurz nach sieben.",
+        "english": "It is just after seven (07:02)",
+        "official": "Es ist sieben Uhr zwei.",
+        "examples": [
+          {"german": "Wir beginnen kurz nach sieben.", "english": "We start just after seven."},
+          {"german": "Komm bitte kurz nach sieben.", "english": "Please come just after seven."}
+        ]
+      }
+    ],
+    "timeExpressions": [
+      {
+        "german": "Viertel nach",
+        "english": "quarter past",
+        "examples": [
+          {"german": "Es ist Viertel nach zwei.", "english": "It is quarter past two."},
+          {"german": "Der Bus fährt um Viertel nach.", "english": "The bus leaves at quarter past."}
+        ]
+      },
+      {
+        "german": "Viertel vor",
+        "english": "quarter to",
+        "examples": [
+          {"german": "Es ist Viertel vor drei.", "english": "It is quarter to three."},
+          {"german": "Komm Viertel vor zwei.", "english": "Come at quarter to two."}
+        ]
+      },
+      {
+        "german": "halb",
+        "english": "half past (next hour in German)",
+        "examples": [
+          {"german": "Es ist halb acht.", "english": "It is half past seven (07:30)."},
+          {"german": "Wir treffen uns halb eins.", "english": "We meet at half past twelve (12:30)."}
+        ]
+      },
+      {
+        "german": "fünf nach",
+        "english": "five past",
+        "examples": [
+          {"german": "Es ist fünf nach zwei.", "english": "It is five past two."},
+          {"german": "Der Bus kommt fünf nach.", "english": "The bus arrives five past."}
+        ]
+      },
+      {
+        "german": "fünf vor",
+        "english": "five to",
+        "examples": [
+          {"german": "Es ist fünf vor drei.", "english": "It is five to three."},
+          {"german": "Komm bitte fünf vor.", "english": "Please come five minutes before."}
+        ]
+      },
+      {
+        "german": "zwanzig nach",
+        "english": "twenty past",
+        "examples": [
+          {"german": "Es ist zwanzig nach sechs.", "english": "It is twenty past six."},
+          {"german": "Der Termin ist zwanzig nach acht.", "english": "The appointment is at twenty past eight."}
+        ]
+      },
+      {
+        "german": "zwanzig vor",
+        "english": "twenty to",
+        "examples": [
+          {"german": "Es ist zwanzig vor zehn.", "english": "It is twenty to ten."},
+          {"german": "Wir gehen zwanzig vor los.", "english": "We leave twenty minutes before."}
+        ]
+      },
+      {
+        "german": "kurz nach",
+        "english": "just after",
+        "examples": [
+          {"german": "Es ist kurz nach neun.", "english": "It is just after nine."},
+          {"german": "Ich komme kurz nach acht.", "english": "I will come just after eight."}
+        ]
+      },
+      {
+        "german": "kurz vor",
+        "english": "just before",
+        "examples": [
+          {"german": "Es ist kurz vor zwölf.", "english": "It is just before twelve."},
+          {"german": "Wir fahren kurz vor sieben ab.", "english": "We depart just before seven."}
+        ]
+      },
+      {
+        "german": "gegen",
+        "english": "around (time)",
+        "examples": [
+          {"german": "Ich komme gegen drei Uhr.", "english": "I will come around three o'clock."},
+          {"german": "Wir essen gegen zwölf.", "english": "We eat around twelve."}
+        ]
+      },
+      {
+        "german": "um",
+        "english": "at (time)",
+        "examples": [
+          {"german": "Das Meeting ist um zehn Uhr.", "english": "The meeting is at ten o'clock."},
+          {"german": "Der Film beginnt um acht.", "english": "The film starts at eight."}
+        ]
+      },
+      {
+        "german": "fünf vor halb",
+        "english": "five to half past (25 past the hour)",
+        "examples": [
+          {"german": "Es ist fünf vor halb acht.", "english": "It is 07:25 (five to half past eight)."},
+          {"german": "Der Bus kommt fünf vor halb neun.", "english": "The bus arrives at 08:25."}
+        ]
+      },
+      {
+        "german": "fünf nach halb",
+        "english": "five past half past (25 to the next hour)",
+        "examples": [
+          {"german": "Es ist fünf nach halb elf.", "english": "It is 10:35 (five past half past ten)."},
+          {"german": "Wir treffen uns fünf nach halb sechs.", "english": "We meet at 17:35."}
+        ]
+      }
+    ]
+  },
+  "grammar": {
+    "articles": {
+      "definite": {
+        "nominative": {
+          "masculine": "der",
+          "feminine": "die",
+          "neuter": "das",
+          "plural": "die"
+        },
+        "accusative": {
+          "masculine": "den",
+          "feminine": "die",
+          "neuter": "das",
+          "plural": "die"
+        }
+      },
+      "indefinite": {
+        "nominative": {
+          "masculine": "ein",
+          "feminine": "eine",
+          "neuter": "ein"
+        },
+        "accusative": {
+          "masculine": "einen",
+          "feminine": "eine",
+          "neuter": "ein"
+        }
+      },
+      "examples": [
+        {"german": "Der Mann ist groß.", "english": "The man is tall."},
+        {"german": "Ich habe einen Hund.", "english": "I have a dog."}
+      ]
+    },
+    "pronouns": {
+      "personal": {
+        "nominative": {
+          "ich": "I",
+          "du": "you (informal)",
+          "er": "he",
+          "sie_she": "she",
+          "es": "it",
+          "wir": "we",
+          "ihr": "you (plural)",
+          "sie_they": "they",
+          "Sie": "you (formal)"
+        },
+        "accusative": {
+          "mich": "me",
+          "dich": "you",
+          "ihn": "him",
+          "sie_her": "her",
+          "es": "it",
+          "uns": "us",
+          "euch": "you",
+          "sie_them": "them",
+          "Sie": "you (formal)"
+        }
+      },
+      "examples": [
+        {"german": "Ich sehe dich.", "english": "I see you."},
+        {"german": "Er gibt mir das Buch.", "english": "He gives me the book."}
+      ]
+    }
+  },
+  "introductions": [
+    {
+      "german": "Guten Tag, ich heiße...",
+      "english": "Hello, my name is...",
+      "examples": [
+        {"german": "Guten Tag, ich heiße Thomas Schmidt.", "english": "Hello, my name is Thomas Schmidt."},
+        {"german": "Guten Tag, ich heiße Maria.", "english": "Hello, my name is Maria."}
+      ]
+    },
+    {
+      "german": "Ich komme aus...",
+      "english": "I come from...",
+      "examples": [
+        {"german": "Ich komme aus England.", "english": "I come from England."},
+        {"german": "Ich komme aus den USA.", "english": "I come from the USA."}
+      ]
+    },
+    {
+      "german": "Ich bin...",
+      "english": "I am...",
+      "examples": [
+        {"german": "Ich bin Student.", "english": "I am a student."},
+        {"german": "Ich bin Lehrerin.", "english": "I am a teacher (female)."}
+      ]
+    },
+    {
+      "german": "Ich wohne in...",
+      "english": "I live in...",
+      "examples": [
+        {"german": "Ich wohne in Berlin.", "english": "I live in Berlin."},
+        {"german": "Ich wohne in München.", "english": "I live in Munich."}
+      ]
+    },
+    {
+      "german": "Ich bin... Jahre alt.",
+      "english": "I am... years old.",
+      "examples": [
+        {"german": "Ich bin 25 Jahre alt.", "english": "I am 25 years old."},
+        {"german": "Ich bin 30 Jahre alt.", "english": "I am 30 years old."}
+      ]
+    },
+    {
+      "german": "Ich arbeite als...",
+      "english": "I work as...",
+      "examples": [
+        {"german": "Ich arbeite als Lehrer.", "english": "I work as a teacher."},
+        {"german": "Ich arbeite als Ingenieur.", "english": "I work as an engineer."}
+      ]
+    },
+    {
+      "german": "Ich lerne Deutsch seit...",
+      "english": "I've been learning German for...",
+      "examples": [
+        {"german": "Ich lerne Deutsch seit einem Jahr.", "english": "I've been learning German for a year."},
+        {"german": "Ich lerne Deutsch seit drei Monaten.", "english": "I've been learning German for three months."}
+      ]
+    },
+    {
+      "german": "Freut mich, Sie kennenzulernen.",
+      "english": "Nice to meet you. (formal)",
+      "examples": [
+        {"german": "Guten Tag, Herr Müller. Freut mich, Sie kennenzulernen.", "english": "Hello, Mr. Müller. Nice to meet you."},
+        {"german": "Freut mich, Sie kennenzulernen, Frau Schmidt.", "english": "Nice to meet you, Mrs. Schmidt."}
+      ]
+    },
+    {
+      "german": "Freut mich, dich kennenzulernen.",
+      "english": "Nice to meet you. (informal)",
+      "examples": [
+        {"german": "Hallo Anna, freut mich, dich kennenzulernen.", "english": "Hello Anna, nice to meet you."},
+        {"german": "Freut mich, dich kennenzulernen, Thomas.", "english": "Nice to meet you, Thomas."}
+      ]
+    }
+  ],
+  "askingQuestions": [
+    {
+      "german": "Wie heißen Sie?",
+      "english": "What is your name? (formal)",
+      "examples": [
+        {"german": "Guten Tag, wie heißen Sie?", "english": "Hello, what is your name?"},
+        {"german": "Entschuldigung, wie heißen Sie noch mal?", "english": "Excuse me, what is your name again?"}
+      ]
+    },
+    {
+      "german": "Wie heißt du?",
+      "english": "What is your name? (informal)",
+      "examples": [
+        {"german": "Hallo, wie heißt du?", "english": "Hello, what is your name?"},
+        {"german": "Entschuldigung, wie heißt du?", "english": "Excuse me, what is your name?"}
+      ]
+    },
+    {
+      "german": "Woher kommen Sie?",
+      "english": "Where are you from? (formal)",
+      "examples": [
+        {"german": "Woher kommen Sie, Herr Schmidt?", "english": "Where are you from, Mr. Schmidt?"},
+        {"german": "Darf ich fragen, woher Sie kommen?", "english": "May I ask where you are from?"}
+      ]
+    },
+    {
+      "german": "Woher kommst du?",
+      "english": "Where are you from? (informal)",
+      "examples": [
+        {"german": "Woher kommst du eigentlich?", "english": "Where are you actually from?"},
+        {"german": "Entschuldigung, woher kommst du?", "english": "Excuse me, where are you from?"}
+      ]
+    },
+    {
+      "german": "Wie alt sind Sie?",
+      "english": "How old are you? (formal)",
+      "examples": [
+        {"german": "Wenn ich fragen darf, wie alt sind Sie?", "english": "If I may ask, how old are you?"},
+        {"german": "Entschuldigung, wie alt sind Sie?", "english": "Excuse me, how old are you?"}
+      ]
+    },
+    {
+      "german": "Wie alt bist du?",
+      "english": "How old are you? (informal)",
+      "examples": [
+        {"german": "Wie alt bist du eigentlich?", "english": "How old are you actually?"},
+        {"german": "Darf ich fragen, wie alt du bist?", "english": "May I ask how old you are?"}
+      ]
+    },
+    {
+      "german": "Was machen Sie beruflich?",
+      "english": "What do you do for a living? (formal)",
+      "examples": [
+        {"german": "Was machen Sie beruflich, Frau Müller?", "english": "What do you do for a living, Mrs. Müller?"},
+        {"german": "Darf ich fragen, was Sie beruflich machen?", "english": "May I ask what you do professionally?"}
+      ]
+    },
+    {
+      "german": "Was machst du beruflich?",
+      "english": "What do you do for a living? (informal)",
+      "examples": [
+        {"german": "Was machst du eigentlich beruflich?", "english": "What do you actually do for a living?"},
+        {"german": "Und, was machst du beruflich?", "english": "And, what do you do for a living?"}
+      ]
+    },
+    {
+      "german": "Wo wohnen Sie?",
+      "english": "Where do you live? (formal)",
+      "examples": [
+        {"german": "Wenn ich fragen darf, wo wohnen Sie?", "english": "If I may ask, where do you live?"},
+        {"german": "Wo in Berlin wohnen Sie?", "english": "Where in Berlin do you live?"}
+      ]
+    },
+    {
+      "german": "Wo wohnst du?",
+      "english": "Where do you live? (informal)",
+      "examples": [
+        {"german": "Wo wohnst du in München?", "english": "Where in Munich do you live?"},
+        {"german": "Entschuldigung, wo wohnst du?", "english": "Excuse me, where do you live?"}
+      ]
+    }
+  ],
+  "shopping": [
+    {
+      "german": "Guten Tag, ich möchte...",
+      "english": "Hello, I would like...",
+      "examples": [
+        {"german": "Guten Tag, ich möchte ein Kilo Äpfel.", "english": "Hello, I would like a kilo of apples."},
+        {"german": "Guten Tag, ich möchte ein Brot.", "english": "Hello, I would like a loaf of bread."}
+      ]
+    },
+    {
+      "german": "Was kostet das?",
+      "english": "How much does this cost?",
+      "examples": [
+        {"german": "Entschuldigung, was kostet das?", "english": "Excuse me, how much does this cost?"},
+        {"german": "Was kostet dieser Pullover?", "english": "How much does this sweater cost?"}
+      ]
+    },
+    {
+      "german": "Wie viel kostet...?",
+      "english": "How much does... cost?",
+      "examples": [
+        {"german": "Wie viel kostet ein Kilo Äpfel?", "english": "How much does a kilo of apples cost?"},
+        {"german": "Wie viel kostet die Jacke?", "english": "How much does the jacket cost?"}
+      ]
+    },
+    {
+      "german": "Das ist zu teuer.",
+      "english": "That's too expensive.",
+      "examples": [
+        {"german": "Das ist zu teuer für mich.", "english": "That's too expensive for me."},
+        {"german": "120 Euro? Das ist zu teuer.", "english": "120 euros? That's too expensive."}
+      ]
+    },
+    {
+      "german": "Haben Sie...?",
+      "english": "Do you have...?",
+      "examples": [
+        {"german": "Haben Sie frisches Brot?", "english": "Do you have fresh bread?"},
+        {"german": "Haben Sie dieses Hemd in Blau?", "english": "Do you have this shirt in blue?"}
+      ]
+    },
+    {
+      "german": "Ich nehme das.",
+      "english": "I'll take this.",
+      "examples": [
+        {"german": "Das gefällt mir. Ich nehme das.", "english": "I like this. I'll take it."},
+        {"german": "Ich nehme das Buch.", "english": "I'll take the book."}
+      ]
+    },
+    {
+      "german": "Ich möchte bezahlen.",
+      "english": "I would like to pay.",
+      "examples": [
+        {"german": "Entschuldigung, ich möchte bezahlen.", "english": "Excuse me, I would like to pay."},
+        {"german": "Ich möchte jetzt bezahlen, bitte.", "english": "I would like to pay now, please."}
+      ]
+    },
+    {
+      "german": "Kann ich mit Karte bezahlen?",
+      "english": "Can I pay with card?",
+      "examples": [
+        {"german": "Entschuldigung, kann ich mit Karte bezahlen?", "english": "Excuse me, can I pay with card?"},
+        {"german": "Akzeptieren Sie Kreditkarten?", "english": "Do you accept credit cards?"}
+      ]
+    }
+  ],
+  "restaurant": [
+    {
+      "german": "Einen Tisch für... Personen, bitte.",
+      "english": "A table for... people, please.",
+      "examples": [
+        {"german": "Guten Abend, einen Tisch für zwei Personen, bitte.", "english": "Good evening, a table for two people, please."},
+        {"german": "Einen Tisch für vier Personen, bitte.", "english": "A table for four people, please."}
+      ]
+    },
+    {
+      "german": "Die Speisekarte, bitte.",
+      "english": "The menu, please.",
+      "examples": [
+        {"german": "Entschuldigung, die Speisekarte, bitte.", "english": "Excuse me, the menu, please."},
+        {"german": "Können wir die Speisekarte haben, bitte?", "english": "Can we have the menu, please?"}
+      ]
+    },
+    {
+      "german": "Ich möchte bestellen.",
+      "english": "I would like to order.",
+      "examples": [
+        {"german": "Entschuldigung, ich möchte bestellen.", "english": "Excuse me, I would like to order."},
+        {"german": "Wir möchten jetzt bestellen.", "english": "We would like to order now."}
+      ]
+    },
+    {
+      "german": "Ich hätte gern...",
+      "english": "I would like...",
+      "examples": [
+        {"german": "Ich hätte gern die Suppe.", "english": "I would like the soup."},
+        {"german": "Ich hätte gern einen Salat.", "english": "I would like a salad."}
+      ]
+    },
+    {
+      "german": "Was können Sie empfehlen?",
+      "english": "What can you recommend?",
+      "examples": [
+        {"german": "Was können Sie empfehlen?", "english": "What can you recommend?"},
+        {"german": "Welches Gericht können Sie empfehlen?", "english": "Which dish can you recommend?"}
+      ]
+    },
+    {
+      "german": "Die Rechnung, bitte.",
+      "english": "The bill, please.",
+      "examples": [
+        {"german": "Entschuldigung, die Rechnung, bitte.", "english": "Excuse me, the bill, please."},
+        {"german": "Können wir die Rechnung haben, bitte?", "english": "Can we have the bill, please?"}
+      ]
+    },
+    {
+      "german": "Zusammen oder getrennt?",
+      "english": "Together or separate?",
+      "examples": [
+        {"german": "Zusammen oder getrennt bezahlen?", "english": "Pay together or separately?"},
+        {"german": "Zusammen oder getrennt?", "english": "Together or separate?"}
+      ]
+    },
+    {
+      "german": "Das Essen war sehr gut.",
+      "english": "The food was very good.",
+      "examples": [
+        {"german": "Danke, das Essen war sehr gut.", "english": "Thank you, the food was very good."},
+        {"german": "Das Essen war sehr gut, vielen Dank.", "english": "The food was very good, thank you very much."}
+      ]
+    }
+  ],
+  "directions": [
+    {
+      "german": "Entschuldigung, wo ist...?",
+      "english": "Excuse me, where is...?",
+      "examples": [
+        {"german": "Entschuldigung, wo ist der Bahnhof?", "english": "Excuse me, where is the train station?"},
+        {"german": "Entschuldigung, wo ist die Toilette?", "english": "Excuse me, where is the toilet?"}
+      ]
+    },
+    {
+      "german": "Wie komme ich zum/zur...?",
+      "english": "How do I get to...?",
+      "examples": [
+        {"german": "Wie komme ich zum Bahnhof?", "english": "How do I get to the train station?"},
+        {"german": "Wie komme ich zur Bibliothek?", "english": "How do I get to the library?"}
+      ]
+    },
+    {
+      "german": "Ist es weit?",
+      "english": "Is it far?",
+      "examples": [
+        {"german": "Ist es weit zum Zentrum?", "english": "Is it far to the center?"},
+        {"german": "Entschuldigung, ist es weit?", "english": "Excuse me, is it far?"}
+      ]
+    },
+    {
+      "german": "Gehen Sie geradeaus.",
+      "english": "Go straight ahead.",
+      "examples": [
+        {"german": "Gehen Sie geradeaus bis zur Ampel.", "english": "Go straight ahead until the traffic light."},
+        {"german": "Gehen Sie geradeaus und dann links.", "english": "Go straight ahead and then left."}
+      ]
+    },
+    {
+      "german": "Biegen Sie links/rechts ab.",
+      "english": "Turn left/right.",
+      "examples": [
+        {"german": "Biegen Sie an der Kreuzung links ab.", "english": "Turn left at the intersection."},
+        {"german": "Biegen Sie nach dem Supermarkt rechts ab.", "english": "Turn right after the supermarket."}
+      ]
+    },
+    {
+      "german": "Es ist auf der linken/rechten Seite.",
+      "english": "It's on the left/right side.",
+      "examples": [
+        {"german": "Der Bahnhof ist auf der rechten Seite.", "english": "The train station is on the right side."},
+        {"german": "Die Bank ist auf der linken Seite.", "english": "The bank is on the left side."}
+      ]
+    },
+    {
+      "german": "Können Sie mir auf der Karte zeigen?",
+      "english": "Can you show me on the map?",
+      "examples": [
+        {"german": "Können Sie mir auf der Karte zeigen, wo wir sind?", "english": "Can you show me on the map where we are?"},
+        {"german": "Können Sie mir das auf der Karte zeigen?", "english": "Can you show me that on the map?"}
+      ]
+    }
+  ],
+  "transportation": [
+    {
+      "german": "Eine Fahrkarte nach..., bitte.",
+      "english": "A ticket to..., please.",
+      "examples": [
+        {"german": "Eine Fahrkarte nach Berlin, bitte.", "english": "A ticket to Berlin, please."},
+        {"german": "Eine Fahrkarte nach München, bitte.", "english": "A ticket to Munich, please."}
+      ]
+    },
+    {
+      "german": "Einfach oder hin und zurück?",
+      "english": "One-way or return?",
+      "examples": [
+        {"german": "Einfach oder hin und zurück?", "english": "One-way or return?"},
+        {"german": "Möchten Sie eine einfache Fahrkarte oder hin und zurück?", "english": "Would you like a one-way ticket or a return?"}
+      ]
+    },
+    {
+      "german": "Wann fährt der nächste Zug nach...?",
+      "english": "When does the next train to... leave?",
+      "examples": [
+        {"german": "Wann fährt der nächste Zug nach Hamburg?", "english": "When does the next train to Hamburg leave?"},
+        {"german": "Entschuldigung, wann fährt der nächste Zug nach Frankfurt?", "english": "Excuse me, when does the next train to Frankfurt leave?"}
+      ]
+    },
+    {
+      "german": "Von welchem Gleis fährt der Zug ab?",
+      "english": "From which platform does the train depart?",
+      "examples": [
+        {"german": "Von welchem Gleis fährt der Zug nach Berlin ab?", "english": "From which platform does the train to Berlin depart?"},
+        {"german": "Entschuldigung, von welchem Gleis fährt der Zug ab?", "english": "Excuse me, from which platform does the train depart?"}
+      ]
+    },
+    {
+      "german": "Ist dieser Platz frei?",
+      "english": "Is this seat free?",
+      "examples": [
+        {"german": "Entschuldigung, ist dieser Platz frei?", "english": "Excuse me, is this seat free?"},
+        {"german": "Ist dieser Platz noch frei?", "english": "Is this seat still free?"}
+      ]
+    },
+    {
+      "german": "Entschuldigung, wie komme ich zum Flughafen?",
+      "english": "Excuse me, how do I get to the airport?",
+      "examples": [
+        {"german": "Entschuldigung, wie komme ich zum Flughafen?", "english": "Excuse me, how do I get to the airport?"},
+        {"german": "Können Sie mir sagen, wie ich zum Flughafen komme?", "english": "Can you tell me how to get to the airport?"}
+      ]
+    }
+  ],
+  "accommodation": [
+    {
+      "german": "Ich habe eine Reservierung.",
+      "english": "I have a reservation.",
+      "examples": [
+        {"german": "Guten Tag, ich habe eine Reservierung.", "english": "Hello, I have a reservation."},
+        {"german": "Ich habe eine Reservierung auf den Namen Schmidt.", "english": "I have a reservation under the name Schmidt."}
+      ]
+    },
+    {
+      "german": "Ich möchte ein Zimmer reservieren.",
+      "english": "I would like to reserve a room.",
+      "examples": [
+        {"german": "Guten Tag, ich möchte ein Zimmer reservieren.", "english": "Hello, I would like to reserve a room."},
+        {"german": "Ich möchte ein Zimmer für zwei Nächte reservieren.", "english": "I would like to reserve a room for two nights."}
+      ]
+    },
+    {
+      "german": "Was kostet ein Zimmer pro Nacht?",
+      "english": "How much is a room per night?",
+      "examples": [
+        {"german": "Was kostet ein Einzelzimmer pro Nacht?", "english": "How much is a single room per night?"},
+        {"german": "Wie viel kostet ein Doppelzimmer pro Nacht?", "english": "How much is a double room per night?"}
+      ]
+    },
+    {
+      "german": "Ist das Frühstück inklusive?",
+      "english": "Is breakfast included?",
+      "examples": [
+        {"german": "Ist das Frühstück im Preis inklusive?", "english": "Is breakfast included in the price?"},
+        {"german": "Entschuldigung, ist das Frühstück inklusive?", "english": "Excuse me, is breakfast included?"}
+      ]
+    },
+    {
+      "german": "Wo ist der Frühstücksraum?",
+      "english": "Where is the breakfast room?",
+      "examples": [
+        {"german": "Entschuldigung, wo ist der Frühstücksraum?", "english": "Excuse me, where is the breakfast room?"},
+        {"german": "Können Sie mir sagen, wo der Frühstücksraum ist?", "english": "Can you tell me where the breakfast room is?"}
+      ]
+    },
+    {
+      "german": "Wann gibt es Frühstück?",
+      "english": "When is breakfast served?",
+      "examples": [
+        {"german": "Wann gibt es Frühstück morgen?", "english": "When is breakfast served tomorrow?"},
+        {"german": "Zu welcher Zeit gibt es Frühstück?", "english": "At what time is breakfast served?"}
+      ]
+    },
+    {
+      "german": "Haben Sie WLAN?",
+      "english": "Do you have WiFi?",
+      "examples": [
+        {"german": "Entschuldigung, haben Sie WLAN im Hotel?", "english": "Excuse me, do you have WiFi in the hotel?"},
+        {"german": "Gibt es hier WLAN?", "english": "Is there WiFi here?"}
+      ]
+    },
+    {
+      "german": "Was ist das WLAN-Passwort?",
+      "english": "What is the WiFi password?",
+      "examples": [
+        {"german": "Entschuldigung, was ist das WLAN-Passwort?", "english": "Excuse me, what is the WiFi password?"},
+        {"german": "Können Sie mir das WLAN-Passwort geben?", "english": "Can you give me the WiFi password?"}
+      ]
+    }
+  ],
+  "emergencies": [
+    {
+      "german": "Hilfe!",
+      "english": "Help!",
+      "examples": [
+        {"german": "Hilfe! Ich brauche einen Arzt!", "english": "Help! I need a doctor!"},
+        {"german": "Hilfe! Es gibt ein Feuer!", "english": "Help! There is a fire!"}
+      ]
+    },
+    {
+      "german": "Ich brauche einen Arzt.",
+      "english": "I need a doctor.",
+      "examples": [
+        {"german": "Entschuldigung, ich brauche einen Arzt.", "english": "Excuse me, I need a doctor."},
+        {"german": "Hilfe, ich brauche dringend einen Arzt!", "english": "Help, I urgently need a doctor!"}
+      ]
+    },
+    {
+      "german": "Rufen Sie einen Krankenwagen!",
+      "english": "Call an ambulance!",
+      "examples": [
+        {"german": "Bitte, rufen Sie einen Krankenwagen!", "english": "Please, call an ambulance!"},
+        {"german": "Schnell, rufen Sie einen Krankenwagen!", "english": "Quick, call an ambulance!"}
+      ]
+    },
+    {
+      "german": "Ich habe mich verletzt.",
+      "english": "I hurt myself.",
+      "examples": [
+        {"german": "Entschuldigung, ich habe mich verletzt.", "english": "Excuse me, I hurt myself."},
+        {"german": "Hilfe, ich habe mich am Bein verletzt.", "english": "Help, I hurt my leg."}
+      ]
+    },
+    {
+      "german": "Ich bin krank.",
+      "english": "I am sick.",
+      "examples": [
+        {"german": "Ich bin krank und kann nicht kommen.", "english": "I am sick and cannot come."},
+        {"german": "Entschuldigung, ich bin krank.", "english": "Excuse me, I am sick."}
+      ]
+    },
+    {
+      "german": "Wo ist das nächste Krankenhaus?",
+      "english": "Where is the nearest hospital?",
+      "examples": [
+        {"german": "Entschuldigung, wo ist das nächste Krankenhaus?", "english": "Excuse me, where is the nearest hospital?"},
+        {"german": "Können Sie mir sagen, wo das nächste Krankenhaus ist?", "english": "Can you tell me where the nearest hospital is?"}
+      ]
+    },
+    {
+      "german": "Ich habe mich verlaufen.",
+      "english": "I am lost.",
+      "examples": [
+        {"german": "Entschuldigung, ich habe mich verlaufen.", "english": "Excuse me, I am lost."},
+        {"german": "Können Sie mir helfen? Ich habe mich verlaufen.", "english": "Can you help me? I am lost."}
+      ]
+    },
+    {
+      "german": "Können Sie mir helfen?",
+      "english": "Can you help me?",
+      "examples": [
+        {"german": "Entschuldigung, können Sie mir helfen?", "english": "Excuse me, can you help me?"},
+        {"german": "Hallo, können Sie mir bitte helfen?", "english": "Hello, can you please help me?"}
+      ]
+    }
+  ],
+  "smallTalk": [
+    {
+      "german": "Wie geht es Ihnen?",
+      "english": "How are you? (formal)",
+      "examples": [
+        {"german": "Guten Tag, wie geht es Ihnen?", "english": "Hello, how are you?"},
+        {"german": "Hallo Herr Müller, wie geht es Ihnen?", "english": "Hello Mr. Müller, how are you?"}
+      ]
+    },
+    {
+      "german": "Wie geht es dir?",
+      "english": "How are you? (informal)",
+      "examples": [
+        {"german": "Hallo Anna, wie geht es dir?", "english": "Hello Anna, how are you?"},
+        {"german": "Wie geht es dir heute?", "english": "How are you today?"}
+      ]
+    },
+    {
+      "german": "Mir geht es gut, danke.",
+      "english": "I'm fine, thanks.",
+      "examples": [
+        {"german": "Mir geht es gut, danke. Und Ihnen?", "english": "I'm fine, thanks. And you?"},
+        {"german": "Danke, mir geht es gut.", "english": "Thanks, I'm fine."}
+      ]
+    },
+    {
+      "german": "Was machst du so?",
+      "english": "What are you up to?",
+      "examples": [
+        {"german": "Hallo, was machst du so?", "english": "Hello, what are you up to?"},
+        {"german": "Was machst du am Wochenende?", "english": "What are you doing on the weekend?"}
+      ]
+    },
+    {
+      "german": "Wie war dein Tag?",
+      "english": "How was your day?",
+      "examples": [
+        {"german": "Hallo, wie war dein Tag?", "english": "Hello, how was your day?"},
+        {"german": "Und, wie war dein Tag heute?", "english": "And, how was your day today?"}
+      ]
+    },
+    {
+      "german": "Schönes Wetter heute, oder?",
+      "english": "Nice weather today, isn't it?",
+      "examples": [
+        {"german": "Schönes Wetter heute, oder?", "english": "Nice weather today, isn't it?"},
+        {"german": "Das Wetter ist schön heute, nicht wahr?", "english": "The weather is nice today, isn't it?"}
+      ]
+    },
+    {
+      "german": "Was sind deine Hobbys?",
+      "english": "What are your hobbies?",
+      "examples": [
+        {"german": "Was sind deine Hobbys?", "english": "What are your hobbies?"},
+        {"german": "Welche Hobbys hast du?", "english": "What hobbies do you have?"}
+      ]
+    }
+  ],
+  "phone": [
+    {
+      "german": "Hallo, hier ist...",
+      "english": "Hello, this is...",
+      "examples": [
+        {"german": "Hallo, hier ist Thomas Schmidt.", "english": "Hello, this is Thomas Schmidt."},
+        {"german": "Guten Tag, hier ist Anna Müller.", "english": "Hello, this is Anna Müller."}
+      ]
+    },
+    {
+      "german": "Kann ich bitte mit... sprechen?",
+      "english": "Can I speak to... please?",
+      "examples": [
+        {"german": "Kann ich bitte mit Herrn Müller sprechen?", "english": "Can I speak to Mr. Müller, please?"},
+        {"german": "Guten Tag, kann ich bitte mit Frau Schmidt sprechen?", "english": "Hello, can I speak to Mrs. Schmidt, please?"}
+      ]
+    },
+    {
+      "german": "Wer ist am Apparat?",
+      "english": "Who is speaking?",
+      "examples": [
+        {"german": "Entschuldigung, wer ist am Apparat?", "english": "Excuse me, who is speaking?"},
+        {"german": "Mit wem spreche ich?", "english": "Who am I speaking with?"}
+      ]
+    },
+    {
+      "german": "Einen Moment, bitte.",
+      "english": "One moment, please.",
+      "examples": [
+        {"german": "Einen Moment, bitte. Ich verbinde Sie.", "english": "One moment, please. I'll connect you."},
+        {"german": "Einen Moment, bitte. Ich hole ihn.", "english": "One moment, please. I'll get him."}
+      ]
+    },
+    {
+      "german": "Ich rufe später noch einmal an.",
+      "english": "I'll call again later.",
+      "examples": [
+        {"german": "Okay, ich rufe später noch einmal an.", "english": "Okay, I'll call again later."},
+        {"german": "Kein Problem, ich rufe später noch einmal an.", "english": "No problem, I'll call again later."}
+      ]
+    },
+    {
+      "german": "Können Sie das bitte wiederholen?",
+      "english": "Could you repeat that, please?",
+      "examples": [
+        {"german": "Entschuldigung, können Sie das bitte wiederholen?", "english": "Excuse me, could you repeat that, please?"},
+        {"german": "Können Sie das bitte noch einmal sagen?", "english": "Could you please say that again?"}
+      ]
+    },
+    {
+      "german": "Ich verstehe nicht gut.",
+      "english": "I don't understand well.",
+      "examples": [
+        {"german": "Entschuldigung, ich verstehe nicht gut.", "english": "Excuse me, I don't understand well."},
+        {"german": "Ich verstehe nicht gut, können Sie langsamer sprechen?", "english": "I don't understand well, could you speak more slowly?"}
+      ]
+    }
+  ],
+  "examSituations": [
+    {
+      "german": "Guten Tag, mein Name ist...",
+      "english": "Hello, my name is...",
+      "examples": [
+        {"german": "Guten Tag, mein Name ist Thomas Schmidt.", "english": "Hello, my name is Thomas Schmidt."},
+        {"german": "Guten Tag, mein Name ist Anna Müller.", "english": "Hello, my name is Anna Müller."}
+      ]
+    },
+    {
+      "german": "Ich komme aus... und lebe in...",
+      "english": "I come from... and live in...",
+      "examples": [
+        {"german": "Ich komme aus England und lebe in Berlin.", "english": "I come from England and live in Berlin."},
+        {"german": "Ich komme aus Italien und lebe in München.", "english": "I come from Italy and live in Munich."}
+      ]
+    },
+    {
+      "german": "Ich bin... Jahre alt und arbeite als...",
+      "english": "I am... years old and work as...",
+      "examples": [
+        {"german": "Ich bin 30 Jahre alt und arbeite als Lehrer.", "english": "I am 30 years old and work as a teacher."},
+        {"german": "Ich bin 25 Jahre alt und arbeite als Ingenieurin.", "english": "I am 25 years old and work as an engineer (female)."}
+      ]
+    },
+    {
+      "german": "In meiner Freizeit...",
+      "english": "In my free time...",
+      "examples": [
+        {"german": "In meiner Freizeit spiele ich Fußball.", "english": "In my free time, I play football."},
+        {"german": "In meiner Freizeit lese ich gerne.", "english": "In my free time, I enjoy reading."}
+      ]
+    },
+    {
+      "german": "Könnten Sie das bitte noch einmal wiederholen?",
+      "english": "Could you please repeat that again?",
+      "examples": [
+        {"german": "Entschuldigung, könnten Sie das bitte noch einmal wiederholen?", "english": "Excuse me, could you please repeat that again?"},
+        {"german": "Könnten Sie das bitte noch einmal sagen?", "english": "Could you please say that again?"}
+      ]
+    },
+    {
+      "german": "Ich habe die Frage nicht verstanden.",
+      "english": "I didn't understand the question.",
+      "examples": [
+        {"german": "Entschuldigung, ich habe die Frage nicht verstanden.", "english": "Excuse me, I didn't understand the question."},
+        {"german": "Können Sie die Frage bitte wiederholen?", "english": "Can you please repeat the question?"}
+      ]
+    },
+    {
+      "german": "Können Sie bitte langsamer sprechen?",
+      "english": "Could you please speak more slowly?",
+      "examples": [
+        {"german": "Entschuldigung, können Sie bitte langsamer sprechen?", "english": "Excuse me, could you please speak more slowly?"},
+        {"german": "Können Sie bitte etwas langsamer sprechen?", "english": "Could you please speak a bit more slowly?"}
+      ]
+    }
+  ],
+  "greetings": [
+    {
+      "german": "Guten Morgen",
+      "english": "Good morning",
+      "examples": [
+        {"german": "Guten Morgen, wie geht es Ihnen?", "english": "Good morning, how are you?"}
+      ]
+    },
+    {
+      "german": "Guten Tag",
+      "english": "Good day / Hello",
+      "examples": [
+        {"german": "Guten Tag, Herr Schmidt.", "english": "Hello, Mr. Schmidt."}
+      ]
+    },
+    {
+      "german": "Guten Abend",
+      "english": "Good evening",
+      "examples": [
+        {"german": "Guten Abend, meine Damen und Herren.", "english": "Good evening, ladies and gentlemen."}
+      ]
+    },
+    {
+      "german": "Gute Nacht",
+      "english": "Good night",
+      "examples": [
+        {"german": "Gute Nacht, schlaf gut.", "english": "Good night, sleep well."}
+      ]
+    },
+    {
+      "german": "Hallo",
+      "english": "Hello",
+      "examples": [
+        {"german": "Hallo, wie geht's?", "english": "Hello, how's it going?"}
+      ]
+    },
+    {
+      "german": "Auf Wiedersehen",
+      "english": "Goodbye (formal)",
+      "examples": [
+        {"german": "Auf Wiedersehen, bis zum nächsten Mal.", "english": "Goodbye, until next time."}
+      ]
+    },
+    {
+      "german": "Tschüss",
+      "english": "Bye (informal)",
+      "examples": [
+        {"german": "Tschüss, bis bald!", "english": "Bye, see you soon!"}
+      ]
+    }
+  ]
+}

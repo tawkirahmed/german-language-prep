@@ -1,0 +1,553 @@
+{
+  "modalVerbs": [
+    {
+      "infinitive": "können",
+      "english": "can/to be able to",
+      "present": {
+        "ich": "kann",
+        "du": "kannst",
+        "er/sie/es": "kann",
+        "wir": "können",
+        "ihr": "könnt",
+        "sie/Sie": "können"
+      },
+      "examples": [
+        {"german": "Ich kann Deutsch sprechen.", "english": "I can speak German."},
+        {"german": "Kannst du schwimmen?", "english": "Can you swim?"},
+        {"german": "Er kann gut kochen.", "english": "He can cook well."},
+        {"german": "Wir können heute nicht kommen.", "english": "We cannot come today."},
+        {"german": "Könnt ihr mir helfen?", "english": "Can you help me?"},
+        {"german": "Sie können die Aufgabe lösen.", "english": "They can solve the task."}
+      ],
+      "usage": "Expresses ability or possibility"
+    },
+    {
+      "infinitive": "müssen",
+      "english": "must/to have to",
+      "present": {
+        "ich": "muss",
+        "du": "musst",
+        "er/sie/es": "muss",
+        "wir": "müssen",
+        "ihr": "müsst",
+        "sie/Sie": "müssen"
+      },
+      "examples": [
+        {"german": "Ich muss arbeiten.", "english": "I have to work."},
+        {"german": "Musst du heute lernen?", "english": "Do you have to study today?"},
+        {"german": "Er muss früh aufstehen.", "english": "He has to get up early."},
+        {"german": "Wir müssen gehen.", "english": "We have to go."},
+        {"german": "Müsst ihr warten?", "english": "Do you have to wait?"},
+        {"german": "Sie müssen das Formular ausfüllen.", "english": "They must fill out the form."}
+      ],
+      "usage": "Expresses necessity or obligation"
+    },
+    {
+      "infinitive": "wollen",
+      "english": "to want",
+      "present": {
+        "ich": "will",
+        "du": "willst",
+        "er/sie/es": "will",
+        "wir": "wollen",
+        "ihr": "wollt",
+        "sie/Sie": "wollen"
+      },
+      "examples": [
+        {"german": "Ich will ein Eis.", "english": "I want an ice cream."},
+        {"german": "Willst du nach Hause gehen?", "english": "Do you want to go home?"},
+        {"german": "Er will Arzt werden.", "english": "He wants to become a doctor."},
+        {"german": "Wir wollen ins Kino gehen.", "english": "We want to go to the cinema."},
+        {"german": "Wollt ihr etwas trinken?", "english": "Do you want something to drink?"},
+        {"german": "Sie wollen Deutschland besuchen.", "english": "They want to visit Germany."}
+      ],
+      "usage": "Expresses desire or intention"
+    },
+    {
+      "infinitive": "dürfen",
+      "english": "may/to be allowed to",
+      "present": {
+        "ich": "darf",
+        "du": "darfst",
+        "er/sie/es": "darf",
+        "wir": "dürfen",
+        "ihr": "dürft",
+        "sie/Sie": "dürfen"
+      },
+      "examples": [
+        {"german": "Ich darf hier parken.", "english": "I am allowed to park here."},
+        {"german": "Darfst du Alkohol trinken?", "english": "Are you allowed to drink alcohol?"},
+        {"german": "Er darf nicht rauchen.", "english": "He is not allowed to smoke."},
+        {"german": "Wir dürfen nach 22 Uhr nicht laut sein.", "english": "We are not allowed to be loud after 10 PM."},
+        {"german": "Dürft ihr am Wochenende ausgehen?", "english": "Are you allowed to go out on the weekend?"},
+        {"german": "Sie dürfen hier nicht fotografieren.", "english": "They are not allowed to take photos here."}
+      ],
+      "usage": "Expresses permission or prohibition"
+    },
+    {
+      "infinitive": "sollen",
+      "english": "should/ought to",
+      "present": {
+        "ich": "soll",
+        "du": "sollst",
+        "er/sie/es": "soll",
+        "wir": "sollen",
+        "ihr": "sollt",
+        "sie/Sie": "sollen"
+      },
+      "examples": [
+        {"german": "Ich soll mehr Sport machen.", "english": "I should do more sports."},
+        {"german": "Du sollst deine Hausaufgaben machen.", "english": "You should do your homework."},
+        {"german": "Er soll zum Arzt gehen.", "english": "He should go to the doctor."},
+        {"german": "Wir sollen pünktlich sein.", "english": "We should be on time."},
+        {"german": "Sollt ihr nicht in der Schule sein?", "english": "Shouldn't you be at school?"},
+        {"german": "Sie sollen mir eine E-Mail schicken.", "english": "They should send me an email."}
+      ],
+      "usage": "Expresses advice, recommendation, or duty"
+    },
+    {
+      "infinitive": "mögen",
+      "english": "to like",
+      "present": {
+        "ich": "mag",
+        "du": "magst",
+        "er/sie/es": "mag",
+        "wir": "mögen",
+        "ihr": "mögt",
+        "sie/Sie": "mögen"
+      },
+      "examples": [
+        {"german": "Ich mag Kaffee.", "english": "I like coffee."},
+        {"german": "Magst du Tiere?", "english": "Do you like animals?"},
+        {"german": "Er mag klassische Musik.", "english": "He likes classical music."},
+        {"german": "Wir mögen diese Stadt.", "english": "We like this city."},
+        {"german": "Mögt ihr Schokolade?", "english": "Do you like chocolate?"},
+        {"german": "Sie mögen den neuen Film nicht.", "english": "They don't like the new movie."}
+      ],
+      "usage": "Expresses liking or preference"
+    },
+    {
+      "infinitive": "möchten",
+      "english": "would like to",
+      "present": {
+        "ich": "möchte",
+        "du": "möchtest",
+        "er/sie/es": "möchte",
+        "wir": "möchten",
+        "ihr": "möchtet",
+        "sie/Sie": "möchten"
+      },
+      "examples": [
+        {"german": "Ich möchte ein Wasser, bitte.", "english": "I would like a water, please."},
+        {"german": "Möchtest du mitkommen?", "english": "Would you like to come along?"},
+        {"german": "Er möchte später Arzt werden.", "english": "He would like to become a doctor later."},
+        {"german": "Wir möchten reservieren.", "english": "We would like to make a reservation."},
+        {"german": "Möchtet ihr etwas essen?", "english": "Would you like something to eat?"},
+        {"german": "Sie möchten nach Deutschland reisen.", "english": "They would like to travel to Germany."}
+      ],
+      "usage": "Polite form for expressing wishes or desires"
+    }
+  ],
+  "irregularVerbs": [
+    {
+      "infinitive": "sein",
+      "english": "to be",
+      "present": {
+        "ich": "bin",
+        "du": "bist",
+        "er/sie/es": "ist",
+        "wir": "sind",
+        "ihr": "seid",
+        "sie/Sie": "sind"
+      },
+      "examples": [
+        {"german": "Ich bin Student.", "english": "I am a student."},
+        {"german": "Du bist nett.", "english": "You are nice."},
+        {"german": "Er ist mein Bruder.", "english": "He is my brother."},
+        {"german": "Wir sind aus Deutschland.", "english": "We are from Germany."},
+        {"german": "Ihr seid Lehrer.", "english": "You are teachers."},
+        {"german": "Sie sind alt.", "english": "They are old."}
+      ]
+    },
+    {
+      "infinitive": "haben",
+      "english": "to have",
+      "present": {
+        "ich": "habe",
+        "du": "hast",
+        "er/sie/es": "hat",
+        "wir": "haben",
+        "ihr": "habt",
+        "sie/Sie": "haben"
+      },
+      "examples": [
+        {"german": "Ich habe ein Auto.", "english": "I have a car."},
+        {"german": "Du hast einen Hund.", "english": "You have a dog."},
+        {"german": "Er hat eine Katze.", "english": "He has a cat."},
+        {"german": "Wir haben Zeit.", "english": "We have time."},
+        {"german": "Ihr habt Glück.", "english": "You have luck."},
+        {"german": "Sie haben Recht.", "english": "They are right."}
+      ]
+    },
+    {
+      "infinitive": "werden",
+      "english": "to become",
+      "present": {
+        "ich": "werde",
+        "du": "wirst",
+        "er/sie/es": "wird",
+        "wir": "werden",
+        "ihr": "werdet",
+        "sie/Sie": "werden"
+      },
+      "examples": [
+        {"german": "Ich werde Arzt.", "english": "I will become a doctor."},
+        {"german": "Du wirst müde.", "english": "You are getting tired."},
+        {"german": "Es wird kalt.", "english": "It's getting cold."},
+        {"german": "Wir werden alt.", "english": "We are getting old."},
+        {"german": "Ihr werdet reich.", "english": "You are becoming rich."},
+        {"german": "Sie werden ungeduldig.", "english": "They are becoming impatient."}
+      ]
+    },
+    {
+      "infinitive": "gehen",
+      "english": "to go",
+      "present": {
+        "ich": "gehe",
+        "du": "gehst",
+        "er/sie/es": "geht",
+        "wir": "gehen",
+        "ihr": "geht",
+        "sie/Sie": "gehen"
+      },
+      "examples": [
+        {"german": "Ich gehe nach Hause.", "english": "I go home."},
+        {"german": "Du gehst zur Schule.", "english": "You go to school."},
+        {"german": "Er geht ins Kino.", "english": "He goes to the cinema."},
+        {"german": "Wir gehen spazieren.", "english": "We go for a walk."},
+        {"german": "Ihr geht einkaufen.", "english": "You go shopping."},
+        {"german": "Sie gehen arbeiten.", "english": "They go to work."}
+      ]
+    },
+    {
+      "infinitive": "kommen",
+      "english": "to come",
+      "present": {
+        "ich": "komme",
+        "du": "kommst",
+        "er/sie/es": "kommt",
+        "wir": "kommen",
+        "ihr": "kommt",
+        "sie/Sie": "kommen"
+      },
+      "examples": [
+        {"german": "Ich komme aus Deutschland.", "english": "I come from Germany."},
+        {"german": "Kommst du mit?", "english": "Are you coming along?"},
+        {"german": "Er kommt später.", "english": "He is coming later."},
+        {"german": "Wir kommen um 8 Uhr.", "english": "We are coming at 8 o'clock."},
+        {"german": "Kommt ihr zum Fest?", "english": "Are you coming to the party?"},
+        {"german": "Sie kommen mit dem Bus.", "english": "They are coming by bus."}
+      ]
+    },
+    {
+      "infinitive": "fahren",
+      "english": "to drive/travel",
+      "present": {
+        "ich": "fahre",
+        "du": "fährst",
+        "er/sie/es": "fährt",
+        "wir": "fahren",
+        "ihr": "fahrt",
+        "sie/Sie": "fahren"
+      },
+      "examples": [
+        {"german": "Ich fahre nach Berlin.", "english": "I'm going to Berlin."},
+        {"german": "Du fährst mit dem Bus.", "english": "You're going by bus."},
+        {"german": "Er fährt mit dem Auto.", "english": "He's driving a car."},
+        {"german": "Wir fahren in den Urlaub.", "english": "We're going on vacation."},
+        {"german": "Fahrt ihr mit dem Zug?", "english": "Are you traveling by train?"},
+        {"german": "Sie fahren nach Hause.", "english": "They're going home."}
+      ]
+    },
+    {
+      "infinitive": "sprechen",
+      "english": "to speak",
+      "present": {
+        "ich": "spreche",
+        "du": "sprichst",
+        "er/sie/es": "spricht",
+        "wir": "sprechen",
+        "ihr": "sprecht",
+        "sie/Sie": "sprechen"
+      },
+      "examples": [
+        {"german": "Ich spreche Deutsch.", "english": "I speak German."},
+        {"german": "Sprichst du Englisch?", "english": "Do you speak English?"},
+        {"german": "Er spricht Spanisch.", "english": "He speaks Spanish."},
+        {"german": "Wir sprechen langsam.", "english": "We speak slowly."},
+        {"german": "Sprecht ihr Französisch?", "english": "Do you speak French?"},
+        {"german": "Sie sprechen laut.", "english": "They speak loudly."}
+      ]
+    },
+    {
+      "infinitive": "essen",
+      "english": "to eat",
+      "present": {
+        "ich": "esse",
+        "du": "isst",
+        "er/sie/es": "isst",
+        "wir": "essen",
+        "ihr": "esst",
+        "sie/Sie": "essen"
+      },
+      "examples": [
+        {"german": "Ich esse ein Brot.", "english": "I'm eating bread."},
+        {"german": "Du isst einen Apfel.", "english": "You're eating an apple."},
+        {"german": "Er isst Suppe.", "english": "He's eating soup."},
+        {"german": "Wir essen Kuchen.", "english": "We're eating cake."},
+        {"german": "Esst ihr Fleisch?", "english": "Are you eating meat?"},
+        {"german": "Sie essen im Restaurant.", "english": "They're eating in a restaurant."}
+      ]
+    },
+    {
+      "infinitive": "trinken",
+      "english": "to drink",
+      "present": {
+        "ich": "trinke",
+        "du": "trinkst",
+        "er/sie/es": "trinkt",
+        "wir": "trinken",
+        "ihr": "trinkt",
+        "sie/Sie": "trinken"
+      },
+      "examples": [
+        {"german": "Ich trinke Wasser.", "english": "I drink water."},
+        {"german": "Du trinkst Kaffee.", "english": "You drink coffee."},
+        {"german": "Er trinkt Tee.", "english": "He drinks tea."},
+        {"german": "Wir trinken Bier.", "english": "We drink beer."},
+        {"german": "Trinkt ihr Wein?", "english": "Do you drink wine?"},
+        {"german": "Sie trinken Saft.", "english": "They drink juice."}
+      ]
+    },
+    {
+      "infinitive": "lesen",
+      "english": "to read",
+      "present": {
+        "ich": "lese",
+        "du": "liest",
+        "er/sie/es": "liest",
+        "wir": "lesen",
+        "ihr": "lest",
+        "sie/Sie": "lesen"
+      },
+      "examples": [
+        {"german": "Ich lese ein Buch.", "english": "I read a book."},
+        {"german": "Du liest eine Zeitung.", "english": "You read a newspaper."},
+        {"german": "Er liest einen Brief.", "english": "He reads a letter."},
+        {"german": "Wir lesen gerne.", "english": "We like to read."},
+        {"german": "Lest ihr Romane?", "english": "Do you read novels?"},
+        {"german": "Sie lesen schnell.", "english": "They read quickly."}
+      ]
+    },
+    {
+      "infinitive": "sehen",
+      "english": "to see",
+      "present": {
+        "ich": "sehe",
+        "du": "siehst",
+        "er/sie/es": "sieht",
+        "wir": "sehen",
+        "ihr": "seht",
+        "sie/Sie": "sehen"
+      },
+      "examples": [
+        {"german": "Ich sehe einen Film.", "english": "I watch a movie."},
+        {"german": "Du siehst gut aus.", "english": "You look good."},
+        {"german": "Er sieht fern.", "english": "He watches TV."},
+        {"german": "Wir sehen uns morgen.", "english": "We'll see each other tomorrow."},
+        {"german": "Seht ihr das Haus?", "english": "Do you see the house?"},
+        {"german": "Sie sehen den Berg.", "english": "They see the mountain."}
+      ]
+    },
+    {
+      "infinitive": "geben",
+      "english": "to give",
+      "present": {
+        "ich": "gebe",
+        "du": "gibst",
+        "er/sie/es": "gibt",
+        "wir": "geben",
+        "ihr": "gebt",
+        "sie/Sie": "geben"
+      },
+      "examples": [
+        {"german": "Ich gebe dir ein Geschenk.", "english": "I give you a present."},
+        {"german": "Du gibst mir das Buch.", "english": "You give me the book."},
+        {"german": "Er gibt uns Zeit.", "english": "He gives us time."},
+        {"german": "Wir geben euch Geld.", "english": "We give you money."},
+        {"german": "Gebt ihr uns die Antwort?", "english": "Are you giving us the answer?"},
+        {"german": "Sie geben viel Trinkgeld.", "english": "They give a lot of tip."}
+      ]
+    },
+    {
+      "infinitive": "nehmen",
+      "english": "to take",
+      "present": {
+        "ich": "nehme",
+        "du": "nimmst",
+        "er/sie/es": "nimmt",
+        "wir": "nehmen",
+        "ihr": "nehmt",
+        "sie/Sie": "nehmen"
+      },
+      "examples": [
+        {"german": "Ich nehme den Bus.", "english": "I take the bus."},
+        {"german": "Du nimmst mein Buch.", "english": "You take my book."},
+        {"german": "Er nimmt einen Kaffee.", "english": "He takes a coffee."},
+        {"german": "Wir nehmen ein Taxi.", "english": "We take a taxi."},
+        {"german": "Nehmt ihr den Zug?", "english": "Are you taking the train?"},
+        {"german": "Sie nehmen die U-Bahn.", "english": "They take the subway."}
+      ]
+    },
+    {
+      "infinitive": "wissen",
+      "english": "to know",
+      "present": {
+        "ich": "weiß",
+        "du": "weißt",
+        "er/sie/es": "weiß",
+        "wir": "wissen",
+        "ihr": "wisst",
+        "sie/Sie": "wissen"
+      },
+      "examples": [
+        {"german": "Ich weiß das.", "english": "I know that."},
+        {"german": "Du weißt viel.", "english": "You know a lot."},
+        {"german": "Er weiß die Antwort.", "english": "He knows the answer."},
+        {"german": "Wir wissen nicht.", "english": "We don't know."},
+        {"german": "Wisst ihr den Weg?", "english": "Do you know the way?"},
+        {"german": "Sie wissen alles.", "english": "They know everything."}
+      ]
+    },
+    {
+      "infinitive": "schlafen",
+      "english": "to sleep",
+      "present": {
+        "ich": "schlafe",
+        "du": "schläfst",
+        "er/sie/es": "schläft",
+        "wir": "schlafen",
+        "ihr": "schlaft",
+        "sie/Sie": "schlafen"
+      },
+      "examples": [
+        {"german": "Ich schlafe lange.", "english": "I sleep for a long time."},
+        {"german": "Du schläfst zu viel.", "english": "You sleep too much."},
+        {"german": "Er schläft tief.", "english": "He sleeps deeply."},
+        {"german": "Wir schlafen gut.", "english": "We sleep well."},
+        {"german": "Schlaft ihr genug?", "english": "Do you sleep enough?"},
+        {"german": "Sie schlafen nicht gut.", "english": "They don't sleep well."}
+      ]
+    },
+    {
+      "infinitive": "helfen",
+      "english": "to help",
+      "present": {
+        "ich": "helfe",
+        "du": "hilfst",
+        "er/sie/es": "hilft",
+        "wir": "helfen",
+        "ihr": "helft",
+        "sie/Sie": "helfen"
+      },
+      "examples": [
+        {"german": "Ich helfe dir.", "english": "I help you."},
+        {"german": "Du hilfst deiner Mutter.", "english": "You help your mother."},
+        {"german": "Er hilft seinem Freund.", "english": "He helps his friend."},
+        {"german": "Wir helfen gerne.", "english": "We like to help."},
+        {"german": "Helft ihr euren Eltern?", "english": "Do you help your parents?"},
+        {"german": "Sie helfen den Kindern.", "english": "They help the children."}
+      ]
+    },
+    {
+      "infinitive": "können",
+      "english": "can/to be able to",
+      "present": {
+        "ich": "kann",
+        "du": "kannst",
+        "er/sie/es": "kann",
+        "wir": "können",
+        "ihr": "könnt",
+        "sie/Sie": "können"
+      },
+      "examples": [
+        {"german": "Ich kann Deutsch sprechen.", "english": "I can speak German."},
+        {"german": "Du kannst gut kochen.", "english": "You can cook well."},
+        {"german": "Er kann schnell laufen.", "english": "He can run fast."},
+        {"german": "Wir können heute nicht kommen.", "english": "We cannot come today."},
+        {"german": "Könnt ihr mir helfen?", "english": "Can you help me?"},
+        {"german": "Sie können schwimmen.", "english": "They can swim."}
+      ]
+    },
+    {
+      "infinitive": "müssen",
+      "english": "must/to have to",
+      "present": {
+        "ich": "muss",
+        "du": "musst",
+        "er/sie/es": "muss",
+        "wir": "müssen",
+        "ihr": "müsst",
+        "sie/Sie": "müssen"
+      },
+      "examples": [
+        {"german": "Ich muss arbeiten.", "english": "I have to work."},
+        {"german": "Du musst lernen.", "english": "You have to study."},
+        {"german": "Er muss früh aufstehen.", "english": "He has to get up early."},
+        {"german": "Wir müssen gehen.", "english": "We have to go."},
+        {"german": "Müsst ihr warten?", "english": "Do you have to wait?"},
+        {"german": "Sie müssen bezahlen.", "english": "They have to pay."}
+      ]
+    },
+    {
+      "infinitive": "wollen",
+      "english": "to want",
+      "present": {
+        "ich": "will",
+        "du": "willst",
+        "er/sie/es": "will",
+        "wir": "wollen",
+        "ihr": "wollt",
+        "sie/Sie": "wollen"
+      },
+      "examples": [
+        {"german": "Ich will ein Eis.", "english": "I want an ice cream."},
+        {"german": "Du willst nach Hause gehen.", "english": "You want to go home."},
+        {"german": "Er will schlafen.", "english": "He wants to sleep."},
+        {"german": "Wir wollen ins Kino gehen.", "english": "We want to go to the cinema."},
+        {"german": "Wollt ihr etwas trinken?", "english": "Do you want something to drink?"},
+        {"german": "Sie wollen mehr Zeit.", "english": "They want more time."}
+      ]
+    },
+    {
+      "infinitive": "mögen",
+      "english": "to like",
+      "present": {
+        "ich": "mag",
+        "du": "magst",
+        "er/sie/es": "mag",
+        "wir": "mögen",
+        "ihr": "mögt",
+        "sie/Sie": "mögen"
+      },
+      "examples": [
+        {"german": "Ich mag Kaffee.", "english": "I like coffee."},
+        {"german": "Du magst Musik.", "english": "You like music."},
+        {"german": "Er mag Fußball.", "english": "He likes football."},
+        {"german": "Wir mögen Filme.", "english": "We like movies."},
+        {"german": "Mögt ihr Tiere?", "english": "Do you like animals?"},
+        {"german": "Sie mögen Schokolade.", "english": "They like chocolate."}
+      ]
+    }
+  ]
+}

@@ -1,0 +1,2445 @@
+{
+  "greetings": [
+    {
+      "german": "Hallo",
+      "english": "Hello",
+      "examples": [
+        {"german": "Hallo, wie geht es dir?", "english": "Hello, how are you?"},
+        {"german": "Hallo, mein Name ist Thomas.", "english": "Hello, my name is Thomas."}
+      ]
+    },
+    {
+      "german": "Guten Morgen",
+      "english": "Good morning",
+      "examples": [
+        {"german": "Guten Morgen! Wie hast du geschlafen?", "english": "Good morning! How did you sleep?"},
+        {"german": "Guten Morgen, schönes Wetter heute!", "english": "Good morning, nice weather today!"}
+      ]
+    },
+    {
+      "german": "Guten Tag",
+      "english": "Good day/afternoon",
+      "examples": ["Guten Tag, kann ich Ihnen helfen?", "Guten Tag, Herr Müller."]
+    },
+    {
+      "german": "Guten Abend",
+      "english": "Good evening",
+      "examples": ["Guten Abend, willkommen im Restaurant.", "Guten Abend zusammen!"]
+    },
+    {
+      "german": "Auf Wiedersehen",
+      "english": "Goodbye",
+      "examples": ["Auf Wiedersehen, bis morgen!", "Auf Wiedersehen, schönen Tag noch!"]
+    },
+    {
+      "german": "Tschüss",
+      "english": "Bye (informal)",
+      "examples": ["Tschüss, bis später!", "Tschüss, wir sehen uns morgen!"]
+    },
+    {
+      "german": "Bis bald",
+      "english": "See you soon",
+      "examples": ["Bis bald, mein Freund!", "Bis bald im Café!"]
+    },
+    {
+      "german": "Wie geht es dir?",
+      "english": "How are you? (informal)",
+      "examples": ["Hallo Lisa, wie geht es dir?", "Wie geht es dir nach deinem Urlaub?"]
+    },
+    {
+      "german": "Wie geht es Ihnen?",
+      "english": "How are you? (formal)",
+      "examples": ["Guten Tag Frau Schmidt, wie geht es Ihnen?", "Wie geht es Ihnen heute?"]
+    },
+    {
+      "german": "Mir geht es gut",
+      "english": "I am fine",
+      "examples": ["Mir geht es gut, danke.", "Mir geht es gut, und dir?"]
+    }
+  ],
+  "introductions": [
+    {
+      "german": "Ich heiße...",
+      "english": "My name is...",
+      "examples": [
+        {"german": "Ich heiße Thomas.", "english": "My name is Thomas."},
+        {"german": "Hallo, ich heiße Anna Schmidt.", "english": "Hello, my name is Anna Schmidt."}
+      ]
+    },
+    {
+      "german": "Mein Name ist...",
+      "english": "My name is...",
+      "examples": [
+        {"german": "Mein Name ist Peter Müller.", "english": "My name is Peter Müller."},
+        {"german": "Guten Tag, mein Name ist Maria.", "english": "Hello, my name is Maria."}
+      ]
+    },
+    {
+      "german": "Wie heißen Sie?",
+      "english": "What is your name? (formal)",
+      "examples": [
+        {"german": "Guten Tag, wie heißen Sie?", "english": "Hello, what is your name?"},
+        {"german": "Entschuldigung, wie heißen Sie noch mal?", "english": "Excuse me, what is your name again?"}
+      ]
+    },
+    {
+      "german": "Wie heißt du?",
+      "english": "What is your name? (informal)",
+      "examples": [
+        {"german": "Hallo, wie heißt du?", "english": "Hello, what is your name?"},
+        {"german": "Wie heißt du denn?", "english": "What's your name then?"}
+      ]
+    },
+    {
+      "german": "Woher kommen Sie?",
+      "english": "Where are you from? (formal)",
+      "examples": [
+        {"german": "Woher kommen Sie, Herr Weber?", "english": "Where are you from, Mr. Weber?"},
+        {"german": "Entschuldigung, woher kommen Sie?", "english": "Excuse me, where are you from?"}
+      ]
+    },
+    {
+      "german": "Woher kommst du?",
+      "english": "Where are you from? (informal)",
+      "examples": [
+        {"german": "Woher kommst du ursprünglich?", "english": "Where are you originally from?"},
+        {"german": "Hallo, woher kommst du?", "english": "Hello, where are you from?"}
+      ]
+    },
+    {
+      "german": "Ich komme aus...",
+      "english": "I come from...",
+      "examples": [
+        {"german": "Ich komme aus Deutschland.", "english": "I come from Germany."},
+        {"german": "Ich komme aus der Schweiz.", "english": "I come from Switzerland."}
+      ]
+    },
+    {
+      "german": "Wo wohnen Sie?",
+      "english": "Where do you live? (formal)",
+      "examples": [
+        {"german": "Wo wohnen Sie in Berlin?", "english": "Where do you live in Berlin?"},
+        {"german": "Entschuldigung, wo wohnen Sie?", "english": "Excuse me, where do you live?"}
+      ]
+    },
+    {
+      "german": "Wo wohnst du?",
+      "english": "Where do you live? (informal)",
+      "examples": [
+        {"german": "Wo wohnst du genau?", "english": "Where exactly do you live?"},
+        {"german": "Hallo, wo wohnst du in München?", "english": "Hello, where do you live in Munich?"}
+      ]
+    },
+    {
+      "german": "Ich wohne in...",
+      "english": "I live in...",
+      "examples": [
+        {"german": "Ich wohne in Berlin.", "english": "I live in Berlin."},
+        {"german": "Ich wohne in der Bahnhofstraße.", "english": "I live on Bahnhofstraße."}
+      ]
+    }
+  ],
+  "numbers": [
+    {
+      "german": "null",
+      "english": "zero",
+      "examples": [
+        {"german": "Die Temperatur ist null Grad.", "english": "The temperature is zero degrees."},
+        {"german": "Ich habe null Euro in meiner Tasche.", "english": "I have zero euros in my pocket."}
+      ]
+    },
+    {
+      "german": "eins",
+      "english": "one",
+      "examples": [
+        {"german": "Ich habe nur ein Kind.", "english": "I only have one child."},
+        {"german": "Nummer eins ist der Gewinner.", "english": "Number one is the winner."}
+      ]
+    },
+    {
+      "german": "zwei",
+      "english": "two",
+      "examples": [
+        {"german": "Ich habe zwei Brüder.", "english": "I have two brothers."},
+        {"german": "Zwei Kaffee, bitte.", "english": "Two coffees, please."}
+      ]
+    },
+    {
+      "german": "drei",
+      "english": "three",
+      "examples": [
+        {"german": "Ich habe drei Tage frei.", "english": "I have three days off."},
+        {"german": "Drei Stück Kuchen, bitte.", "english": "Three pieces of cake, please."}
+      ]
+    },
+    {
+      "german": "vier",
+      "english": "four",
+      "examples": [
+        {"german": "Wir sind vier Personen.", "english": "We are four people."},
+        {"german": "Der Tisch hat vier Stühle.", "english": "The table has four chairs."}
+      ]
+    },
+    {
+      "german": "fünf",
+      "english": "five",
+      "examples": [
+        {"german": "Die Bäckerei öffnet um fünf Uhr.", "english": "The bakery opens at five o'clock."},
+        {"german": "Ich brauche fünf Äpfel.", "english": "I need five apples."}
+      ]
+    },
+    {
+      "german": "sechs",
+      "english": "six",
+      "examples": [
+        {"german": "Ich arbeite sechs Stunden pro Tag.", "english": "I work six hours per day."},
+        {"german": "Wir brauchen sechs Tickets.", "english": "We need six tickets."}
+      ]
+    },
+    {
+      "german": "sieben",
+      "english": "seven",
+      "examples": [
+        {"german": "Die Woche hat sieben Tage.", "english": "The week has seven days."},
+        {"german": "Sieben Personen sind eingeladen.", "english": "Seven people are invited."}
+      ]
+    },
+    {
+      "german": "acht",
+      "english": "eight",
+      "examples": [
+        {"german": "Mein Sohn ist acht Jahre alt.", "english": "My son is eight years old."},
+        {"german": "Der Kurs beginnt um acht Uhr.", "english": "The course starts at eight o'clock."}
+      ]
+    },
+    {
+      "german": "neun",
+      "english": "nine",
+      "examples": [
+        {"german": "Wir treffen uns um neun Uhr.", "english": "We're meeting at nine o'clock."},
+        {"german": "Ich habe neun Bücher gekauft.", "english": "I bought nine books."}
+      ]
+    },
+    {
+      "german": "zehn",
+      "english": "ten",
+      "examples": [
+        {"german": "Ich bin in zehn Minuten da.", "english": "I'll be there in ten minutes."},
+        {"german": "Der Film dauert zehn Stunden.", "english": "The movie lasts ten hours."}
+      ]
+    },
+    {
+      "german": "elf",
+      "english": "eleven",
+      "examples": [
+        {"german": "Das Geschäft schließt um elf Uhr.", "english": "The store closes at eleven o'clock."},
+        {"german": "Meine Schwester ist elf Jahre alt.", "english": "My sister is eleven years old."}
+      ]
+    },
+    {
+      "german": "zwölf",
+      "english": "twelve",
+      "examples": [
+        {"german": "Es gibt zwölf Monate im Jahr.", "english": "There are twelve months in a year."},
+        {"german": "Zwölf Stunden später kam er zurück.", "english": "He came back twelve hours later."}
+      ]
+    },
+    {
+      "german": "dreizehn",
+      "english": "thirteen",
+      "examples": [
+        {"german": "Heute ist der dreizehnte.", "english": "Today is the thirteenth."},
+        {"german": "Sie ist dreizehn Jahre alt.", "english": "She is thirteen years old."}
+      ]
+    },
+    {
+      "german": "zwanzig",
+      "english": "twenty",
+      "examples": ["Ich bin zwanzig Jahre alt.", "Das kostet zwanzig Euro."]
+    },
+    {
+      "german": "dreißig",
+      "english": "thirty",
+      "examples": ["Mein Bruder ist dreißig Jahre alt.", "Der Bus kommt in dreißig Minuten."]
+    },
+    {
+      "german": "hundert",
+      "english": "one hundred",
+      "examples": ["Das Buch hat hundert Seiten.", "Hundert Menschen waren bei der Party."]
+    },
+    {
+      "german": "tausend",
+      "english": "one thousand",
+      "examples": ["Das Auto kostet tausend Euro.", "Tausend Dank für deine Hilfe!"]
+    }
+  ],
+  "colors": [
+    {
+      "german": "rot",
+      "english": "red",
+      "examples": [
+        {"german": "Mein Auto ist rot.", "english": "My car is red."},
+        {"german": "Ich trage gerne rote Pullover.", "english": "I like to wear red sweaters."}
+      ]
+    },
+    {
+      "german": "blau",
+      "english": "blue",
+      "examples": ["Der Himmel ist blau.", "Ich habe blaue Augen."]
+    },
+    {
+      "german": "gelb",
+      "english": "yellow",
+      "examples": [
+        {"german": "Die Sonne ist gelb.", "english": "The sun is yellow."},
+        {"german": "Bananen sind gelb.", "english": "Bananas are yellow."}
+      ]
+    },
+    {
+      "german": "grün",
+      "english": "green",
+      "examples": ["Das Gras ist grün.", "Ich mag grüne Äpfel."]
+    },
+    {
+      "german": "schwarz",
+      "english": "black",
+      "examples": [
+        {"german": "Ich trage schwarze Schuhe.", "english": "I wear black shoes."},
+        {"german": "Die Nacht ist schwarz.", "english": "The night is black."}
+      ]
+    },
+    {
+      "german": "weiß",
+      "english": "white",
+      "examples": ["Schnee ist weiß.", "Ich habe ein weißes Hemd."]
+    },
+    {
+      "german": "grau",
+      "english": "gray",
+      "examples": [
+        {"german": "Die Wolken sind grau.", "english": "The clouds are gray."},
+        {"german": "Meine Katze ist grau.", "english": "My cat is gray."}
+      ]
+    },
+    {
+      "german": "braun",
+      "english": "brown",
+      "examples": ["Meine Haare sind braun.", "Ich trinke gerne braunen Kaffee."]
+    },
+    {
+      "german": "orange",
+      "english": "orange",
+      "examples": [
+        {"german": "Die Orange ist orange.", "english": "The orange is orange."},
+        {"german": "Die Sonne geht orange unter.", "english": "The sun sets orange."}
+      ]
+    },
+    {
+      "german": "lila",
+      "english": "purple",
+      "examples": ["Ich mag lila Blumen.", "Mein Lieblingskleid ist lila."]
+    },
+    {
+      "german": "rosa",
+      "english": "pink",
+      "examples": ["Das kleine Mädchen trägt ein rosa Kleid.", "Die Blumen sind rosa."]
+    }
+  ],
+  "family": [
+    {
+      "german": "die Familie",
+      "english": "family",
+      "plural": "die Familien",
+      "examples": [
+        {"german": "Meine Familie ist groß.", "english": "My family is big."},
+        {"german": "Ich besuche meine Familie am Wochenende.", "english": "I visit my family on the weekend."}
+      ]
+    },
+    {
+      "german": "die Eltern",
+      "english": "parents",
+      "plural": "die Eltern (always plural)",
+      "examples": [
+        {"german": "Meine Eltern leben in Berlin.", "english": "My parents live in Berlin."},
+        {"german": "Wo wohnen deine Eltern?", "english": "Where do your parents live?"}
+      ]
+    },
+    {
+      "german": "der Vater",
+      "english": "father",
+      "plural": "die Väter",
+      "examples": [
+        {"german": "Mein Vater arbeitet als Lehrer.", "english": "My father works as a teacher."},
+        {"german": "Wie alt ist dein Vater?", "english": "How old is your father?"}
+      ]
+    },
+    {
+      "german": "die Mutter",
+      "english": "mother",
+      "plural": "die Mütter",
+      "examples": [
+        {"german": "Meine Mutter kocht gerne.", "english": "My mother likes to cook."},
+        {"german": "Die Mutter liest dem Kind ein Buch vor.", "english": "The mother is reading a book to the child."}
+      ]
+    },
+    {
+      "german": "der Bruder",
+      "english": "brother",
+      "plural": "die Brüder",
+      "examples": ["Mein Bruder ist älter als ich.", "Hast du einen Bruder?"]
+    },
+    {
+      "german": "die Schwester",
+      "english": "sister",
+      "plural": "die Schwestern",
+      "examples": [
+        {"german": "Meine Schwester studiert Medizin.", "english": "My sister studies medicine."},
+        {"german": "Wie alt ist deine Schwester?", "english": "How old is your sister?"}
+      ]
+    },
+    {
+      "german": "der Sohn",
+      "english": "son",
+      "plural": "die Söhne",
+      "examples": ["Ihr Sohn ist sehr intelligent.", "Mein Sohn ist fünf Jahre alt."]
+    },
+    {
+      "german": "die Tochter",
+      "english": "daughter",
+      "plural": "die Töchter",
+      "examples": [
+        {"german": "Seine Tochter spielt Klavier.", "english": "His daughter plays the piano."},
+        {"german": "Wie alt ist Ihre Tochter?", "english": "How old is your daughter?"}
+      ]
+    },
+    {
+      "german": "die Großeltern",
+      "english": "grandparents",
+      "examples": ["Meine Großeltern leben auf dem Land.", "Besuchst du oft deine Großeltern?"]
+    },
+    {
+      "german": "der Großvater",
+      "english": "grandfather",
+      "plural": "die Großväter",
+      "examples": [
+        {"german": "Mein Großvater erzählt interessante Geschichten.", "english": "My grandfather tells interesting stories."},
+        {"german": "Der Großvater geht mit dem Kind spazieren.", "english": "The grandfather is walking with the child."}
+      ]
+    },
+    {
+      "german": "die Großmutter",
+      "english": "grandmother",
+      "plural": "die Großmütter",
+      "examples": ["Meine Großmutter backt leckere Kuchen.", "Die Großmutter strickt einen Pullover."]
+    },
+    {
+      "german": "der Onkel",
+      "english": "uncle",
+      "plural": "die Onkel",
+      "examples": [
+        {"german": "Mein Onkel lebt in München.", "english": "My uncle lives in Munich."},
+        {"german": "Der Onkel bringt Geschenke mit.", "english": "The uncle brings presents."}
+      ]
+    },
+    {
+      "german": "die Tante",
+      "english": "aunt",
+      "plural": "die Tanten",
+      "examples": ["Meine Tante ist Ärztin.", "Die Tante besucht uns am Sonntag."]
+    },
+    {
+      "german": "der Cousin",
+      "english": "male cousin",
+      "plural": "die Cousins",
+      "examples": ["Mein Cousin spielt Fußball.", "Ich treffe meinen Cousin am Wochenende."]
+    },
+    {
+      "german": "die Cousine",
+      "english": "female cousin",
+      "plural": "die Cousinen",
+      "examples": ["Meine Cousine wohnt in Hamburg.", "Ich telefoniere oft mit meiner Cousine."]
+    }
+  ],
+  "food": [
+    {
+      "german": "das Brot",
+      "english": "bread",
+      "plural": "die Brote",
+      "examples": [
+        {"german": "Ich esse gerne frisches Brot.", "english": "I like to eat fresh bread."},
+        {"german": "Das Brot schmeckt gut.", "english": "The bread tastes good."}
+      ]
+    },
+    {
+      "german": "der Käse",
+      "english": "cheese",
+      "plural": "die Käsesorten",
+      "examples": [
+        {"german": "Ich mag deutschen Käse.", "english": "I like German cheese."},
+        {"german": "Der Käse ist lecker.", "english": "The cheese is delicious."}
+      ]
+    },
+    {
+      "german": "die Milch",
+      "english": "milk",
+      "plural": "no plural",
+      "examples": [
+        {"german": "Ich trinke jeden Morgen Milch.", "english": "I drink milk every morning."},
+        {"german": "Die Milch ist frisch.", "english": "The milk is fresh."}
+      ]
+    },
+    {
+      "german": "das Ei",
+      "english": "egg",
+      "plural": "die Eier",
+      "examples": [
+        {"german": "Ich esse jeden Morgen ein Ei.", "english": "I eat an egg every morning."},
+        {"german": "Das Ei ist gekocht.", "english": "The egg is boiled."}
+      ]
+    },
+    {
+      "german": "der Apfel",
+      "english": "apple",
+      "plural": "die Äpfel",
+      "examples": [
+        {"german": "Der Apfel ist rot.", "english": "The apple is red."},
+        {"german": "Ich esse jeden Tag einen Apfel.", "english": "I eat an apple every day."}
+      ]
+    },
+    {
+      "german": "die Banane",
+      "english": "banana",
+      "plural": "die Bananen",
+      "examples": ["Die Banane ist gelb.", "Ich nehme eine Banane mit zur Arbeit."]
+    },
+    {
+      "german": "die Orange",
+      "english": "orange",
+      "plural": "die Orangen",
+      "examples": [
+        {"german": "Die Orange ist süß.", "english": "The orange is sweet."},
+        {"german": "Ich trinke gerne Orangensaft.", "english": "I like to drink orange juice."}
+      ]
+    },
+    {
+      "german": "der Kaffee",
+      "english": "coffee",
+      "plural": "die Kaffees/Kaffeesorten",
+      "examples": ["Ich trinke morgens gerne Kaffee.", "Der Kaffee ist heiß."]
+    },
+    {
+      "german": "der Tee",
+      "english": "tea",
+      "plural": "die Teesorten",
+      "examples": [
+        {"german": "Ich trinke abends Tee.", "english": "I drink tea in the evening."},
+        {"german": "Der Tee ist mit Zitrone.", "english": "The tea has lemon in it."}
+      ]
+    },
+    {
+      "german": "das Wasser",
+      "english": "water",
+      "plural": "die Wässer (rarely used)",
+      "examples": ["Ich trinke viel Wasser.", "Das Wasser ist kalt."]
+    },
+    {
+      "german": "der Saft",
+      "english": "juice",
+      "plural": "die Säfte",
+      "examples": [
+        {"german": "Ich trinke gerne Apfelsaft.", "english": "I like to drink apple juice."},
+        {"german": "Der Saft ist frisch gepresst.", "english": "The juice is freshly squeezed."}
+      ]
+    },
+    {
+      "german": "das Fleisch",
+      "english": "meat",
+      "plural": "die Fleischsorten (varieties of meat)",
+      "examples": ["Ich esse nicht viel Fleisch.", "Das Fleisch ist gut gewürzt."]
+    },
+    {
+      "german": "das Hähnchen",
+      "english": "chicken",
+      "plural": "die Hähnchen",
+      "examples": ["Wir essen heute Hähnchen.", "Das Hähnchen schmeckt gut."]
+    },
+    {
+      "german": "der Fisch",
+      "english": "fish",
+      "plural": "die Fische",
+      "examples": [
+        {"german": "Ich esse gerne Fisch.", "english": "I like to eat fish."},
+        {"german": "Der Fisch ist frisch.", "english": "The fish is fresh."}
+      ]
+    },
+    {
+      "german": "die Kartoffel",
+      "english": "potato",
+      "plural": "die Kartoffeln",
+      "examples": ["Deutsche essen viele Kartoffeln.", "Die Kartoffeln sind gekocht."]
+    },
+    {
+      "german": "der Reis",
+      "english": "rice",
+      "plural": "die Reissorten (varieties of rice)",
+      "examples": ["Wir essen heute Reis.", "Der Reis ist gekocht."]
+    },
+    {
+      "german": "die Nudeln",
+      "english": "pasta/noodles",
+      "examples": ["Ich koche oft Nudeln.", "Die Nudeln sind al dente."]
+    }
+  ],
+  "time": [
+    {
+      "german": "die Zeit",
+      "english": "time",
+      "examples": ["Hast du Zeit?", "Die Zeit vergeht schnell."]
+    },
+    {
+      "german": "die Stunde",
+      "english": "hour",
+      "examples": ["Der Kurs dauert eine Stunde.", "In einer Stunde bin ich fertig."]
+    },
+    {
+      "german": "die Minute",
+      "english": "minute",
+      "examples": ["Ich komme in fünf Minuten.", "Eine Minute hat 60 Sekunden."]
+    },
+    {
+      "german": "die Sekunde",
+      "english": "second",
+      "examples": ["Warte eine Sekunde!", "Das dauert nur wenige Sekunden."]
+    },
+    {
+      "german": "der Tag",
+      "english": "day",
+      "examples": ["Heute ist ein schöner Tag.", "Der Tag hat 24 Stunden."]
+    },
+    {
+      "german": "die Woche",
+      "english": "week",
+      "examples": ["Nächste Woche habe ich Urlaub.", "Eine Woche hat sieben Tage."]
+    },
+    {
+      "german": "der Monat",
+      "english": "month",
+      "examples": ["In einem Monat ist Weihnachten.", "Ein Jahr hat zwölf Monate."]
+    },
+    {
+      "german": "das Jahr",
+      "english": "year",
+      "examples": ["Letztes Jahr war ich in Italien.", "Ich lerne seit einem Jahr Deutsch."]
+    },
+    {
+      "german": "heute",
+      "english": "today",
+      "examples": ["Heute ist es warm.", "Was machst du heute?"]
+    },
+    {
+      "german": "morgen",
+      "english": "tomorrow",
+      "examples": ["Morgen gehe ich ins Kino.", "Bis morgen!"]
+    },
+    {
+      "german": "gestern",
+      "english": "yesterday",
+      "examples": ["Gestern war ich im Supermarkt.", "Wie war das Wetter gestern?"]
+    },
+    {
+      "german": "Montag",
+      "english": "Monday",
+      "examples": ["Am Montag beginnt die Arbeitswoche.", "Montags gehe ich schwimmen."]
+    },
+    {
+      "german": "Dienstag",
+      "english": "Tuesday",
+      "examples": ["Am Dienstag habe ich einen Termin.", "Dienstags habe ich Deutschkurs."]
+    },
+    {
+      "german": "Mittwoch",
+      "english": "Wednesday",
+      "examples": ["Am Mittwoch treffe ich meine Freunde.", "Mittwochs gehe ich einkaufen."]
+    },
+    {
+      "german": "Donnerstag",
+      "english": "Thursday",
+      "examples": ["Am Donnerstag gehe ich ins Kino.", "Donnerstags arbeite ich bis spät."]
+    },
+    {
+      "german": "Freitag",
+      "english": "Friday",
+      "examples": ["Am Freitag ist die Party.", "Freitags gehe ich früher nach Hause."]
+    },
+    {
+      "german": "Samstag",
+      "english": "Saturday",
+      "examples": ["Am Samstag gehe ich einkaufen.", "Samstags schlafe ich länger."]
+    },
+    {
+      "german": "Sonntag",
+      "english": "Sunday",
+      "examples": ["Am Sonntag besuche ich meine Eltern.", "Sonntags entspanne ich mich."]
+    },
+    {
+      "german": "Januar",
+      "english": "January",
+      "examples": ["Im Januar ist es kalt.", "Mein Geburtstag ist im Januar."]
+    },
+    {
+      "german": "Februar",
+      "english": "February",
+      "examples": ["Im Februar gibt es manchmal Schnee.", "Der Februar hat 28 oder 29 Tage."]
+    },
+    {
+      "german": "März",
+      "english": "March",
+      "examples": ["Im März beginnt der Frühling.", "Im März werden die Tage länger."]
+    },
+    {
+      "german": "April",
+      "english": "April",
+      "examples": ["Im April regnet es oft.", "Der April macht was er will."]
+    },
+    {
+      "german": "Mai",
+      "english": "May",
+      "examples": ["Im Mai blühen viele Blumen.", "Der erste Mai ist ein Feiertag."]
+    },
+    {
+      "german": "Juni",
+      "english": "June",
+      "examples": ["Im Juni beginnt der Sommer.", "Im Juni habe ich Urlaub."]
+    },
+    {
+      "german": "Juli",
+      "english": "July",
+      "examples": ["Im Juli ist es oft sehr heiß.", "Wir fahren im Juli ans Meer."]
+    },
+    {
+      "german": "August",
+      "english": "August",
+      "examples": ["Im August haben viele Leute Urlaub.", "Der August ist ein Sommermonat."]
+    },
+    {
+      "german": "September",
+      "english": "September",
+      "examples": ["Im September beginnt die Schule wieder.", "Der Herbst beginnt im September."]
+    },
+    {
+      "german": "Oktober",
+      "english": "October",
+      "examples": ["Im Oktober wird es kühler.", "Das Oktoberfest ist im September und Oktober."]
+    },
+    {
+      "german": "November",
+      "english": "November",
+      "examples": ["Im November fallen die Blätter.", "Der November ist oft neblig."]
+    },
+    {
+      "german": "Dezember",
+      "english": "December",
+      "examples": ["Im Dezember ist Weihnachten.", "Der Dezember ist der letzte Monat im Jahr."]
+    }
+  ],
+  "transportation": [
+    {
+      "german": "der Bus",
+      "english": "bus",
+      "plural": "die Busse",
+      "examples": ["Ich fahre mit dem Bus zur Arbeit.", "Der Bus kommt in fünf Minuten."]
+    },
+    {
+      "german": "die Bushaltestelle",
+      "english": "bus stop",
+      "plural": "die Bushaltestellen",
+      "examples": ["Die Bushaltestelle ist nicht weit von hier.", "Wir treffen uns an der Bushaltestelle."]
+    },
+    {
+      "german": "die Bahn",
+      "english": "train",
+      "plural": "die Bahnen",
+      "examples": ["Ich fahre lieber mit der Bahn als mit dem Auto.", "Die Bahn hat Verspätung."]
+    },
+    {
+      "german": "der Zug",
+      "english": "train",
+      "plural": "die Züge",
+      "examples": ["Der Zug nach Berlin fährt von Gleis 5.", "Ich nehme den Zug um 14 Uhr."]
+    },
+    {
+      "german": "der Bahnhof",
+      "english": "train station",
+      "plural": "die Bahnhöfe",
+      "examples": ["Der Bahnhof ist groß.", "Wir treffen uns am Bahnhof."]
+    },
+    {
+      "german": "die U-Bahn",
+      "english": "subway/underground",
+      "plural": "die U-Bahnen",
+      "examples": ["Die U-Bahn fährt alle 5 Minuten.", "Ich nehme die U-Bahn zur Arbeit."]
+    },
+    {
+      "german": "die S-Bahn",
+      "english": "urban/suburban train",
+      "plural": "die S-Bahnen",
+      "examples": ["Die S-Bahn verbindet die Vororte mit der Stadt.", "Ich fahre mit der S-Bahn zum Flughafen."]
+    },
+    {
+      "german": "die Straßenbahn",
+      "english": "tram",
+      "plural": "die Straßenbahnen",
+      "examples": ["Die Straßenbahn fährt durch die Innenstadt.", "Wir nehmen die Straßenbahn Nummer 3."]
+    },
+    {
+      "german": "das Auto",
+      "english": "car",
+      "plural": "die Autos",
+      "examples": ["Ich fahre jeden Tag mit dem Auto zur Arbeit.", "Das Auto ist rot."]
+    },
+    {
+      "german": "das Taxi",
+      "english": "taxi",
+      "plural": "die Taxis",
+      "examples": ["Ich nehme ein Taxi zum Flughafen.", "Das Taxi ist teuer."]
+    },
+    {
+      "german": "das Fahrrad",
+      "english": "bicycle",
+      "plural": "die Fahrräder",
+      "examples": ["Ich fahre gerne Fahrrad.", "Mein Fahrrad ist blau."]
+    },
+    {
+      "german": "zu Fuß gehen",
+      "english": "to walk",
+      "examples": ["Ich gehe gerne zu Fuß.", "Bei schönem Wetter gehe ich zu Fuß zur Arbeit."]
+    },
+    {
+      "german": "der Flughafen",
+      "english": "airport",
+      "plural": "die Flughäfen",
+      "examples": ["Der Flughafen ist 20 Kilometer entfernt.", "Wir fahren morgen zum Flughafen."]
+    },
+    {
+      "german": "das Flugzeug",
+      "english": "airplane",
+      "plural": "die Flugzeuge",
+      "examples": ["Ich fliege nicht gerne mit dem Flugzeug.", "Das Flugzeug startet in 30 Minuten."]
+    },
+    {
+      "german": "die Fahrkarte",
+      "english": "ticket",
+      "plural": "die Fahrkarten",
+      "examples": ["Ich muss eine Fahrkarte kaufen.", "Die Fahrkarte kostet 2,80 Euro."]
+    },
+    {
+      "german": "der Fahrplan",
+      "english": "timetable/schedule",
+      "plural": "die Fahrpläne",
+      "examples": ["Ich schaue im Fahrplan nach.", "Laut Fahrplan kommt der Bus um 14:30 Uhr."]
+    }
+  ],
+  "housing": [
+    {
+      "german": "die Wohnung",
+      "english": "apartment",
+      "plural": "die Wohnungen",
+      "examples": ["Meine Wohnung ist im dritten Stock.", "Ich suche eine neue Wohnung."]
+    },
+    {
+      "german": "das Haus",
+      "english": "house",
+      "plural": "die Häuser",
+      "examples": ["Das Haus hat einen Garten.", "Wir wohnen in einem kleinen Haus."]
+    },
+    {
+      "german": "das Zimmer",
+      "english": "room",
+      "plural": "die Zimmer",
+      "examples": ["Mein Zimmer ist groß.", "Das Hotel hat 50 Zimmer."]
+    },
+    {
+      "german": "die Küche",
+      "english": "kitchen",
+      "plural": "die Küchen",
+      "examples": ["Die Küche ist modern.", "Ich koche gerne in meiner Küche."]
+    },
+    {
+      "german": "das Badezimmer",
+      "english": "bathroom",
+      "plural": "die Badezimmer",
+      "examples": ["Das Badezimmer ist klein.", "Das Badezimmer hat eine Dusche."]
+    },
+    {
+      "german": "das Schlafzimmer",
+      "english": "bedroom",
+      "plural": "die Schlafzimmer",
+      "examples": ["Mein Schlafzimmer ist ruhig.", "Das Schlafzimmer hat ein großes Bett."]
+    },
+    {
+      "german": "das Wohnzimmer",
+      "english": "living room",
+      "plural": "die Wohnzimmer",
+      "examples": ["Wir sitzen im Wohnzimmer.", "Das Wohnzimmer hat ein Sofa."]
+    },
+    {
+      "german": "der Balkon",
+      "english": "balcony",
+      "plural": "die Balkone",
+      "examples": ["Im Sommer sitze ich gerne auf dem Balkon.", "Die Wohnung hat einen großen Balkon."]
+    },
+    {
+      "german": "der Garten",
+      "english": "garden",
+      "plural": "die Gärten",
+      "examples": ["Der Garten ist schön.", "Im Sommer arbeite ich im Garten."]
+    },
+    {
+      "german": "die Miete",
+      "english": "rent",
+      "plural": "die Mieten",
+      "examples": ["Die Miete ist teuer.", "Ich bezahle 800 Euro Miete."]
+    },
+    {
+      "german": "der Nachbar",
+      "english": "neighbor (male)",
+      "plural": "die Nachbarn",
+      "examples": ["Mein Nachbar ist freundlich.", "Ich kenne meinen Nachbarn nicht gut."]
+    },
+    {
+      "german": "die Nachbarin",
+      "english": "neighbor (female)",
+      "plural": "die Nachbarinnen",
+      "examples": ["Meine Nachbarin hat einen Hund.", "Die Nachbarin hilft mir manchmal."]
+    },
+    {
+      "german": "der Vermieter",
+      "english": "landlord",
+      "plural": "die Vermieter",
+      "examples": ["Der Vermieter repariert das Dach.", "Ich rufe meinen Vermieter an."]
+    },
+    {
+      "german": "die Vermieterin",
+      "english": "landlady",
+      "plural": "die Vermieterinnen",
+      "examples": ["Die Vermieterin ist nett.", "Ich spreche mit meiner Vermieterin."]
+    }
+  ],
+  "weather": [
+    {
+      "german": "das Wetter",
+      "english": "weather",
+      "plural": "die Wetter",
+      "examples": ["Das Wetter ist heute schön.", "Wie ist das Wetter in Berlin?"]
+    },
+    {
+      "german": "die Sonne",
+      "english": "sun",
+      "plural": "die Sonnen",
+      "examples": ["Die Sonne scheint.", "Ich sitze gerne in der Sonne."]
+    },
+    {
+      "german": "der Regen",
+      "english": "rain",
+      "plural": "die Regen",
+      "examples": ["Es gibt Regen.", "Ich mag den Regen nicht."]
+    },
+    {
+      "german": "der Schnee",
+      "english": "snow",
+      "plural": "no plural",
+      "examples": ["Im Winter gibt es Schnee.", "Die Kinder spielen im Schnee."]
+    },
+    {
+      "german": "der Wind",
+      "english": "wind",
+      "plural": "die Winde",
+      "examples": ["Der Wind ist stark.", "Der Wind kommt von Osten."]
+    },
+    {
+      "german": "die Wolke",
+      "english": "cloud",
+      "plural": "die Wolken",
+      "examples": ["Am Himmel sind viele Wolken.", "Die Wolken sind grau."]
+    },
+    {
+      "german": "der Himmel",
+      "english": "sky",
+      "plural": "die Himmel",
+      "examples": ["Der Himmel ist blau.", "Am Himmel sind keine Wolken."]
+    },
+    {
+      "german": "das Gewitter",
+      "english": "thunderstorm",
+      "plural": "die Gewitter",
+      "examples": ["Es gibt ein Gewitter.", "Ich habe Angst vor Gewittern."]
+    },
+    {
+      "german": "der Blitz",
+      "english": "lightning",
+      "plural": "die Blitze",
+      "examples": ["Der Blitz ist hell.", "Ich sehe einen Blitz."]
+    },
+    {
+      "german": "der Donner",
+      "english": "thunder",
+      "plural": "die Donner",
+      "examples": ["Der Donner ist laut.", "Ich höre den Donner."]
+    },
+    {
+      "german": "der Nebel",
+      "english": "fog",
+      "plural": "die Nebel",
+      "examples": ["Heute Morgen war Nebel.", "Im Nebel kann man nicht gut sehen."]
+    },
+    {
+      "german": "sonnig",
+      "english": "sunny",
+      "examples": ["Es ist sonnig heute.", "Ich mag sonnige Tage."]
+    },
+    {
+      "german": "regnerisch",
+      "english": "rainy",
+      "examples": ["Es ist regnerisch heute.", "Ich mag keine regnerischen Tage."]
+    },
+    {
+      "german": "windig",
+      "english": "windy",
+      "examples": ["Es ist windig heute.", "An windigen Tagen bleibe ich lieber zu Hause."]
+    },
+    {
+      "german": "bewölkt",
+      "english": "cloudy",
+      "examples": ["Der Himmel ist bewölkt.", "Es ist bewölkt, aber es regnet nicht."]
+    },
+    {
+      "german": "kalt",
+      "english": "cold",
+      "examples": ["Es ist kalt heute.", "Im Winter ist es oft kalt."]
+    },
+    {
+      "german": "warm",
+      "english": "warm",
+      "examples": ["Es ist warm heute.", "Im Sommer ist es warm."]
+    },
+    {
+      "german": "heiß",
+      "english": "hot",
+      "examples": ["Es ist heiß heute.", "Im Sommer kann es sehr heiß sein."]
+    },
+    {
+      "german": "die Temperatur",
+      "english": "temperature",
+      "examples": ["Die Temperatur ist 25 Grad.", "Wie ist die Temperatur heute?"]
+    },
+    {
+      "german": "die Jahreszeit",
+      "english": "season",
+      "examples": ["Der Frühling ist meine Lieblingsjahreszeit.", "Welche Jahreszeit magst du am liebsten?"]
+    },
+    {
+      "german": "der Frühling",
+      "english": "spring",
+      "examples": ["Im Frühling blühen die Blumen.", "Der Frühling beginnt im März."]
+    },
+    {
+      "german": "der Sommer",
+      "english": "summer",
+      "examples": ["Im Sommer gehe ich oft schwimmen.", "Der Sommer ist warm."]
+    },
+    {
+      "german": "der Herbst",
+      "english": "autumn/fall",
+      "examples": ["Im Herbst fallen die Blätter.", "Der Herbst kann sehr schön sein."]
+    },
+    {
+      "german": "der Winter",
+      "english": "winter",
+      "examples": ["Im Winter gibt es manchmal Schnee.", "Der Winter ist kalt."]
+    }
+  ],
+  "shopping": [
+    {
+      "german": "das Geschäft",
+      "english": "shop/store",
+      "plural": "die Geschäfte",
+      "examples": ["Das Geschäft öffnet um 9 Uhr.", "Ich gehe ins Geschäft."]
+    },
+    {
+      "german": "der Supermarkt",
+      "english": "supermarket",
+      "plural": "die Supermärkte",
+      "examples": ["Ich kaufe im Supermarkt ein.", "Der Supermarkt ist groß."]
+    },
+    {
+      "german": "der Markt",
+      "english": "market",
+      "plural": "die Märkte",
+      "examples": ["Auf dem Markt kaufe ich frisches Obst.", "Der Markt ist samstags."]
+    },
+    {
+      "german": "die Bäckerei",
+      "english": "bakery",
+      "plural": "die Bäckereien",
+      "examples": ["In der Bäckerei kaufe ich Brot.", "Die Bäckerei öffnet früh."]
+    },
+    {
+      "german": "die Metzgerei",
+      "english": "butcher's shop",
+      "plural": "die Metzgereien",
+      "examples": ["In der Metzgerei kaufe ich Fleisch.", "Die Metzgerei hat frische Wurst."]
+    },
+    {
+      "german": "die Apotheke",
+      "english": "pharmacy",
+      "plural": "die Apotheken",
+      "examples": ["Ich kaufe Medikamente in der Apotheke.", "Die Apotheke hat Notdienst."]
+    },
+    {
+      "german": "das Kaufhaus",
+      "english": "department store",
+      "plural": "die Kaufhäuser",
+      "examples": ["Das Kaufhaus hat viele Abteilungen.", "Ich kaufe Kleidung im Kaufhaus."]
+    },
+    {
+      "german": "das Einkaufszentrum",
+      "english": "shopping center/mall",
+      "plural": "die Einkaufszentren",
+      "examples": ["Im Einkaufszentrum gibt es viele Geschäfte.", "Wir treffen uns im Einkaufszentrum."]
+    },
+    {
+      "german": "einkaufen",
+      "english": "to shop",
+      "examples": ["Ich gehe heute einkaufen.", "Wo kaufst du ein?"]
+    },
+    {
+      "german": "der Preis",
+      "english": "price",
+      "plural": "die Preise",
+      "examples": ["Der Preis ist gut.", "Was ist der Preis?"]
+    },
+    {
+      "german": "billig",
+      "english": "cheap",
+      "examples": ["Das ist billig.", "Ich kaufe gerne billige Kleidung."]
+    },
+    {
+      "german": "teuer",
+      "english": "expensive",
+      "examples": ["Das Auto ist teuer.", "Ich finde das zu teuer."]
+    },
+    {
+      "german": "die Kasse",
+      "english": "cash register/checkout",
+      "plural": "die Kassen",
+      "examples": ["Ich zahle an der Kasse.", "Die Schlange an der Kasse ist lang."]
+    },
+    {
+      "german": "bezahlen",
+      "english": "to pay",
+      "examples": ["Ich möchte bezahlen.", "Wie möchten Sie bezahlen?"]
+    },
+    {
+      "german": "das Geld",
+      "english": "money",
+      "plural": "no plural",
+      "examples": ["Ich habe nicht genug Geld dabei.", "Kann ich mit Geld oder Karte bezahlen?"]
+    },
+    {
+      "german": "der Euro",
+      "english": "euro",
+      "plural": "die Euro",
+      "examples": ["Das kostet zwei Euro.", "Ich habe 50 Euro in meiner Tasche."]
+    },
+    {
+      "german": "der Cent",
+      "english": "cent",
+      "plural": "die Cent",
+      "examples": ["Das kostet 50 Cent.", "Ein Euro hat 100 Cent."]
+    },
+    {
+      "german": "die Kreditkarte",
+      "english": "credit card",
+      "plural": "die Kreditkarten",
+      "examples": ["Ich bezahle mit Kreditkarte.", "Akzeptieren Sie Kreditkarten?"]
+    },
+    {
+      "german": "die EC-Karte",
+      "english": "debit card",
+      "plural": "die EC-Karten",
+      "examples": ["Ich bezahle mit EC-Karte.", "Kann ich mit EC-Karte bezahlen?"]
+    },
+    {
+      "german": "der Einkaufswagen",
+      "english": "shopping cart",
+      "plural": "die Einkaufswagen",
+      "examples": ["Ich brauche einen Einkaufswagen.", "Der Einkaufswagen ist voll."]
+    },
+    {
+      "german": "der Einkaufskorb",
+      "english": "shopping basket",
+      "plural": "die Einkaufskörbe",
+      "examples": ["Ich nehme einen Einkaufskorb.", "Der Einkaufskorb ist zu klein."]
+    }
+  ],
+  "directions": [
+    {
+      "german": "links",
+      "english": "left",
+      "examples": [
+        {"german": "Das Restaurant ist links.", "english": "The restaurant is on the left."},
+        {"german": "Bitte gehen Sie nach links.", "english": "Please go to the left."}
+      ]
+    },
+    {
+      "german": "rechts",
+      "english": "right",
+      "examples": [
+        {"german": "Die Bank ist rechts.", "english": "The bank is on the right."},
+        {"german": "Biegen Sie rechts ab.", "english": "Turn right."}
+      ]
+    },
+    {
+      "german": "geradeaus",
+      "english": "straight ahead",
+      "examples": [
+        {"german": "Gehen Sie geradeaus.", "english": "Go straight ahead."},
+        {"german": "Das Hotel ist geradeaus.", "english": "The hotel is straight ahead."}
+      ]
+    },
+    {
+      "german": "hier",
+      "english": "here",
+      "examples": [
+        {"german": "Ich bin hier.", "english": "I am here."},
+        {"german": "Das Buch ist hier.", "english": "The book is here."}
+      ]
+    },
+    {
+      "german": "dort",
+      "english": "there",
+      "examples": [
+        {"german": "Das Restaurant ist dort.", "english": "The restaurant is there."},
+        {"german": "Mein Auto parkt dort.", "english": "My car is parked there."}
+      ]
+    },
+    {
+      "german": "da",
+      "english": "there (closer)",
+      "examples": [
+        {"german": "Das Buch ist da auf dem Tisch.", "english": "The book is there on the table."},
+        {"german": "Da ist mein Freund.", "english": "There is my friend."}
+      ]
+    },
+    {
+      "german": "neben",
+      "english": "next to/beside",
+      "examples": [
+        {"german": "Das Restaurant ist neben der Bank.", "english": "The restaurant is next to the bank."},
+        {"german": "Ich sitze neben meinem Freund.", "english": "I'm sitting next to my friend."}
+      ]
+    },
+    {
+      "german": "zwischen",
+      "english": "between",
+      "examples": [
+        {"german": "Das Hotel ist zwischen der Bank und dem Restaurant.", "english": "The hotel is between the bank and the restaurant."},
+        {"german": "Das Buch liegt zwischen den Heften.", "english": "The book is between the notebooks."}
+      ]
+    },
+    {
+      "german": "gegenüber",
+      "english": "opposite/across from",
+      "examples": [
+        {"german": "Die Bank ist gegenüber dem Bahnhof.", "english": "The bank is opposite the train station."},
+        {"german": "Ich wohne gegenüber vom Supermarkt.", "english": "I live across from the supermarket."}
+      ]
+    },
+    {
+      "german": "vor",
+      "english": "in front of",
+      "examples": [
+        {"german": "Das Auto steht vor dem Haus.", "english": "The car is in front of the house."},
+        {"german": "Wir treffen uns vor dem Kino.", "english": "We'll meet in front of the cinema."}
+      ]
+    },
+    {
+      "german": "hinter",
+      "english": "behind",
+      "examples": [
+        {"german": "Der Garten ist hinter dem Haus.", "english": "The garden is behind the house."},
+        {"german": "Die Toiletten sind hinter der Treppe.", "english": "The toilets are behind the stairs."}
+      ]
+    },
+    {
+      "german": "auf",
+      "english": "on",
+      "examples": [
+        {"german": "Das Buch liegt auf dem Tisch.", "english": "The book is on the table."},
+        {"german": "Die Katze sitzt auf dem Sofa.", "english": "The cat is sitting on the sofa."}
+      ]
+    },
+    {
+      "german": "unter",
+      "english": "under",
+      "examples": [
+        {"german": "Die Katze ist unter dem Tisch.", "english": "The cat is under the table."},
+        {"german": "Der Ball liegt unter dem Sofa.", "english": "The ball is under the sofa."}
+      ]
+    },
+    {
+      "german": "in",
+      "english": "in",
+      "examples": [
+        {"german": "Ich wohne in Berlin.", "english": "I live in Berlin."},
+        {"german": "Das Buch ist in der Tasche.", "english": "The book is in the bag."}
+      ]
+    },
+    {
+      "german": "an",
+      "english": "at/on",
+      "examples": [
+        {"german": "Das Bild hängt an der Wand.", "english": "The picture is hanging on the wall."},
+        {"german": "Wir treffen uns an der Bushaltestelle.", "english": "We'll meet at the bus stop."}
+      ]
+    },
+    {
+      "german": "zu",
+      "english": "to",
+      "examples": [
+        {"german": "Ich gehe zu meinem Freund.", "english": "I'm going to my friend's place."},
+        {"german": "Der Weg zum Bahnhof ist lang.", "english": "The way to the train station is long."}
+      ]
+    },
+    {
+      "german": "von",
+      "english": "from",
+      "examples": [
+        {"german": "Ich komme von der Arbeit.", "english": "I'm coming from work."},
+        {"german": "Das ist ein Geschenk von meiner Mutter.", "english": "This is a gift from my mother."}
+      ]
+    },
+    {
+      "german": "bei",
+      "english": "at/with",
+      "examples": [
+        {"german": "Ich wohne bei meinen Eltern.", "english": "I live with my parents."},
+        {"german": "Wir treffen uns bei mir.", "english": "We'll meet at my place."}
+      ]
+    },
+    {
+      "german": "nach",
+      "english": "to/after",
+      "examples": [
+        {"german": "Ich fahre nach Berlin.", "english": "I'm going to Berlin."},
+        {"german": "Nach dem Essen gehe ich spazieren.", "english": "After the meal, I go for a walk."}
+      ]
+    },
+    {
+      "german": "weit",
+      "english": "far",
+      "examples": [
+        {"german": "Ist es weit?", "english": "Is it far?"},
+        {"german": "Die Schule ist nicht weit von hier.", "english": "The school is not far from here."}
+      ]
+    },
+    {
+      "german": "nah",
+      "english": "near/close",
+      "examples": [
+        {"german": "Der Supermarkt ist nah.", "english": "The supermarket is near."},
+        {"german": "Ich wohne nah am Bahnhof.", "english": "I live close to the train station."}
+      ]
+    }
+  ],
+  "places": [
+    {
+      "german": "die Stadt",
+      "english": "city/town",
+      "plural": "die Städte",
+      "examples": [
+        {"german": "Berlin ist eine große Stadt.", "english": "Berlin is a big city."},
+        {"german": "Ich wohne in einer kleinen Stadt.", "english": "I live in a small town."}
+      ]
+    },
+    {
+      "german": "das Dorf",
+      "english": "village",
+      "plural": "die Dörfer",
+      "examples": [
+        {"german": "Meine Großeltern leben in einem Dorf.", "english": "My grandparents live in a village."},
+        {"german": "Das Dorf ist sehr ruhig.", "english": "The village is very quiet."}
+      ]
+    },
+    {
+      "german": "die Straße",
+      "english": "street/road",
+      "plural": "die Straßen",
+      "examples": [
+        {"german": "Ich wohne in der Hauptstraße.", "english": "I live on Main Street."},
+        {"german": "Die Straße ist sehr breit.", "english": "The street is very wide."}
+      ]
+    },
+    {
+      "german": "der Platz",
+      "english": "square/place",
+      "plural": "die Plätze",
+      "examples": [
+        {"german": "Der Marktplatz ist im Zentrum.", "english": "The market square is in the center."},
+        {"german": "Wir treffen uns am Hauptplatz.", "english": "We'll meet at the main square."}
+      ]
+    },
+    {
+      "german": "die Kreuzung",
+      "english": "intersection/crossing",
+      "plural": "die Kreuzungen",
+      "examples": [
+        {"german": "An der Kreuzung biegst du links ab.", "english": "At the intersection, you turn left."},
+        {"german": "Die Ampel an der Kreuzung ist rot.", "english": "The traffic light at the crossing is red."}
+      ]
+    },
+    {
+      "german": "die Ampel",
+      "english": "traffic light",
+      "plural": "die Ampeln",
+      "examples": [
+        {"german": "Die Ampel ist rot.", "english": "The traffic light is red."},
+        {"german": "Warte, bis die Ampel grün ist.", "english": "Wait until the traffic light is green."}
+      ]
+    },
+    {
+      "german": "die Fußgängerzone",
+      "english": "pedestrian zone",
+      "plural": "die Fußgängerzonen",
+      "examples": [
+        {"german": "Die Geschäfte sind in der Fußgängerzone.", "english": "The shops are in the pedestrian zone."},
+        {"german": "In der Fußgängerzone dürfen keine Autos fahren.", "english": "Cars are not allowed in the pedestrian zone."}
+      ]
+    },
+    {
+      "german": "der Zebrastreifen",
+      "english": "zebra crossing/crosswalk",
+      "plural": "die Zebrastreifen",
+      "examples": [
+        {"german": "Geh über den Zebrastreifen.", "english": "Cross at the zebra crossing."},
+        {"german": "Autos müssen am Zebrastreifen halten.", "english": "Cars must stop at the crosswalk."}
+      ]
+    },
+    {
+      "german": "der Bürgersteig",
+      "english": "sidewalk/pavement",
+      "plural": "die Bürgersteige",
+      "examples": [
+        {"german": "Bitte gehen Sie auf dem Bürgersteig.", "english": "Please walk on the sidewalk."},
+        {"german": "Der Bürgersteig ist sehr schmal.", "english": "The sidewalk is very narrow."}
+      ]
+    },
+    {
+      "german": "der Bahnhof",
+      "english": "train station",
+      "plural": "die Bahnhöfe",
+      "examples": [
+        {"german": "Der Zug fährt vom Bahnhof ab.", "english": "The train departs from the train station."},
+        {"german": "Wir treffen uns am Bahnhof.", "english": "We'll meet at the train station."}
+      ]
+    },
+    {
+      "german": "der Flughafen",
+      "english": "airport",
+      "plural": "die Flughäfen",
+      "examples": [
+        {"german": "Der Flughafen ist 30 Minuten entfernt.", "english": "The airport is 30 minutes away."},
+        {"german": "Ich hole dich vom Flughafen ab.", "english": "I'll pick you up from the airport."}
+      ]
+    },
+    {
+      "german": "die Bushaltestelle",
+      "english": "bus stop",
+      "plural": "die Bushaltestellen",
+      "examples": [
+        {"german": "Die Bushaltestelle ist nicht weit.", "english": "The bus stop is not far."},
+        {"german": "Warte an der Bushaltestelle.", "english": "Wait at the bus stop."}
+      ]
+    },
+    {
+      "german": "die Bank",
+      "english": "bank",
+      "plural": "die Banken",
+      "examples": [
+        {"german": "Ich muss zur Bank gehen.", "english": "I need to go to the bank."},
+        {"german": "Die Bank schließt um 16 Uhr.", "english": "The bank closes at 4 PM."}
+      ]
+    },
+    {
+      "german": "die Post",
+      "english": "post office",
+      "plural": "die Poststellen",
+      "examples": [
+        {"german": "Ich muss zur Post gehen.", "english": "I need to go to the post office."},
+        {"german": "Die Post ist in der Hauptstraße.", "english": "The post office is on Main Street."}
+      ]
+    },
+    {
+      "german": "das Restaurant",
+      "english": "restaurant",
+      "plural": "die Restaurants",
+      "examples": [
+        {"german": "Das Restaurant ist sehr gut.", "english": "The restaurant is very good."},
+        {"german": "Wir essen im Restaurant.", "english": "We are eating at the restaurant."}
+      ]
+    },
+    {
+      "german": "das Café",
+      "english": "café",
+      "plural": "die Cafés",
+      "examples": [
+        {"german": "Das Café hat leckeren Kuchen.", "english": "The café has delicious cake."},
+        {"german": "Wir treffen uns im Café.", "english": "We'll meet at the café."}
+      ]
+    },
+    {
+      "german": "das Hotel",
+      "english": "hotel",
+      "plural": "die Hotels",
+      "examples": [
+        {"german": "Das Hotel ist komfortabel.", "english": "The hotel is comfortable."},
+        {"german": "Ich buche ein Zimmer im Hotel.", "english": "I'm booking a room at the hotel."}
+      ]
+    },
+    {
+      "german": "das Kino",
+      "english": "cinema/movie theater",
+      "plural": "die Kinos",
+      "examples": [
+        {"german": "Der Film läuft im Kino.", "english": "The movie is playing at the cinema."},
+        {"german": "Wir gehen ins Kino.", "english": "We're going to the movie theater."}
+      ]
+    },
+    {
+      "german": "das Theater",
+      "english": "theater",
+      "plural": "die Theater",
+      "examples": [
+        {"german": "Das Theater zeigt ein neues Stück.", "english": "The theater is showing a new play."},
+        {"german": "Ich habe Tickets fürs Theater.", "english": "I have tickets for the theater."}
+      ]
+    },
+    {
+      "german": "das Museum",
+      "english": "museum",
+      "plural": "die Museen",
+      "examples": [
+        {"german": "Das Museum ist interessant.", "english": "The museum is interesting."},
+        {"german": "Wir besuchen ein Museum.", "english": "We are visiting a museum."}
+      ]
+    },
+    {
+      "german": "der Park",
+      "english": "park",
+      "plural": "die Parks",
+      "examples": [
+        {"german": "Der Park ist schön.", "english": "The park is beautiful."},
+        {"german": "Wir gehen im Park spazieren.", "english": "We're going for a walk in the park."}
+      ]
+    },
+    {
+      "german": "die Schule",
+      "english": "school",
+      "plural": "die Schulen",
+      "examples": [
+        {"german": "Die Schule beginnt um 8 Uhr.", "english": "School starts at 8 o'clock."},
+        {"german": "Meine Kinder gehen zur Schule.", "english": "My children go to school."}
+      ]
+    },
+    {
+      "german": "die Universität",
+      "english": "university",
+      "plural": "die Universitäten",
+      "examples": [
+        {"german": "Die Universität ist groß.", "english": "The university is big."},
+        {"german": "Ich studiere an der Universität.", "english": "I study at the university."}
+      ]
+    },
+    {
+      "german": "die Bibliothek",
+      "english": "library",
+      "plural": "die Bibliotheken",
+      "examples": [
+        {"german": "Die Bibliothek hat viele Bücher.", "english": "The library has many books."},
+        {"german": "Ich leihe Bücher in der Bibliothek aus.", "english": "I borrow books from the library."}
+      ]
+    },
+    {
+      "german": "die Kirche",
+      "english": "church",
+      "plural": "die Kirchen",
+      "examples": [
+        {"german": "Die Kirche ist alt.", "english": "The church is old."},
+        {"german": "Sonntags gehe ich in die Kirche.", "english": "On Sundays, I go to church."}
+      ]
+    }
+  ],
+  "clothing": [
+    {
+      "german": "die Kleidung",
+      "english": "clothing",
+      "plural": "no plural",
+      "examples": ["Ich kaufe neue Kleidung.", "Die Kleidung ist im Schrank."]
+    },
+    {
+      "german": "das Hemd",
+      "english": "shirt",
+      "plural": "die Hemden",
+      "examples": ["Das Hemd ist blau.", "Ich trage ein weißes Hemd."]
+    },
+    {
+      "german": "die Bluse",
+      "english": "blouse",
+      "plural": "die Blusen",
+      "examples": ["Die Bluse ist elegant.", "Sie trägt eine rote Bluse."]
+    },
+    {
+      "german": "die Hose",
+      "english": "pants/trousers",
+      "plural": "die Hosen",
+      "examples": ["Die Hose ist zu lang.", "Ich trage eine schwarze Hose."]
+    },
+    {
+      "german": "der Rock",
+      "english": "skirt",
+      "plural": "die Röcke",
+      "examples": ["Der Rock ist kurz.", "Sie trägt einen langen Rock."]
+    },
+    {
+      "german": "das Kleid",
+      "english": "dress",
+      "plural": "die Kleider",
+      "examples": ["Das Kleid ist schön.", "Sie trägt ein rotes Kleid."]
+    },
+    {
+      "german": "der Pullover",
+      "english": "sweater/jumper",
+      "plural": "die Pullover",
+      "examples": ["Der Pullover ist warm.", "Ich trage einen blauen Pullover."]
+    },
+    {
+      "german": "die Jacke",
+      "english": "jacket",
+      "plural": "die Jacken",
+      "examples": ["Die Jacke ist neu.", "Ich brauche eine warme Jacke für den Winter."]
+    },
+    {
+      "german": "der Mantel",
+      "english": "coat",
+      "plural": "die Mäntel",
+      "examples": ["Der Mantel ist lang.", "Im Winter trage ich einen dicken Mantel."]
+    },
+    {
+      "german": "der Schal",
+      "english": "scarf",
+      "plural": "die Schals",
+      "examples": ["Der Schal ist warm.", "Ich trage im Winter einen Schal."]
+    },
+    {
+      "german": "die Mütze",
+      "english": "cap/hat",
+      "plural": "die Mützen",
+      "examples": ["Die Mütze ist rot.", "Im Winter trage ich eine Mütze."]
+    },
+    {
+      "german": "die Handschuhe",
+      "english": "gloves",
+      "plural": "die Handschuhe (always plural)",
+      "examples": ["Die Handschuhe sind warm.", "Im Winter trage ich Handschuhe."]
+    },
+    {
+      "german": "die Socken",
+      "english": "socks",
+      "plural": "die Socken (always plural)",
+      "examples": ["Die Socken sind sauber.", "Ich brauche neue Socken."]
+    },
+    {
+      "german": "die Schuhe",
+      "english": "shoes",
+      "plural": "die Schuhe (always plural)",
+      "examples": ["Die Schuhe sind bequem.", "Ich kaufe neue Schuhe."]
+    },
+    {
+      "german": "die Stiefel",
+      "english": "boots",
+      "plural": "die Stiefel (always plural)",
+      "examples": ["Die Stiefel sind braun.", "Im Winter trage ich Stiefel."]
+    },
+    {
+      "german": "die Sandalen",
+      "english": "sandals",
+      "plural": "die Sandalen (always plural)",
+      "examples": ["Die Sandalen sind bequem.", "Im Sommer trage ich Sandalen."]
+    },
+    {
+      "german": "die Unterwäsche",
+      "english": "underwear",
+      "plural": "no plural",
+      "examples": ["Die Unterwäsche ist sauber.", "Ich kaufe neue Unterwäsche."]
+    },
+    {
+      "german": "der Schlafanzug",
+      "english": "pajamas",
+      "plural": "die Schlafanzüge",
+      "examples": ["Der Schlafanzug ist bequem.", "Ich trage einen Schlafanzug im Bett."]
+    },
+    {
+      "german": "die Größe",
+      "english": "size",
+      "examples": ["Welche Größe haben Sie?", "Das ist nicht meine Größe."]
+    },
+    {
+      "german": "anprobieren",
+      "english": "to try on",
+      "examples": ["Kann ich das anprobieren?", "Ich probiere die Hose an."]
+    }
+  ],
+  "health": [
+    {
+      "german": "die Gesundheit",
+      "english": "health",
+      "examples": ["Gesundheit ist wichtig.", "Wie ist deine Gesundheit?"]
+    },
+    {
+      "german": "der Arzt",
+      "english": "doctor (male)",
+      "examples": ["Ich gehe zum Arzt.", "Der Arzt untersucht mich."]
+    },
+    {
+      "german": "die Ärztin",
+      "english": "doctor (female)",
+      "examples": ["Die Ärztin ist nett.", "Ich habe einen Termin bei der Ärztin."]
+    },
+    {
+      "german": "das Krankenhaus",
+      "english": "hospital",
+      "plural": "die Krankenhäuser",
+      "examples": ["Das Krankenhaus ist groß.", "Mein Freund ist im Krankenhaus."]
+    },
+    {
+      "german": "die Apotheke",
+      "english": "pharmacy",
+      "plural": "die Apotheken",
+      "examples": ["Die Apotheke ist um die Ecke.", "Ich gehe zur Apotheke."]
+    },
+    {
+      "german": "die Medizin",
+      "english": "medicine",
+      "plural": "die Medizinen",
+      "examples": ["Die Medizin hilft gegen Schmerzen.", "Ich nehme die Medizin dreimal täglich."]
+    },
+    {
+      "german": "das Medikament",
+      "english": "medication",
+      "plural": "die Medikamente",
+      "examples": ["Ich brauche ein Medikament gegen Kopfschmerzen.", "Das Medikament ist teuer."]
+    },
+    {
+      "german": "krank",
+      "english": "sick/ill",
+      "examples": ["Ich bin krank.", "Mein Kollege ist krank."]
+    },
+    {
+      "german": "gesund",
+      "english": "healthy",
+      "examples": ["Ich bin gesund.", "Obst und Gemüse sind gesund."]
+    },
+    {
+      "german": "der Schmerz",
+      "english": "pain",
+      "plural": "die Schmerzen",
+      "examples": ["Ich habe Schmerzen.", "Wo haben Sie Schmerzen?"]
+    },
+    {
+      "german": "die Kopfschmerzen",
+      "english": "headache",
+      "examples": ["Ich habe Kopfschmerzen.", "Gegen Kopfschmerzen nehme ich eine Tablette."]
+    },
+    {
+      "german": "die Bauchschmerzen",
+      "english": "stomachache",
+      "examples": ["Ich habe Bauchschmerzen.", "Bei Bauchschmerzen sollte man zum Arzt gehen."]
+    },
+    {
+      "german": "das Fieber",
+      "english": "fever",
+      "examples": ["Ich habe Fieber.", "Bei Fieber bleibe ich im Bett."]
+    },
+    {
+      "german": "die Erkältung",
+      "english": "cold (illness)",
+      "plural": "die Erkältungen",
+      "examples": ["Ich habe eine Erkältung.", "Bei einer Erkältung sollte man viel trinken."]
+    },
+    {
+      "german": "husten",
+      "english": "to cough",
+      "examples": ["Ich muss husten.", "Er hustet die ganze Nacht."]
+    },
+    {
+      "german": "niesen",
+      "english": "to sneeze",
+      "examples": ["Ich muss niesen.", "Wenn ich niese, sage ich 'Entschuldigung'."]
+    },
+    {
+      "german": "der Termin",
+      "english": "appointment",
+      "plural": "die Termine",
+      "examples": ["Ich habe einen Termin beim Arzt.", "Kann ich einen Termin machen?"]
+    },
+    {
+      "german": "die Versicherung",
+      "english": "insurance",
+      "plural": "die Versicherungen",
+      "examples": ["Haben Sie eine Krankenversicherung?", "Die Versicherung bezahlt die Behandlung."]
+    },
+    {
+      "german": "der Zahnarzt",
+      "english": "dentist (male)",
+      "plural": "die Zahnärzte",
+      "examples": ["Ich habe Angst vor dem Zahnarzt.", "Der Zahnarzt prüft meine Zähne."]
+    },
+    {
+      "german": "die Zahnärztin",
+      "english": "dentist (female)",
+      "plural": "die Zahnärztinnen",
+      "examples": ["Die Zahnärztin ist sehr vorsichtig.", "Ich gehe morgen zur Zahnärztin."]
+    }
+  ],
+  "professions": [
+    {
+      "german": "der Beruf",
+      "english": "profession/job",
+      "plural": "die Berufe",
+      "examples": ["Was ist dein Beruf?", "Mein Beruf ist interessant."]
+    },
+    {
+      "german": "der Lehrer",
+      "english": "teacher (male)",
+      "plural": "die Lehrer",
+      "examples": ["Mein Vater ist Lehrer.", "Der Lehrer erklärt die Grammatik."]
+    },
+    {
+      "german": "die Lehrerin",
+      "english": "teacher (female)",
+      "plural": "die Lehrerinnen",
+      "examples": ["Meine Mutter ist Lehrerin.", "Die Lehrerin gibt uns Hausaufgaben."]
+    },
+    {
+      "german": "der Arzt",
+      "english": "doctor (male)",
+      "plural": "die Ärzte",
+      "examples": ["Mein Bruder ist Arzt.", "Der Arzt untersucht den Patienten."]
+    },
+    {
+      "german": "die Ärztin",
+      "english": "doctor (female)",
+      "plural": "die Ärztinnen",
+      "examples": ["Meine Schwester ist Ärztin.", "Die Ärztin verschreibt mir Medikamente."]
+    },
+    {
+      "german": "der Ingenieur",
+      "english": "engineer (male)",
+      "plural": "die Ingenieure",
+      "examples": ["Mein Vater ist Ingenieur.", "Der Ingenieur plant ein neues Gebäude."]
+    },
+    {
+      "german": "die Ingenieurin",
+      "english": "engineer (female)",
+      "plural": "die Ingenieurinnen",
+      "examples": ["Meine Schwester ist Ingenieurin.", "Die Ingenieurin arbeitet an einem Projekt."]
+    },
+    {
+      "german": "der Verkäufer",
+      "english": "salesperson (male)",
+      "plural": "die Verkäufer",
+      "examples": ["Mein Bruder ist Verkäufer.", "Der Verkäufer berät mich."]
+    },
+    {
+      "german": "die Verkäuferin",
+      "english": "salesperson (female)",
+      "plural": "die Verkäuferinnen",
+      "examples": ["Meine Freundin ist Verkäuferin.", "Die Verkäuferin ist freundlich."]
+    },
+    {
+      "german": "der Koch",
+      "english": "cook/chef (male)",
+      "plural": "die Köche",
+      "examples": ["Mein Onkel ist Koch.", "Der Koch bereitet das Essen zu."]
+    },
+    {
+      "german": "die Köchin",
+      "english": "cook/chef (female)",
+      "plural": "die Köchinnen",
+      "examples": ["Meine Tante ist Köchin.", "Die Köchin arbeitet im Restaurant."]
+    },
+    {
+      "german": "der Kellner",
+      "english": "waiter",
+      "plural": "die Kellner",
+      "examples": ["Der Kellner bringt das Essen.", "Ich rufe den Kellner."]
+    },
+    {
+      "german": "die Kellnerin",
+      "english": "waitress",
+      "plural": "die Kellnerinnen",
+      "examples": ["Die Kellnerin ist freundlich.", "Ich bezahle bei der Kellnerin."]
+    },
+    {
+      "german": "der Student",
+      "english": "student (male)",
+      "plural": "die Studenten",
+      "examples": ["Mein Sohn ist Student.", "Der Student lernt viel."]
+    },
+    {
+      "german": "die Studentin",
+      "english": "student (female)",
+      "plural": "die Studentinnen",
+      "examples": ["Meine Tochter ist Studentin.", "Die Studentin geht zur Universität."]
+    },
+    {
+      "german": "der Polizist",
+      "english": "police officer (male)",
+      "plural": "die Polizisten",
+      "examples": ["Mein Cousin ist Polizist.", "Der Polizist kontrolliert meinen Ausweis."]
+    },
+    {
+      "german": "die Polizistin",
+      "english": "police officer (female)",
+      "plural": "die Polizistinnen",
+      "examples": ["Meine Cousine ist Polizistin.", "Die Polizistin hilft mir."]
+    },
+    {
+      "german": "arbeiten",
+      "english": "to work",
+      "examples": ["Ich arbeite in einem Büro.", "Wo arbeitest du?"]
+    },
+    {
+      "german": "der Job",
+      "english": "job",
+      "examples": ["Ich habe einen neuen Job.", "Mein Job ist interessant."]
+    },
+    {
+      "german": "die Arbeit",
+      "english": "work/job",
+      "examples": ["Ich gehe zur Arbeit.", "Die Arbeit ist anstrengend."]
+    },
+    {
+      "german": "das Büro",
+      "english": "office",
+      "examples": ["Ich arbeite im Büro.", "Das Büro ist groß."]
+    },
+    {
+      "german": "die Firma",
+      "english": "company",
+      "examples": ["Ich arbeite in einer großen Firma.", "Die Firma hat 100 Mitarbeiter."]
+    },
+    {
+      "german": "das Unternehmen",
+      "english": "company/business",
+      "plural": "die Unternehmen",
+      "examples": [
+        {"german": "Das Unternehmen ist erfolgreich.", "english": "The company is successful."},
+        {"german": "Ich arbeite für ein internationales Unternehmen.", "english": "I work for an international company."}
+      ]
+    }
+  ],
+  "verbs": [
+    {
+      "german": "spielen",
+      "english": "to play",
+      "conjugation": {
+        "ich": "spiele",
+        "du": "spielst",
+        "er/sie/es": "spielt",
+        "wir": "spielen",
+        "ihr": "spielt",
+        "sie/Sie": "spielen"
+      },
+      "examples": [
+        {"german": "Ich spiele Fußball.", "english": "I play soccer."},
+        {"german": "Spielst du gerne Tennis?", "english": "Do you like to play tennis?"},
+        {"german": "Er spielt Klavier.", "english": "He plays the piano."}
+      ]
+    },
+    {
+      "german": "lernen",
+      "english": "to learn",
+      "conjugation": {
+        "ich": "lerne",
+        "du": "lernst",
+        "er/sie/es": "lernt",
+        "wir": "lernen",
+        "ihr": "lernt",
+        "sie/Sie": "lernen"
+      },
+      "examples": [
+        {"german": "Ich lerne Deutsch.", "english": "I'm learning German."},
+        {"german": "Lernst du für die Prüfung?", "english": "Are you studying for the exam?"},
+        {"german": "Er lernt neue Wörter.", "english": "He is learning new words."}
+      ]
+    },
+    {
+      "german": "arbeiten",
+      "english": "to work",
+      "conjugation": {
+        "ich": "arbeite",
+        "du": "arbeitest",
+        "er/sie/es": "arbeitet",
+        "wir": "arbeiten",
+        "ihr": "arbeitet",
+        "sie/Sie": "arbeiten"
+      },
+      "examples": [
+        {"german": "Ich arbeite in einem Büro.", "english": "I work in an office."},
+        {"german": "Arbeitest du heute?", "english": "Are you working today?"},
+        {"german": "Sie arbeitet als Ärztin.", "english": "She works as a doctor."}
+      ]
+    },
+    {
+      "german": "wohnen",
+      "english": "to live",
+      "conjugation": {
+        "ich": "wohne",
+        "du": "wohnst",
+        "er/sie/es": "wohnt",
+        "wir": "wohnen",
+        "ihr": "wohnt",
+        "sie/Sie": "wohnen"
+      },
+      "examples": [
+        {"german": "Ich wohne in Berlin.", "english": "I live in Berlin."},
+        {"german": "Wo wohnst du?", "english": "Where do you live?"},
+        {"german": "Er wohnt bei seinen Eltern.", "english": "He lives with his parents."}
+      ]
+    },
+    {
+      "german": "heißen",
+      "english": "to be called",
+      "conjugation": {
+        "ich": "heiße",
+        "du": "heißt",
+        "er/sie/es": "heißt",
+        "wir": "heißen",
+        "ihr": "heißt",
+        "sie/Sie": "heißen"
+      },
+      "examples": [
+        {"german": "Ich heiße Thomas.", "english": "My name is Thomas."},
+        {"german": "Wie heißt du?", "english": "What's your name?"},
+        {"german": "Sie heißt Anna.", "english": "Her name is Anna."}
+      ]
+    },
+    {
+      "german": "kaufen",
+      "english": "to buy",
+      "conjugation": {
+        "ich": "kaufe",
+        "du": "kaufst",
+        "er/sie/es": "kauft",
+        "wir": "kaufen",
+        "ihr": "kauft",
+        "sie/Sie": "kaufen"
+      },
+      "examples": [
+        {"german": "Ich kaufe ein neues Handy.", "english": "I'm buying a new phone."},
+        {"german": "Kaufst du diese Jacke?", "english": "Are you buying this jacket?"},
+        {"german": "Wir kaufen Lebensmittel.", "english": "We're buying groceries."}
+      ]
+    },
+    {
+      "german": "machen",
+      "english": "to do/make",
+      "conjugation": {
+        "ich": "mache",
+        "du": "machst",
+        "er/sie/es": "macht",
+        "wir": "machen",
+        "ihr": "macht",
+        "sie/Sie": "machen"
+      },
+      "examples": [
+        {"german": "Ich mache meine Hausaufgaben.", "english": "I am doing my homework."},
+        {"german": "Was machst du heute?", "english": "What are you doing today?"},
+        {"german": "Sie macht einen Kuchen.", "english": "She is making a cake."}
+      ]
+    },
+    {
+      "german": "hören",
+      "english": "to hear/listen",
+      "conjugation": {
+        "ich": "höre",
+        "du": "hörst",
+        "er/sie/es": "hört",
+        "wir": "hören",
+        "ihr": "hört",
+        "sie/Sie": "hören"
+      },
+      "examples": [
+        {"german": "Ich höre Musik.", "english": "I listen to music."},
+        {"german": "Hörst du das?", "english": "Do you hear that?"},
+        {"german": "Er hört Radio.", "english": "He listens to the radio."}
+      ]
+    },
+    {
+      "german": "kochen",
+      "english": "to cook",
+      "conjugation": {
+        "ich": "koche",
+        "du": "kochst",
+        "er/sie/es": "kocht",
+        "wir": "kochen",
+        "ihr": "kocht",
+        "sie/Sie": "kochen"
+      },
+      "examples": [
+        {"german": "Ich koche gerne.", "english": "I like to cook."},
+        {"german": "Kochst du heute Abend?", "english": "Are you cooking tonight?"},
+        {"german": "Sie kocht Suppe.", "english": "She is cooking soup."}
+      ]
+    },
+    {
+      "german": "schlafen",
+      "english": "to sleep",
+      "conjugation": {
+        "ich": "schlafe",
+        "du": "schläfst",
+        "er/sie/es": "schläft",
+        "wir": "schlafen",
+        "ihr": "schlaft",
+        "sie/Sie": "schlafen"
+      },
+      "examples": [
+        {"german": "Ich schlafe acht Stunden.", "english": "I sleep for eight hours."},
+        {"german": "Schläfst du gut?", "english": "Do you sleep well?"},
+        {"german": "Das Kind schläft.", "english": "The child is sleeping."}
+      ]
+    },
+    {
+      "german": "fragen",
+      "english": "to ask",
+      "conjugation": {
+        "ich": "frage",
+        "du": "fragst",
+        "er/sie/es": "fragt",
+        "wir": "fragen",
+        "ihr": "fragt",
+        "sie/Sie": "fragen"
+      },
+      "examples": [
+        {"german": "Ich frage dich etwas.", "english": "I'm asking you something."},
+        {"german": "Fragst du den Lehrer?", "english": "Are you asking the teacher?"},
+        {"german": "Er fragt nach dem Weg.", "english": "He's asking for directions."}
+      ]
+    },
+    {
+      "german": "antworten",
+      "english": "to answer",
+      "conjugation": {
+        "ich": "antworte",
+        "du": "antwortest",
+        "er/sie/es": "antwortet",
+        "wir": "antworten",
+        "ihr": "antwortet",
+        "sie/Sie": "antworten"
+      },
+      "examples": [
+        {"german": "Ich antworte auf die Frage.", "english": "I answer the question."},
+        {"german": "Antwortest du mir?", "english": "Are you answering me?"},
+        {"german": "Sie antwortet nicht.", "english": "She doesn't answer."}
+      ]
+    },
+    {
+      "german": "verstehen",
+      "english": "to understand",
+      "conjugation": {
+        "ich": "verstehe",
+        "du": "verstehst",
+        "er/sie/es": "versteht",
+        "wir": "verstehen",
+        "ihr": "versteht",
+        "sie/Sie": "verstehen"
+      },
+      "examples": [
+        {"german": "Ich verstehe dich.", "english": "I understand you."},
+        {"german": "Verstehst du Deutsch?", "english": "Do you understand German?"},
+        {"german": "Er versteht die Frage nicht.", "english": "He doesn't understand the question."}
+      ]
+    },
+    {
+      "german": "suchen",
+      "english": "to search/look for",
+      "conjugation": {
+        "ich": "suche",
+        "du": "suchst",
+        "er/sie/es": "sucht",
+        "wir": "suchen",
+        "ihr": "sucht",
+        "sie/Sie": "suchen"
+      },
+      "examples": [
+        {"german": "Ich suche meine Schlüssel.", "english": "I'm looking for my keys."},
+        {"german": "Was suchst du?", "english": "What are you looking for?"},
+        {"german": "Sie sucht eine Wohnung.", "english": "She's looking for an apartment."}
+      ]
+    },
+    {
+      "german": "finden",
+      "english": "to find",
+      "conjugation": {
+        "ich": "finde",
+        "du": "findest",
+        "er/sie/es": "findet",
+        "wir": "finden",
+        "ihr": "findet",
+        "sie/Sie": "finden"
+      },
+      "examples": [
+        {"german": "Ich finde das gut.", "english": "I think that's good."},
+        {"german": "Findest du den Weg?", "english": "Can you find the way?"},
+        {"german": "Er findet seine Brille nicht.", "english": "He can't find his glasses."}
+      ]
+    },
+    {
+      "german": "brauchen",
+      "english": "to need",
+      "conjugation": {
+        "ich": "brauche",
+        "du": "brauchst",
+        "er/sie/es": "braucht",
+        "wir": "brauchen",
+        "ihr": "braucht",
+        "sie/Sie": "brauchen"
+      },
+      "examples": [
+        {"german": "Ich brauche Hilfe.", "english": "I need help."},
+        {"german": "Brauchst du Geld?", "english": "Do you need money?"},
+        {"german": "Sie braucht einen neuen Computer.", "english": "She needs a new computer."}
+      ]
+    },
+    {
+      "german": "bezahlen",
+      "english": "to pay",
+      "conjugation": {
+        "ich": "bezahle",
+        "du": "bezahlst",
+        "er/sie/es": "bezahlt",
+        "wir": "bezahlen",
+        "ihr": "bezahlt",
+        "sie/Sie": "bezahlen"
+      },
+      "examples": [
+        {"german": "Ich bezahle bar.", "english": "I pay in cash."},
+        {"german": "Bezahlst du das Abendessen?", "english": "Are you paying for dinner?"},
+        {"german": "Er bezahlt mit Kreditkarte.", "english": "He pays with credit card."}
+      ]
+    }
+  ],
+  "separableVerbs": [
+    {
+      "german": "ankommen",
+      "english": "to arrive",
+      "prefix": "an",
+      "baseVerb": "kommen",
+      "conjugation": {
+        "ich": "komme an",
+        "du": "kommst an",
+        "er/sie/es": "kommt an",
+        "wir": "kommen an",
+        "ihr": "kommt an",
+        "sie/Sie": "kommen an"
+      },
+      "examples": [
+        {"german": "Ich komme am Bahnhof an.", "english": "I arrive at the train station."},
+        {"german": "Wann kommst du an?", "english": "When do you arrive?"},
+        {"german": "Der Zug kommt um 15 Uhr an.", "english": "The train arrives at 3 PM."}
+      ],
+      "note": "The prefix 'an' separates from the verb in present tense main clauses."
+    },
+    {
+      "german": "aufstehen",
+      "english": "to get up/to stand up",
+      "prefix": "auf",
+      "baseVerb": "stehen",
+      "conjugation": {
+        "ich": "stehe auf",
+        "du": "stehst auf",
+        "er/sie/es": "steht auf",
+        "wir": "stehen auf",
+        "ihr": "steht auf",
+        "sie/Sie": "stehen auf"
+      },
+      "examples": [
+        {"german": "Ich stehe jeden Tag um 7 Uhr auf.", "english": "I get up every day at 7 o'clock."},
+        {"german": "Wann stehst du morgens auf?", "english": "When do you get up in the morning?"},
+        {"german": "Er steht früh auf.", "english": "He gets up early."}
+      ],
+      "note": "The prefix 'auf' separates from the verb in present tense main clauses."
+    },
+    {
+      "german": "ausgehen",
+      "english": "to go out",
+      "prefix": "aus",
+      "baseVerb": "gehen",
+      "conjugation": {
+        "ich": "gehe aus",
+        "du": "gehst aus",
+        "er/sie/es": "geht aus",
+        "wir": "gehen aus",
+        "ihr": "geht aus",
+        "sie/Sie": "gehen aus"
+      },
+      "examples": [
+        {"german": "Ich gehe heute Abend aus.", "english": "I'm going out this evening."},
+        {"german": "Gehst du oft am Wochenende aus?", "english": "Do you go out often on weekends?"},
+        {"german": "Wir gehen gerne zusammen aus.", "english": "We like to go out together."}
+      ],
+      "note": "The prefix 'aus' separates from the verb in present tense main clauses."
+    },
+    {
+      "german": "einkaufen",
+      "english": "to shop/to go shopping",
+      "prefix": "ein",
+      "baseVerb": "kaufen",
+      "conjugation": {
+        "ich": "kaufe ein",
+        "du": "kaufst ein",
+        "er/sie/es": "kauft ein",
+        "wir": "kaufen ein",
+        "ihr": "kauft ein",
+        "sie/Sie": "kaufen ein"
+      },
+      "examples": [
+        {"german": "Ich kaufe im Supermarkt ein.", "english": "I shop at the supermarket."},
+        {"german": "Kaufst du heute ein?", "english": "Are you going shopping today?"},
+        {"german": "Wir kaufen am Samstag ein.", "english": "We go shopping on Saturday."}
+      ],
+      "note": "The prefix 'ein' separates from the verb in present tense main clauses."
+    },
+    {
+      "german": "fernsehen",
+      "english": "to watch TV",
+      "prefix": "fern",
+      "baseVerb": "sehen",
+      "conjugation": {
+        "ich": "sehe fern",
+        "du": "siehst fern",
+        "er/sie/es": "sieht fern",
+        "wir": "sehen fern",
+        "ihr": "seht fern",
+        "sie/Sie": "sehen fern"
+      },
+      "examples": [
+        {"german": "Ich sehe jeden Abend fern.", "english": "I watch TV every evening."},
+        {"german": "Siehst du gerne fern?", "english": "Do you like watching TV?"},
+        {"german": "Wir sehen nicht viel fern.", "english": "We don't watch much TV."}
+      ],
+      "note": "The prefix 'fern' separates from the verb in present tense main clauses. Note that 'sehen' is an irregular verb."
+    },
+    {
+      "german": "mitbringen",
+      "english": "to bring along/to bring with",
+      "prefix": "mit",
+      "baseVerb": "bringen",
+      "conjugation": {
+        "ich": "bringe mit",
+        "du": "bringst mit",
+        "er/sie/es": "bringt mit",
+        "wir": "bringen mit",
+        "ihr": "bringt mit",
+        "sie/Sie": "bringen mit"
+      },
+      "examples": [
+        {"german": "Ich bringe eine Flasche Wein mit.", "english": "I'm bringing a bottle of wine."},
+        {"german": "Bringst du deine Freundin mit?", "english": "Are you bringing your girlfriend?"},
+        {"german": "Er bringt immer Geschenke mit.", "english": "He always brings gifts."}
+      ],
+      "note": "The prefix 'mit' separates from the verb in present tense main clauses."
+    },
+    {
+      "german": "aufräumen",
+      "english": "to tidy up/to clean up",
+      "prefix": "auf",
+      "baseVerb": "räumen",
+      "conjugation": {
+        "ich": "räume auf",
+        "du": "räumst auf",
+        "er/sie/es": "räumt auf",
+        "wir": "räumen auf",
+        "ihr": "räumt auf",
+        "sie/Sie": "räumen auf"
+      },
+      "examples": [
+        {"german": "Ich räume mein Zimmer auf.", "english": "I'm tidying up my room."},
+        {"german": "Räumst du die Küche auf?", "english": "Are you cleaning up the kitchen?"},
+        {"german": "Die Kinder räumen ihre Spielsachen auf.", "english": "The children are tidying up their toys."}
+      ],
+      "note": "The prefix 'auf' separates from the verb in present tense main clauses."
+    },
+    {
+      "german": "anrufen",
+      "english": "to call/to phone",
+      "prefix": "an",
+      "baseVerb": "rufen",
+      "conjugation": {
+        "ich": "rufe an",
+        "du": "rufst an",
+        "er/sie/es": "ruft an",
+        "wir": "rufen an",
+        "ihr": "ruft an",
+        "sie/Sie": "rufen an"
+      },
+      "examples": [
+        {"german": "Ich rufe dich später an.", "english": "I'll call you later."},
+        {"german": "Rufst du deine Mutter an?", "english": "Are you calling your mother?"},
+        {"german": "Er ruft jeden Tag seine Freundin an.", "english": "He calls his girlfriend every day."}
+      ],
+      "note": "The prefix 'an' separates from the verb in present tense main clauses."
+    },
+    {
+      "german": "zuhören",
+      "english": "to listen",
+      "prefix": "zu",
+      "baseVerb": "hören",
+      "conjugation": {
+        "ich": "höre zu",
+        "du": "hörst zu",
+        "er/sie/es": "hört zu",
+        "wir": "hören zu",
+        "ihr": "hört zu",
+        "sie/Sie": "hören zu"
+      },
+      "examples": [
+        {"german": "Ich höre dir zu.", "english": "I'm listening to you."},
+        {"german": "Hörst du mir zu?", "english": "Are you listening to me?"},
+        {"german": "Die Studenten hören dem Professor zu.", "english": "The students are listening to the professor."}
+      ],
+      "note": "The prefix 'zu' separates from the verb in present tense main clauses."
+    },
+    {
+      "german": "einladen",
+      "english": "to invite",
+      "prefix": "ein",
+      "baseVerb": "laden",
+      "conjugation": {
+        "ich": "lade ein",
+        "du": "lädst ein",
+        "er/sie/es": "lädt ein",
+        "wir": "laden ein",
+        "ihr": "ladet ein",
+        "sie/Sie": "laden ein"
+      },
+      "examples": [
+        {"german": "Ich lade dich zum Abendessen ein.", "english": "I'm inviting you to dinner."},
+        {"german": "Lädst du deine Freunde zur Party ein?", "english": "Are you inviting your friends to the party?"},
+        {"german": "Sie lädt uns zu ihrer Hochzeit ein.", "english": "She's inviting us to her wedding."}
+      ],
+      "note": "The prefix 'ein' separates from the verb in present tense main clauses. Note that 'laden' is an irregular verb."
+    }
+  ]
+}

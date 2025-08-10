@@ -1,0 +1,211 @@
+/* Syllabus View Styles */
+.syllabus-container {
+    max-width: 900px;
+    margin: 0 auto;
+    background-color: white;
+    border-radius: var(--border-radius);
+    box-shadow: var(--box-shadow);
+    padding: 30px;
+    margin-bottom: 40px;
+}
+
+.syllabus-container h2 {
+    color: var(--primary-color);
+    text-align: center;
+    margin-bottom: 25px;
+    border-bottom: 2px solid var(--primary-color);
+    padding-bottom: 10px;
+}
+
+.syllabus-container h3 {
+    color: var(--primary-color);
+    margin: 25px 0 15px 0;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 8px;
+}
+
+/* Syllabus Units */
+.syllabus-units {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.syllabus-unit {
+    background-color: var(--secondary-color);
+    border-radius: var(--border-radius);
+    padding: 20px;
+    border-left: 4px solid var(--primary-color);
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.syllabus-unit.expanded {
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.unit-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    padding-bottom: 10px;
+}
+
+.unit-title {
+    font-weight: bold;
+    font-size: 18px;
+    color: var(--primary-color);
+}
+
+.unit-content {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease-out;
+    border-top: 1px solid #ddd;
+}
+
+.syllabus-unit.expanded .unit-content {
+    max-height: 500px;
+    transition: max-height 0.5s ease-in;
+    padding-top: 15px;
+}
+
+.unit-section {
+    margin-bottom: 15px;
+}
+
+.unit-section h4 {
+    margin-bottom: 8px;
+    color: #555;
+    font-size: 16px;
+}
+
+.unit-section ul {
+    list-style-type: disc;
+    padding-left: 20px;
+    margin-bottom: 10px;
+}
+
+.unit-section li {
+    margin-bottom: 5px;
+    font-size: 15px;
+}
+
+/* Exam Format */
+.exam-sections {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.exam-section {
+    background-color: var(--secondary-color);
+    border-radius: var(--border-radius);
+    padding: 15px;
+    border-left: 4px solid var(--accent-color);
+}
+
+.exam-section h4 {
+    color: var(--accent-color);
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.exam-section-details {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.exam-detail {
+    display: flex;
+    margin-bottom: 5px;
+}
+
+.detail-label {
+    font-weight: bold;
+    min-width: 100px;
+    color: #555;
+}
+
+.detail-value {
+    flex: 1;
+}
+
+.exam-passing-score {
+    background-color: #f8f9fa;
+    border-radius: var(--border-radius);
+    padding: 10px 15px;
+    margin-top: 20px;
+    text-align: center;
+    border: 1px solid #e9ecef;
+    font-weight: bold;
+    color: var(--primary-color);
+}
+
+/* Resources */
+.resources-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.resource-item {
+    background-color: var(--secondary-color);
+    border-radius: var(--border-radius);
+    padding: 15px;
+    border-left: 4px solid #28a745;
+    display: flex;
+    flex-direction: column;
+}
+
+.resource-title {
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.resource-publisher {
+    color: #666;
+    font-style: italic;
+    font-size: 14px;
+}
+
+.resource-url {
+    margin-top: 8px;
+}
+
+.resource-url a {
+    color: var(--primary-color);
+    text-decoration: none;
+}
+
+.resource-url a:hover {
+    text-decoration: underline;
+}
+
+.resource-type {
+    background-color: rgba(0, 0, 0, 0.05);
+    border-radius: 20px;
+    padding: 3px 8px;
+    font-size: 12px;
+    align-self: flex-start;
+    margin-bottom: 8px;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .exam-sections {
+        grid-template-columns: 1fr;
+    }
+    
+    .resources-list {
+        grid-template-columns: 1fr;
+    }
+    
+    .syllabus-container {
+        padding: 15px;
+    }
+}

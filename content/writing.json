@@ -1,0 +1,291 @@
+{
+  "personalLetters": [
+    {
+      "title": "Write a Birthday Invitation",
+      "description": "Write a simple invitation to a friend for your birthday party.",
+      "prompt": "Write an invitation to your friend Anna for your birthday party. Include: date, time, location, and what to bring.",
+      "keywords": ["Einladung", "Geburtstag", "Party", "Feier"],
+      "template": "Liebe/r [Name],\n\nich lade dich zu meinem Geburtstag ein.\n\nDatum: ___\nUhrzeit: ___\nOrt: ___\n\nBitte bring ___ mit.\n\nLiebe Grüße,\n[dein Name]",
+      "exampleSolution": "Liebe Anna,\n\nich lade dich zu meinem Geburtstag ein.\n\nDatum: 15. August\nUhrzeit: 18:00 Uhr\nOrt: Bei mir zu Hause (Hauptstraße 23, 10115 Berlin)\n\nBitte bring einen Kuchen mit.\nWir grillen und hören Musik.\nIch freue mich auf dich!\n\nLiebe Grüße,\nThomas",
+      "englishTranslation": "Dear Anna,\n\nI invite you to my birthday party.\n\nDate: August 15\nTime: 6:00 PM\nLocation: At my home (Hauptstraße 23, 10115 Berlin)\n\nPlease bring a cake.\nWe will have a barbecue and listen to music.\nI'm looking forward to seeing you!\n\nBest regards,\nThomas",
+      "tips": [
+        "Use formal time expressions (Uhr)",
+        "Don't forget the greeting and closing",
+        "Include all important details",
+        "Be specific about the location",
+        "Add what activities are planned"
+      ],
+      "usefulPhrases": [
+        {
+          "german": "Ich lade dich ein",
+          "english": "I invite you"
+        },
+        {
+          "german": "Die Party findet statt",
+          "english": "The party takes place"
+        },
+        {
+          "german": "Bitte bring ... mit",
+          "english": "Please bring ..."
+        },
+        {
+          "german": "Wir feiern ab",
+          "english": "We're celebrating from"
+        },
+        {
+          "german": "Ich freue mich auf dich",
+          "english": "I'm looking forward to seeing you"
+        }
+      ]
+    },
+    {
+      "title": "Write a Thank You Note",
+      "description": "Write a thank you note to a friend for a gift.",
+      "prompt": "Write a thank you note to your friend Maria for a birthday present.",
+      "keywords": ["Danke", "Geschenk", "Brief", "Freude"],
+      "template": "Liebe/r [Name],\n\nvielen Dank für ___.\nIch freue mich sehr über ___.\n\nLiebe Grüße,\n[dein Name]",
+      "exampleSolution": "Liebe Maria,\n\nvielen Dank für das schöne Buch zum Geburtstag.\nIch freue mich sehr über dein Geschenk.\nDas Buch ist sehr interessant und ich lese es jeden Abend.\n\nLiebe Grüße,\nSophia",
+      "englishTranslation": "Dear Maria,\n\nThank you very much for the beautiful book for my birthday.\nI'm very happy about your gift.\nThe book is very interesting and I read it every evening.\n\nBest regards,\nSophia",
+      "tips": [
+        "Be specific about the gift",
+        "Express your feelings",
+        "Mention how you use the gift",
+        "Keep it personal and warm"
+      ],
+      "usefulPhrases": [
+        {
+          "german": "Vielen Dank für",
+          "english": "Thank you very much for"
+        },
+        {
+          "german": "Ich freue mich sehr über",
+          "english": "I'm very happy about"
+        },
+        {
+          "german": "Das Geschenk ist wunderschön",
+          "english": "The gift is beautiful"
+        },
+        {
+          "german": "Ich benutze es jeden Tag",
+          "english": "I use it every day"
+        }
+      ]
+    }
+  ],
+  "emails": [
+    {
+      "title": "Write a Simple Email to Your Teacher",
+      "description": "Write an email to your German teacher explaining why you missed class.",
+      "prompt": "Write an email to your teacher explaining that you were sick yesterday and couldn't come to class.",
+      "keywords": ["krank", "Unterricht", "fehlen", "Entschuldigung"],
+      "template": "Sehr geehrte/r Frau/Herr ___,\n\n[Erklärung]\n\nMit freundlichen Grüßen\n[Ihr Name]",
+      "exampleSolution": "Sehr geehrte Frau Schmidt,\n\nleider konnte ich gestern nicht zum Unterricht kommen, weil ich krank war.\nIch hatte Fieber und musste im Bett bleiben.\nKönnen Sie mir bitte sagen, was die Hausaufgaben sind?\n\nVielen Dank im Voraus.\n\nMit freundlichen Grüßen\nMaria Weber",
+      "englishTranslation": "Dear Mrs. Schmidt,\n\nUnfortunately, I couldn't come to class yesterday because I was sick.\nI had a fever and had to stay in bed.\nCould you please tell me what the homework is?\n\nThank you in advance.\n\nKind regards,\nMaria Weber",
+      "tips": [
+        "Use formal language",
+        "Keep it brief and clear",
+        "Explain why you were absent",
+        "Ask about missed work if needed"
+      ],
+      "usefulPhrases": [
+        {
+          "german": "Leider konnte ich nicht kommen",
+          "english": "Unfortunately, I couldn't come"
+        },
+        {
+          "german": "Ich war krank",
+          "english": "I was sick"
+        },
+        {
+          "german": "Entschuldigen Sie bitte",
+          "english": "Please excuse"
+        },
+        {
+          "german": "Können Sie mir bitte sagen",
+          "english": "Could you please tell me"
+        },
+        {
+          "german": "Vielen Dank im Voraus",
+          "english": "Thank you in advance"
+        }
+      ]
+    },
+    {
+      "title": "Cancel an Appointment",
+      "description": "Write an email to cancel and reschedule a doctor's appointment.",
+      "prompt": "Write an email to cancel your doctor's appointment and ask for a new appointment next week.",
+      "keywords": ["Termin", "absagen", "verschieben", "Arzt"],
+      "template": "Sehr geehrte/r Frau/Herr Dr. ___,\n\n[Absage und neue Terminanfrage]\n\nMit freundlichen Grüßen\n[Ihr Name]",
+      "exampleSolution": "Sehr geehrte Frau Dr. Müller,\n\nleider muss ich meinen Termin am Montag, den 12. August um 14:00 Uhr absagen.\nKann ich bitte einen neuen Termin für nächste Woche bekommen?\nIch kann Montag bis Donnerstag vormittags kommen.\n\nVielen Dank für Ihr Verständnis.\n\nMit freundlichen Grüßen\nPeter Wagner",
+      "englishTranslation": "Dear Dr. Müller,\n\nUnfortunately, I have to cancel my appointment on Monday, August 12th at 2:00 PM.\nCould I please get a new appointment for next week?\nI can come Monday through Thursday in the morning.\n\nThank you for your understanding.\n\nKind regards,\nPeter Wagner",
+      "tips": [
+        "Mention the original appointment details",
+        "Give possible dates for new appointment",
+        "Be polite and apologetic",
+        "Thank for understanding"
+      ],
+      "usefulPhrases": [
+        {
+          "german": "Ich muss leider absagen",
+          "english": "Unfortunately, I have to cancel"
+        },
+        {
+          "german": "Kann ich einen neuen Termin bekommen",
+          "english": "Can I get a new appointment"
+        },
+        {
+          "german": "Ich kann ... kommen",
+          "english": "I can come ..."
+        },
+        {
+          "german": "Vielen Dank für Ihr Verständnis",
+          "english": "Thank you for your understanding"
+        }
+      ]
+    }
+  ],
+  "forms": [
+    {
+      "title": "Fill Out a Simple Registration Form",
+      "description": "Complete a basic registration form for a language course.",
+      "prompt": "Fill out the registration form for a German language course with your personal information.",
+      "keywords": ["Anmeldeformular", "Sprachkurs", "persönliche Daten"],
+      "template": "ANMELDEFORMULAR\n\nVorname: ___\nNachname: ___\nGeburtsdatum: ___\nAdresse: ___\nTelefon: ___\nE-Mail: ___\nSprachniveau: ___\nKursbeginn: ___\n\nUnterschrift: ___\nDatum: ___",
+      "exampleSolution": "ANMELDEFORMULAR\n\nVorname: Thomas\nNachname: Schmidt\nGeburtsdatum: 12.03.1990\nAdresse: Hauptstraße 1, 10115 Berlin\nTelefon: 030 12345678\nE-Mail: t.schmidt@email.de\nSprachniveau: A1\nKursbeginn: 01.09.2025\n\nUnterschrift: T. Schmidt\nDatum: 10.08.2025",
+      "englishTranslation": "REGISTRATION FORM\n\nFirst name: Thomas\nLast name: Schmidt\nDate of birth: 12.03.1990\nAddress: Hauptstraße 1, 10115 Berlin\nPhone: 030 12345678\nEmail: t.schmidt@email.de\nLanguage level: A1\nCourse start: 09/01/2025\n\nSignature: T. Schmidt\nDate: 08/10/2025",
+      "tips": [
+        "Write dates in German format (DD.MM.YYYY)",
+        "Use capital letters for nouns",
+        "Include all required information",
+        "Write clearly and legibly"
+      ],
+      "usefulPhrases": [
+        {
+          "german": "Vorname/Nachname",
+          "english": "First name/Last name"
+        },
+        {
+          "german": "Geburtsdatum",
+          "english": "Date of birth"
+        },
+        {
+          "german": "Unterschrift",
+          "english": "Signature"
+        },
+        {
+          "german": "Kursbeginn",
+          "english": "Course start"
+        }
+      ]
+    }
+  ],
+  "descriptions": [
+    {
+      "title": "Describe Your Room",
+      "description": "Write a simple description of your room or living space.",
+      "prompt": "Describe your room. Include information about furniture, colors, and location of items.",
+      "keywords": ["Zimmer", "Möbel", "Farben", "Beschreibung"],
+      "template": "Mein Zimmer ist ___.\n\nIn meinem Zimmer gibt es ___.\n\nAn den Wänden ___.\n\nMir gefällt besonders ___.",
+      "exampleSolution": "Mein Zimmer ist groß und hell.\nEs hat zwei Fenster und weiße Wände.\n\nIn meinem Zimmer gibt es ein großes Bett, einen braunen Schreibtisch und einen weißen Kleiderschrank.\nAuf dem Schreibtisch steht mein Computer und eine Lampe.\nNeben dem Bett steht ein kleiner Nachttisch.\n\nAn den Wänden hängen bunte Poster und Fotos von meiner Familie.\n\nMir gefällt besonders das große Fenster mit Blick in den Garten.",
+      "englishTranslation": "My room is big and bright.\nIt has two windows and white walls.\n\nIn my room there is a large bed, a brown desk, and a white wardrobe.\nOn the desk there is my computer and a lamp.\nNext to the bed is a small nightstand.\n\nOn the walls are colorful posters and photos of my family.\n\nI especially like the large window with a view of the garden.",
+      "tips": [
+        "Use present tense",
+        "Describe from general to specific",
+        "Include location prepositions (an, in, auf, neben)",
+        "Mention colors and sizes"
+      ],
+      "usefulPhrases": [
+        {
+          "german": "Es gibt",
+          "english": "There is/are"
+        },
+        {
+          "german": "An der Wand",
+          "english": "On the wall"
+        },
+        {
+          "german": "Neben dem/der",
+          "english": "Next to the"
+        },
+        {
+          "german": "Zwischen",
+          "english": "Between"
+        }
+      ]
+    }
+  ],
+  "shortTexts": [
+    {
+      "title": "Write About Your Daily Routine",
+      "description": "Write a short text about your typical day.",
+      "prompt": "Write about your daily routine. Include times and activities.",
+      "keywords": ["Tagesablauf", "Routine", "Aktivitäten", "Uhrzeit"],
+      "template": "Mein Tag beginnt um ___.\n\nZuerst ___.\n\nDann ___.\n\nAm Nachmittag ___.\n\nAm Abend ___.",
+      "exampleSolution": "Mein Tag beginnt um 7 Uhr.\n\nZuerst dusche ich und frühstücke.\nZum Frühstück esse ich Müsli und trinke Kaffee.\n\nDann fahre ich mit dem Bus zur Arbeit.\nIch arbeite von 9 Uhr bis 17 Uhr in einem Büro.\nIn der Mittagspause esse ich mit meinen Kollegen.\n\nAm Nachmittag nach der Arbeit gehe ich einkaufen\noder treffe meine Freunde im Café.\n\nAm Abend koche ich zu Hause und sehe fern.\nIch gehe um 23 Uhr ins Bett.",
+      "englishTranslation": "My day starts at 7 AM.\n\nFirst, I shower and have breakfast.\nFor breakfast, I eat cereal and drink coffee.\n\nThen I take the bus to work.\nI work from 9 AM to 5 PM in an office.\nDuring lunch break, I eat with my colleagues.\n\nIn the afternoon after work, I go shopping\nor meet my friends at a café.\n\nIn the evening, I cook at home and watch TV.\nI go to bed at 11 PM.",
+      "tips": [
+        "Use time expressions",
+        "Use connecting words (zuerst, dann, danach)",
+        "Include specific times",
+        "Describe activities in order"
+      ],
+      "usefulPhrases": [
+        {
+          "german": "Mein Tag beginnt",
+          "english": "My day begins"
+        },
+        {
+          "german": "Zuerst/Dann/Danach",
+          "english": "First/Then/After that"
+        },
+        {
+          "german": "Am Morgen/Mittag/Abend",
+          "english": "In the morning/afternoon/evening"
+        },
+        {
+          "german": "In der Mittagspause",
+          "english": "During lunch break"
+        }
+      ]
+    }
+  ],
+  "notes": [
+    {
+      "title": "Write a Shopping List",
+      "description": "Create a shopping list with basic items.",
+      "prompt": "Write a shopping list for groceries including quantities.",
+      "keywords": ["Einkaufsliste", "Lebensmittel", "Mengen"],
+      "template": "EINKAUFSLISTE:\n\nLebensmittel:\n- ___\n\nGetränke:\n- ___\n\nHaushalt:\n- ___",
+      "exampleSolution": "EINKAUFSLISTE:\n\nLebensmittel:\n- 1 Brot\n- 6 Eier\n- 500g Käse\n- 1kg Äpfel\n- 250g Butter\n- 1 Packung Nudeln\n\nGetränke:\n- 6 Flaschen Wasser\n- 1 Liter Milch\n- 1 Flasche Orangensaft\n\nHaushalt:\n- Toilettenpapier\n- Spülmittel\n- Müllbeutel",
+      "englishTranslation": "SHOPPING LIST:\n\nGroceries:\n- 1 bread\n- 6 eggs\n- 500g cheese\n- 1kg apples\n- 250g butter\n- 1 package pasta\n\nDrinks:\n- 6 bottles water\n- 1 liter milk\n- 1 bottle orange juice\n\nHousehold:\n- toilet paper\n- dish soap\n- garbage bags",
+      "tips": [
+        "Organize by categories",
+        "Include quantities",
+        "Use correct units (Stück, Liter, Gramm)",
+        "List items clearly"
+      ],
+      "usefulPhrases": [
+        {
+          "german": "Eine Packung",
+          "english": "A package"
+        },
+        {
+          "german": "Ein Stück",
+          "english": "A piece"
+        },
+        {
+          "german": "Eine Flasche",
+          "english": "A bottle"
+        },
+        {
+          "german": "Ein Kilo",
+          "english": "A kilo"
+        },
+        {
+          "german": "Eine Dose",
+          "english": "A can"
+        }
+      ]
+    }
+  ]
+}

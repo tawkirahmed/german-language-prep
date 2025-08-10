@@ -1,0 +1,375 @@
+{
+  "shortTexts": [
+    {
+      "title": "Meine Familie",
+      "text": "Hallo! Ich heiße Anna und ich bin 25 Jahre alt. Ich komme aus Deutschland und wohne in Berlin. Meine Familie ist nicht sehr groß. Ich habe einen Bruder. Er heißt Max und ist 28 Jahre alt. Meine Eltern heißen Thomas und Maria. Mein Vater ist Lehrer und meine Mutter ist Ärztin. Wir haben auch einen Hund. Er heißt Rex und ist 3 Jahre alt.",
+      "questions": [
+        {
+          "question": "Wie alt ist Anna?",
+          "options": ["20 Jahre alt", "25 Jahre alt", "28 Jahre alt", "30 Jahre alt"],
+          "correctAnswer": 1
+        },
+        {
+          "question": "Woher kommt Anna?",
+          "options": ["Österreich", "Schweiz", "Deutschland", "England"],
+          "correctAnswer": 2
+        },
+        {
+          "question": "Was ist Annas Mutter von Beruf?",
+          "options": ["Lehrerin", "Ärztin", "Studentin", "Köchin"],
+          "correctAnswer": 1
+        },
+        {
+          "question": "Wie heißt Annas Bruder?",
+          "options": ["Thomas", "Rex", "Max", "Paul"],
+          "correctAnswer": 2
+        }
+      ],
+      "vocabulary": {
+        "Familie": "family",
+        "heißen": "to be called",
+        "Jahre alt": "years old",
+        "kommen aus": "to come from",
+        "wohnen": "to live",
+        "groß": "big",
+        "Bruder": "brother",
+        "Eltern": "parents",
+        "Vater": "father",
+        "Mutter": "mother",
+        "Lehrer": "teacher (male)",
+        "Ärztin": "doctor (female)",
+        "Hund": "dog"
+      }
+    },
+    {
+      "title": "Im Restaurant",
+      "text": "Peter und Lisa sind im Restaurant. Sie haben Hunger. Der Kellner kommt und gibt ihnen die Speisekarte. Peter möchte eine Pizza und Lisa möchte eine Suppe. Zum Trinken bestellen sie zwei Gläser Wasser. Das Essen schmeckt sehr gut. Nach dem Essen möchten sie noch einen Kaffee trinken. Dann bezahlen sie und gehen nach Hause.",
+      "questions": [
+        {
+          "question": "Wo sind Peter und Lisa?",
+          "options": ["Zu Hause", "Im Kino", "Im Restaurant", "Im Supermarkt"],
+          "correctAnswer": 2
+        },
+        {
+          "question": "Was möchte Peter essen?",
+          "options": ["Eine Suppe", "Eine Pizza", "Einen Salat", "Ein Sandwich"],
+          "correctAnswer": 1
+        },
+        {
+          "question": "Was trinken sie?",
+          "options": ["Bier", "Wein", "Cola", "Wasser"],
+          "correctAnswer": 3
+        },
+        {
+          "question": "Was machen sie nach dem Essen?",
+          "options": ["Sie gehen ins Kino", "Sie trinken Kaffee", "Sie gehen sofort nach Hause", "Sie bestellen Dessert"],
+          "correctAnswer": 1
+        }
+      ],
+      "vocabulary": {
+        "Restaurant": "restaurant",
+        "Hunger haben": "to be hungry",
+        "Kellner": "waiter",
+        "Speisekarte": "menu",
+        "möchten": "would like to",
+        "Pizza": "pizza",
+        "Suppe": "soup",
+        "zum Trinken": "to drink",
+        "bestellen": "to order",
+        "Glas": "glass",
+        "Wasser": "water",
+        "Essen": "food",
+        "schmecken": "to taste",
+        "gut": "good",
+        "nach dem Essen": "after eating",
+        "bezahlen": "to pay",
+        "nach Hause gehen": "to go home"
+      }
+    },
+    {
+      "title": "Mein Tag",
+      "text": "Ich stehe jeden Tag um 7 Uhr auf. Dann dusche ich und frühstücke. Zum Frühstück esse ich Brot mit Käse und trinke einen Kaffee. Um 8 Uhr gehe ich zur Arbeit. Ich arbeite von 8:30 Uhr bis 17 Uhr. Nach der Arbeit gehe ich einkaufen oder treffe Freunde. Um 19 Uhr esse ich zu Abend. Danach sehe ich fern oder lese ein Buch. Um 23 Uhr gehe ich ins Bett.",
+      "questions": [
+        {
+          "question": "Wann steht die Person auf?",
+          "options": ["Um 6 Uhr", "Um 7 Uhr", "Um 8 Uhr", "Um 9 Uhr"],
+          "correctAnswer": 1
+        },
+        {
+          "question": "Was trinkt die Person zum Frühstück?",
+          "options": ["Tee", "Wasser", "Milch", "Kaffee"],
+          "correctAnswer": 3
+        },
+        {
+          "question": "Wie lange arbeitet die Person?",
+          "options": ["Von 7 Uhr bis 16 Uhr", "Von 8 Uhr bis 17 Uhr", "Von 8:30 Uhr bis 17 Uhr", "Von 9 Uhr bis 18 Uhr"],
+          "correctAnswer": 2
+        },
+        {
+          "question": "Was macht die Person nach dem Abendessen?",
+          "options": ["Schlafen", "Arbeiten", "Fernsehen oder lesen", "Sport machen"],
+          "correctAnswer": 2
+        }
+      ],
+      "vocabulary": {
+        "aufstehen": "to get up",
+        "jeden Tag": "every day",
+        "Uhr": "o'clock",
+        "duschen": "to shower",
+        "frühstücken": "to have breakfast",
+        "Frühstück": "breakfast",
+        "Brot": "bread",
+        "Käse": "cheese",
+        "zur Arbeit gehen": "to go to work",
+        "arbeiten": "to work",
+        "bis": "until",
+        "nach der Arbeit": "after work",
+        "einkaufen": "to shop",
+        "treffen": "to meet",
+        "Freunde": "friends",
+        "zu Abend essen": "to have dinner",
+        "danach": "afterwards",
+        "fernsehen": "to watch TV",
+        "lesen": "to read",
+        "Buch": "book",
+        "ins Bett gehen": "to go to bed"
+      }
+    },
+    {
+      "title": "Eine E-Mail an einen Freund",
+      "text": "Lieber Max,\n\nwie geht es dir? Mir geht es gut. Ich bin jetzt in Berlin und lerne Deutsch. Die Stadt ist sehr schön und die Menschen sind nett. Das Wetter ist gut, es ist warm und sonnig.\n\nIch wohne in einer kleinen Wohnung in der Stadtmitte. Die Wohnung ist nicht groß, aber schön. Ich habe ein Schlafzimmer, ein Badezimmer und eine Küche.\n\nAm Wochenende besuche ich Museen oder gehe in den Park. Kommst du mich bald besuchen?\n\nViele Grüße,\nSofia",
+      "questions": [
+        {
+          "question": "Wo ist Sofia jetzt?",
+          "options": ["In München", "In Wien", "In Berlin", "In Hamburg"],
+          "correctAnswer": 2
+        },
+        {
+          "question": "Was lernt Sofia?",
+          "options": ["Englisch", "Französisch", "Spanisch", "Deutsch"],
+          "correctAnswer": 3
+        },
+        {
+          "question": "Wie ist das Wetter?",
+          "options": ["Kalt und regnerisch", "Warm und sonnig", "Windig", "Bewölkt"],
+          "correctAnswer": 1
+        },
+        {
+          "question": "Was macht Sofia am Wochenende?",
+          "options": ["Sie arbeitet", "Sie bleibt zu Hause", "Sie besucht Museen oder geht in den Park", "Sie trifft Freunde"],
+          "correctAnswer": 2
+        }
+      ],
+      "vocabulary": {
+        "E-Mail": "email",
+        "lieber": "dear (male)",
+        "wie geht es dir": "how are you",
+        "mir geht es gut": "I am fine",
+        "lernen": "to learn",
+        "Stadt": "city",
+        "schön": "beautiful",
+        "Menschen": "people",
+        "nett": "nice",
+        "Wetter": "weather",
+        "warm": "warm",
+        "sonnig": "sunny",
+        "wohnen": "to live",
+        "Wohnung": "apartment",
+        "klein": "small",
+        "Stadtmitte": "city center",
+        "groß": "big",
+        "Schlafzimmer": "bedroom",
+        "Badezimmer": "bathroom",
+        "Küche": "kitchen",
+        "Wochenende": "weekend",
+        "besuchen": "to visit",
+        "Museum": "museum",
+        "Park": "park",
+        "bald": "soon",
+        "viele Grüße": "best regards"
+      }
+    },
+    {
+      "title": "Beim Arzt",
+      "text": "Frau Schmidt: Guten Tag, Herr Doktor.\nDoktor Müller: Guten Tag, Frau Schmidt. Was fehlt Ihnen?\nFrau Schmidt: Ich habe Kopfschmerzen und Fieber.\nDoktor Müller: Wie lange haben Sie schon Kopfschmerzen?\nFrau Schmidt: Seit gestern Abend.\nDoktor Müller: Haben Sie auch Halsschmerzen?\nFrau Schmidt: Ja, ein bisschen.\nDoktor Müller: Ich untersuche Sie jetzt. Sie haben eine Erkältung. Sie müssen viel trinken und sich ausruhen. Ich schreibe Ihnen ein Rezept.\nFrau Schmidt: Vielen Dank, Herr Doktor.\nDoktor Müller: Gute Besserung, Frau Schmidt.",
+      "questions": [
+        {
+          "question": "Was hat Frau Schmidt?",
+          "options": ["Rückenschmerzen", "Kopfschmerzen und Fieber", "Bauchschmerzen", "Nur Fieber"],
+          "correctAnswer": 1
+        },
+        {
+          "question": "Seit wann hat Frau Schmidt Kopfschmerzen?",
+          "options": ["Seit einer Woche", "Seit heute Morgen", "Seit gestern Abend", "Seit drei Tagen"],
+          "correctAnswer": 2
+        },
+        {
+          "question": "Was diagnostiziert der Doktor?",
+          "options": ["Eine Grippe", "Eine Erkältung", "Eine Allergie", "Nichts Ernstes"],
+          "correctAnswer": 1
+        },
+        {
+          "question": "Was soll Frau Schmidt tun?",
+          "options": ["Ins Krankenhaus gehen", "Viel trinken und sich ausruhen", "Sport machen", "Eine Operation haben"],
+          "correctAnswer": 1
+        }
+      ],
+      "vocabulary": {
+        "Arzt": "doctor",
+        "fehlen": "to be wrong",
+        "Kopfschmerzen": "headache",
+        "Fieber": "fever",
+        "Wie lange": "how long",
+        "schon": "already",
+        "seit": "since",
+        "gestern Abend": "yesterday evening",
+        "Halsschmerzen": "sore throat",
+        "ein bisschen": "a little bit",
+        "untersuchen": "to examine",
+        "Erkältung": "cold (illness)",
+        "müssen": "must/to have to",
+        "viel trinken": "to drink a lot",
+        "sich ausruhen": "to rest",
+        "schreiben": "to write",
+        "Rezept": "prescription",
+        "vielen Dank": "thank you very much",
+        "gute Besserung": "get well soon"
+      }
+    }
+  ],
+  "advertisementsAndSigns": [
+    {
+      "title": "Bäckerei-Angebot",
+      "text": "HEUTE IM ANGEBOT\nBrötchen: 0,50 € pro Stück\nBrot: 2,80 € pro Laib\nKuchen des Tages: Apfelkuchen 2,20 € pro Stück\n\nÖffnungszeiten:\nMontag - Freitag: 7:00 - 19:00 Uhr\nSamstag: 7:00 - 14:00 Uhr\nSonntag: geschlossen",
+      "questions": [
+        {
+          "question": "Was kostet ein Brötchen?",
+          "options": ["0,30 €", "0,50 €", "0,80 €", "1,00 €"],
+          "correctAnswer": 1
+        },
+        {
+          "question": "Welcher Kuchen ist im Angebot?",
+          "options": ["Schokoladenkuchen", "Käsekuchen", "Apfelkuchen", "Erdbeerkuchen"],
+          "correctAnswer": 2
+        },
+        {
+          "question": "Wann ist die Bäckerei geschlossen?",
+          "options": ["Montag", "Samstag Nachmittag", "Sonntag", "Freitag Abend"],
+          "correctAnswer": 2
+        },
+        {
+          "question": "Wie lange hat die Bäckerei am Samstag geöffnet?",
+          "options": ["Von 7:00 bis 14:00 Uhr", "Von 7:00 bis 19:00 Uhr", "Von 8:00 bis 14:00 Uhr", "Von 7:00 bis 12:00 Uhr"],
+          "correctAnswer": 0
+        }
+      ],
+      "vocabulary": {
+        "Bäckerei": "bakery",
+        "Angebot": "offer/special",
+        "heute": "today",
+        "Brötchen": "bread roll",
+        "Stück": "piece",
+        "Brot": "bread",
+        "Laib": "loaf",
+        "Kuchen": "cake",
+        "des Tages": "of the day",
+        "Apfelkuchen": "apple cake",
+        "Öffnungszeiten": "opening hours",
+        "Montag": "Monday",
+        "Freitag": "Friday",
+        "Samstag": "Saturday",
+        "Sonntag": "Sunday",
+        "geschlossen": "closed",
+        "pro": "per"
+      }
+    },
+    {
+      "title": "Zugfahrplan",
+      "text": "BERLIN HAUPTBAHNHOF - MÜNCHEN HAUPTBAHNHOF\n\nAbfahrt Berlin: 9:30 Uhr, Gleis 5\nAnkunft München: 14:15 Uhr, Gleis 10\n\nDauer: 4 Stunden 45 Minuten\nUmsteigen: nicht notwendig\nZugtyp: ICE 703\nPreis: ab 49,90 €\n\nBitte 10 Minuten vor Abfahrt am Bahnsteig sein.",
+      "questions": [
+        {
+          "question": "Wann fährt der Zug ab?",
+          "options": ["8:30 Uhr", "9:30 Uhr", "10:30 Uhr", "11:30 Uhr"],
+          "correctAnswer": 1
+        },
+        {
+          "question": "Von welchem Gleis fährt der Zug ab?",
+          "options": ["Gleis 3", "Gleis 5", "Gleis 7", "Gleis 10"],
+          "correctAnswer": 1
+        },
+        {
+          "question": "Wie lange dauert die Fahrt?",
+          "options": ["3 Stunden 45 Minuten", "4 Stunden 15 Minuten", "4 Stunden 45 Minuten", "5 Stunden 15 Minuten"],
+          "correctAnswer": 2
+        },
+        {
+          "question": "Muss man umsteigen?",
+          "options": ["Ja, einmal", "Ja, zweimal", "Nein, nicht notwendig", "Ja, in Frankfurt"],
+          "correctAnswer": 2
+        }
+      ],
+      "vocabulary": {
+        "Zugfahrplan": "train schedule",
+        "Hauptbahnhof": "main station",
+        "Abfahrt": "departure",
+        "Ankunft": "arrival",
+        "Gleis": "platform/track",
+        "Dauer": "duration",
+        "Stunden": "hours",
+        "Minuten": "minutes",
+        "umsteigen": "to change (trains)",
+        "nicht notwendig": "not necessary",
+        "Zugtyp": "train type",
+        "Preis": "price",
+        "ab": "from (price)",
+        "bitte": "please",
+        "vor": "before",
+        "Bahnsteig": "platform",
+        "sein": "to be"
+      }
+    },
+    {
+      "title": "Restaurantschild",
+      "text": "RESTAURANT ZUM GOLDENEN LÖWEN\n\nMittagsmenü: 12,50 €\n- Suppe des Tages\n- Hauptgericht mit Fleisch oder vegetarisch\n- Kleiner Salat\n- Ein Getränk (0,3l)\n\nReservierungen unter: 030-123456789\nWir akzeptieren Bargeld und Kreditkarten.",
+      "questions": [
+        {
+          "question": "Wie heißt das Restaurant?",
+          "options": ["Zum Goldenen Adler", "Zum Goldenen Löwen", "Zum Silbernen Löwen", "Zum Weißen Löwen"],
+          "correctAnswer": 1
+        },
+        {
+          "question": "Was kostet das Mittagsmenü?",
+          "options": ["10,50 €", "11,50 €", "12,50 €", "13,50 €"],
+          "correctAnswer": 2
+        },
+        {
+          "question": "Was ist im Mittagsmenü enthalten?",
+          "options": ["Nur Hauptgericht", "Suppe, Hauptgericht, Salat und Getränk", "Hauptgericht und Dessert", "Suppe und Hauptgericht"],
+          "correctAnswer": 1
+        },
+        {
+          "question": "Wie kann man reservieren?",
+          "options": ["Per E-Mail", "Telefonisch", "Online", "Persönlich"],
+          "correctAnswer": 1
+        }
+      ],
+      "vocabulary": {
+        "Restaurant": "restaurant",
+        "zum Goldenen Löwen": "to the Golden Lion (restaurant name)",
+        "Mittagsmenü": "lunch menu",
+        "Suppe": "soup",
+        "des Tages": "of the day",
+        "Hauptgericht": "main dish",
+        "Fleisch": "meat",
+        "vegetarisch": "vegetarian",
+        "kleiner Salat": "small salad",
+        "Getränk": "drink",
+        "Reservierungen": "reservations",
+        "unter": "under/at",
+        "akzeptieren": "to accept",
+        "Bargeld": "cash",
+        "Kreditkarten": "credit cards"
+      }
+    }
+  ]
+}

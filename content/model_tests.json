@@ -1,0 +1,591 @@
+{
+    "modelTests": [
+        {
+            "id": "prufungstraining_test1",
+            "title": "Prüfungstraining Test 1",
+            "sections": {
+                "listening": {
+                    "part1": {
+                        "title": "Hören Teil 1 - Kurze Gespräche",
+                        "duration": "10 minutes",
+                        "description": "Sie hören fünf kurze Gespräche. Sie hören jedes Gespräch zweimal.",
+                        "questions": [
+                            {
+                                "id": "l1q1",
+                                "audioFile": "model-test1/conversation1.mp3",
+                                "situation": "Im Supermarkt",
+                                "question": "Was kostet das Brot?",
+                                "options": [
+                                    "1,85 €",
+                                    "2,85 €",
+                                    "1,58 €"
+                                ],
+                                "correctAnswer": 0
+                            },
+                            {
+                                "id": "l1q2",
+                                "audioFile": "model-test1/conversation2.mp3",
+                                "situation": "An der Rezeption",
+                                "question": "Wann kommt der Bus?",
+                                "options": [
+                                    "Um 9:15 Uhr",
+                                    "Um 9:30 Uhr",
+                                    "Um 9:45 Uhr"
+                                ],
+                                "correctAnswer": 1
+                            }
+                        ]
+                    },
+                    "part2": {
+                        "title": "Hören Teil 2 - Durchsagen und Ansagen",
+                        "duration": "15 minutes",
+                        "description": "Sie hören zwei Durchsagen. Sie hören jede Durchsage zweimal.",
+                        "questions": [
+                            {
+                                "id": "l2q1",
+                                "audioFile": "model-test1/announcement1.mp3",
+                                "situation": "Bahnhofsdurchsage",
+                                "question": "Von welchem Gleis fährt der Zug nach München ab?",
+                                "options": [
+                                    "Gleis 5",
+                                    "Gleis 7",
+                                    "Gleis 9"
+                                ],
+                                "correctAnswer": 1
+                            }
+                        ]
+                    }
+                },
+                "reading": {
+                    "part1": {
+                        "title": "Lesen Teil 1 - Kurzmitteilungen",
+                        "duration": "20 minutes",
+                        "description": "Lesen Sie die kurzen Texte und wählen Sie: Richtig oder falsch?",
+                        "texts": [
+                            {
+                                "id": "r1t1",
+                                "text": "Liebe Frau Weber,\n\nich kann morgen leider nicht zum Deutschkurs kommen. Meine Tochter ist krank und ich muss zu Hause bleiben. Können Sie mir bitte die Hausaufgaben per E-Mail schicken?\n\nViele Grüße\nErica Santos",
+                                "questions": [
+                                    {
+                                        "id": "r1q1",
+                                        "question": "Frau Santos kommt nicht zum Kurs, weil sie krank ist.",
+                                        "type": "truefalse",
+                                        "correctAnswer": false
+                                    },
+                                    {
+                                        "id": "r1q2",
+                                        "question": "Sie möchte die Hausaufgaben per E-Mail bekommen.",
+                                        "type": "truefalse",
+                                        "correctAnswer": true
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    "part2": {
+                        "title": "Lesen Teil 2 - Schilder und Hinweise",
+                        "duration": "20 minutes",
+                        "description": "Lesen Sie die Schilder und Hinweise. Wählen Sie die richtige Antwort.",
+                        "texts": [
+                            {
+                                "id": "r2t1",
+                                "image": "signs/opening-hours.jpg",
+                                "text": "ÖFFNUNGSZEITEN\nMo-Fr: 9:00-18:00\nSa: 9:00-13:00\nMittagspause: 12:30-13:30",
+                                "questions": [
+                                    {
+                                        "id": "r2q1",
+                                        "question": "Wann ist das Geschäft samstags geöffnet?",
+                                        "options": [
+                                            "Von 9 Uhr bis 18 Uhr",
+                                            "Von 9 Uhr bis 13 Uhr",
+                                            "Von 12:30 Uhr bis 13:30 Uhr"
+                                        ],
+                                        "correctAnswer": 1
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                },
+                "writing": {
+                    "part1": {
+                        "title": "Schreiben Teil 1 - Formular",
+                        "duration": "15 minutes",
+                        "task": {
+                            "description": "Füllen Sie das Anmeldeformular für einen Sportkurs aus.",
+                            "form": {
+                                "title": "ANMELDEFORMULAR - Fitnessstudio Aktiv",
+                                "fields": [
+                                    {
+                                        "label": "Name",
+                                        "type": "text",
+                                        "required": true
+                                    },
+                                    {
+                                        "label": "Geburtsdatum",
+                                        "type": "date",
+                                        "required": true
+                                    },
+                                    {
+                                        "label": "Adresse",
+                                        "type": "text",
+                                        "required": true
+                                    },
+                                    {
+                                        "label": "Telefonnummer",
+                                        "type": "tel",
+                                        "required": true
+                                    },
+                                    {
+                                        "label": "E-Mail",
+                                        "type": "email",
+                                        "required": false
+                                    },
+                                    {
+                                        "label": "Gewünschter Kurs",
+                                        "type": "select",
+                                        "options": ["Yoga", "Pilates", "Zumba"],
+                                        "required": true
+                                    }
+                                ]
+                            }
+                        }
+                    },
+                    "part2": {
+                        "title": "Schreiben Teil 2 - Kurzmitteilung",
+                        "duration": "15 minutes",
+                        "task": {
+                            "description": "Schreiben Sie eine kurze Nachricht an Ihre Freundin Maria:\n\n- Sie können morgen nicht zum Café kommen\n- Erklären Sie warum\n- Schlagen Sie einen neuen Termin vor",
+                            "context": "Sie wollten sich morgen mit Ihrer Freundin Maria im Café treffen. Sie können aber nicht kommen.",
+                            "minimumWords": 25,
+                            "maximumWords": 35,
+                            "example": "Struktur:\n- Anrede\n- Grund für die Absage\n- Neuer Terminvorschlag\n- Gruß"
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "id": "prufungstraining_test2",
+            "title": "Prüfungstraining Test 2",
+            "sections": {
+                "listening": {
+                    "part1": {
+                        "title": "Hören Teil 1 - Kurze Gespräche",
+                        "duration": "10 minutes",
+                        "description": "Sie hören fünf kurze Gespräche. Sie hören jedes Gespräch zweimal.",
+                        "questions": [
+                            {
+                                "id": "l1q1",
+                                "audioFile": "model-test2/conversation1.mp3",
+                                "situation": "Im Restaurant",
+                                "question": "Was bestellt der Gast zu trinken?",
+                                "options": [
+                                    "Ein Glas Weißwein",
+                                    "Eine Flasche Rotwein",
+                                    "Ein Glas Mineralwasser"
+                                ],
+                                "correctAnswer": 2
+                            },
+                            {
+                                "id": "l1q2",
+                                "audioFile": "model-test2/conversation2.mp3",
+                                "situation": "Am Bahnhof",
+                                "question": "Wie viel kostet die Fahrkarte?",
+                                "options": [
+                                    "23,50 €",
+                                    "32,50 €",
+                                    "33,50 €"
+                                ],
+                                "correctAnswer": 1
+                            }
+                        ]
+                    },
+                    "part2": {
+                        "title": "Hören Teil 2 - Durchsagen und Ansagen",
+                        "duration": "15 minutes",
+                        "description": "Sie hören zwei Durchsagen. Sie hören jede Durchsage zweimal.",
+                        "questions": [
+                            {
+                                "id": "l2q1",
+                                "audioFile": "model-test2/announcement1.mp3",
+                                "situation": "Supermarktdurchsage",
+                                "question": "Welches Sonderangebot gibt es heute?",
+                                "options": [
+                                    "Frische Tomaten",
+                                    "Frische Äpfel",
+                                    "Frische Bananen"
+                                ],
+                                "correctAnswer": 0
+                            }
+                        ]
+                    }
+                },
+                "reading": {
+                    "part1": {
+                        "title": "Lesen Teil 1 - Kurzmitteilungen",
+                        "duration": "20 minutes",
+                        "description": "Lesen Sie die kurzen Texte und wählen Sie: Richtig oder falsch?",
+                        "texts": [
+                            {
+                                "id": "r1t1",
+                                "text": "Lieber Thomas,\n\nich habe heute leider keine Zeit für einen Kaffee. Ich muss noch für die Deutschprüfung lernen. Können wir uns am Wochenende treffen? Samstag oder Sonntag, du kannst wählen.\n\nLG\nSarah",
+                                "questions": [
+                                    {
+                                        "id": "r1q1",
+                                        "question": "Sarah hat heute Zeit für einen Kaffee.",
+                                        "type": "truefalse",
+                                        "correctAnswer": false
+                                    },
+                                    {
+                                        "id": "r1q2",
+                                        "question": "Sie möchte sich am Wochenende mit Thomas treffen.",
+                                        "type": "truefalse",
+                                        "correctAnswer": true
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    "part2": {
+                        "title": "Lesen Teil 2 - Schilder und Hinweise",
+                        "duration": "20 minutes",
+                        "description": "Lesen Sie die Schilder und Hinweise. Wählen Sie die richtige Antwort.",
+                        "texts": [
+                            {
+                                "id": "r2t1",
+                                "image": "signs/restaurant-sign.jpg",
+                                "text": "HEUTE SPEZIAL\nSchnitzel mit Pommes\nInkl. ein Getränk (0,3l)\n nur 8,90 €",
+                                "questions": [
+                                    {
+                                        "id": "r2q1",
+                                        "question": "Was ist im Preis enthalten?",
+                                        "options": [
+                                            "Nur das Essen",
+                                            "Essen und ein Getränk",
+                                            "Zwei Getränke"
+                                        ],
+                                        "correctAnswer": 1
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                },
+                "writing": {
+                    "part1": {
+                        "title": "Schreiben Teil 1 - Formular",
+                        "duration": "15 minutes",
+                        "task": {
+                            "description": "Füllen Sie das Anmeldeformular für die Bibliothek aus.",
+                            "form": {
+                                "title": "BIBLIOTHEKSAUSWEIS - ANMELDUNG",
+                                "fields": [
+                                    {
+                                        "label": "Familienname",
+                                        "type": "text",
+                                        "required": true
+                                    },
+                                    {
+                                        "label": "Vorname",
+                                        "type": "text",
+                                        "required": true
+                                    },
+                                    {
+                                        "label": "Straße, Hausnummer",
+                                        "type": "text",
+                                        "required": true
+                                    },
+                                    {
+                                        "label": "PLZ, Ort",
+                                        "type": "text",
+                                        "required": true
+                                    },
+                                    {
+                                        "label": "Telefon",
+                                        "type": "tel",
+                                        "required": true
+                                    },
+                                    {
+                                        "label": "E-Mail",
+                                        "type": "email",
+                                        "required": false
+                                    }
+                                ]
+                            }
+                        }
+                    },
+                    "part2": {
+                        "title": "Schreiben Teil 2 - Kurzmitteilung",
+                        "duration": "15 minutes",
+                        "task": {
+                            "description": "Schreiben Sie eine E-Mail an Ihren Deutschlehrer:\n\n- Sie sind krank\n- Sie können nicht zum Unterricht kommen\n- Fragen Sie nach den Hausaufgaben",
+                            "context": "Sie sind krank und können heute nicht zum Deutschkurs kommen.",
+                            "minimumWords": 25,
+                            "maximumWords": 35,
+                            "example": "Struktur:\n- Anrede\n- Grund für das Fehlen\n- Frage nach Hausaufgaben\n- Gruß"
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "id": "prufungstraining_test3",
+            "title": "Prüfungstraining Test 3",
+            "sections": {
+                "listening": {
+                    "part1": {
+                        "title": "Hören Teil 1 - Kurze Gespräche",
+                        "duration": "10 minutes",
+                        "description": "Sie hören fünf kurze Gespräche. Sie hören jedes Gespräch zweimal.",
+                        "questions": [
+                            {
+                                "id": "l1q1",
+                                "audioFile": "model-test3/conversation1.mp3",
+                                "situation": "In der Apotheke",
+                                "question": "Was möchte die Kundin kaufen?",
+                                "options": [
+                                    "Kopfschmerztabletten",
+                                    "Hustensaft",
+                                    "Nasentropfen"
+                                ],
+                                "correctAnswer": 1
+                            },
+                            {
+                                "id": "l1q2",
+                                "audioFile": "model-test3/conversation2.mp3",
+                                "situation": "Im Touristenbüro",
+                                "question": "Wann beginnt die Stadtführung?",
+                                "options": [
+                                    "Um 10:00 Uhr",
+                                    "Um 11:00 Uhr",
+                                    "Um 12:00 Uhr"
+                                ],
+                                "correctAnswer": 0
+                            }
+                        ]
+                    },
+                    "part2": {
+                        "title": "Hören Teil 2 - Durchsagen und Ansagen",
+                        "duration": "15 minutes",
+                        "description": "Sie hören zwei Durchsagen. Sie hören jede Durchsage zweimal.",
+                        "questions": [
+                            {
+                                "id": "l2q1",
+                                "audioFile": "model-test3/announcement1.mp3",
+                                "situation": "Kaufhausdurchsage",
+                                "question": "In welcher Abteilung ist der Sonderverkauf?",
+                                "options": [
+                                    "Kleidung",
+                                    "Schuhe",
+                                    "Taschen"
+                                ],
+                                "correctAnswer": 1
+                            }
+                        ]
+                    }
+                },
+                "reading": {
+                    "part1": {
+                        "title": "Lesen Teil 1 - Kurzmitteilungen",
+                        "duration": "20 minutes",
+                        "description": "Lesen Sie die kurzen Texte und wählen Sie: Richtig oder falsch?",
+                        "texts": [
+                            {
+                                "id": "r1t1",
+                                "text": "Sehr geehrte Patienten,\n\nDr. Schmidt ist vom 15. bis 30. August im Urlaub.\nVertretung: Dr. Meyer, Hauptstraße 12\nSprechzeiten: Mo-Fr 9:00-12:00 Uhr\n\nIhre Arztpraxis Schmidt",
+                                "questions": [
+                                    {
+                                        "id": "r1q1",
+                                        "question": "Dr. Schmidt ist zwei Wochen nicht da.",
+                                        "type": "truefalse",
+                                        "correctAnswer": true
+                                    },
+                                    {
+                                        "id": "r1q2",
+                                        "question": "Die Vertretung ist am Wochenende geöffnet.",
+                                        "type": "truefalse",
+                                        "correctAnswer": false
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    "part2": {
+                        "title": "Lesen Teil 2 - Schilder und Hinweise",
+                        "duration": "20 minutes",
+                        "description": "Lesen Sie die Schilder und Hinweise. Wählen Sie die richtige Antwort.",
+                        "texts": [
+                            {
+                                "id": "r2t1",
+                                "image": "signs/bus-schedule.jpg",
+                                "text": "BUSLINIE 10\nAbfahrt am Hauptbahnhof:\nMontag bis Freitag\n- alle 10 Minuten von 6:00 bis 20:00 Uhr\n- alle 20 Minuten von 20:00 bis 23:00 Uhr",
+                                "questions": [
+                                    {
+                                        "id": "r2q1",
+                                        "question": "Wie oft fährt der Bus ab 20:00 Uhr?",
+                                        "options": [
+                                            "Alle 10 Minuten",
+                                            "Alle 20 Minuten",
+                                            "Alle 30 Minuten"
+                                        ],
+                                        "correctAnswer": 1
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                },
+                "writing": {
+                    "part1": {
+                        "title": "Schreiben Teil 1 - Formular",
+                        "duration": "15 minutes",
+                        "task": {
+                            "description": "Füllen Sie das Anmeldeformular für einen Deutschkurs aus.",
+                            "form": {
+                                "title": "SPRACHSCHULE DEUTSCH - ANMELDUNG",
+                                "fields": [
+                                    {
+                                        "label": "Name, Vorname",
+                                        "type": "text",
+                                        "required": true
+                                    },
+                                    {
+                                        "label": "Nationalität",
+                                        "type": "text",
+                                        "required": true
+                                    },
+                                    {
+                                        "label": "Muttersprache",
+                                        "type": "text",
+                                        "required": true
+                                    },
+                                    {
+                                        "label": "Deutschkenntnisse",
+                                        "type": "select",
+                                        "options": ["keine", "A1", "A2"],
+                                        "required": true
+                                    },
+                                    {
+                                        "label": "Kursbeginn",
+                                        "type": "date",
+                                        "required": true
+                                    },
+                                    {
+                                        "label": "E-Mail",
+                                        "type": "email",
+                                        "required": true
+                                    }
+                                ]
+                            }
+                        }
+                    },
+                    "part2": {
+                        "title": "Schreiben Teil 2 - Kurzmitteilung",
+                        "duration": "15 minutes",
+                        "task": {
+                            "description": "Schreiben Sie eine Nachricht an Ihren Nachbarn Hans:\n\n- Sie machen am Samstag eine kleine Party\n- Die Party beginnt um 19 Uhr\n- Es gibt Musik, aber nicht zu laut\n- Laden Sie ihn ein",
+                            "context": "Sie organisieren eine Party und möchten Ihren Nachbarn informieren und einladen.",
+                            "minimumWords": 25,
+                            "maximumWords": 35,
+                            "example": "Struktur:\n- Anrede\n- Information über die Party\n- Einladung\n- Gruß"
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "id": "test1",
+            "title": "Model Test 1",
+            "sections": {
+                "listening": {
+                    "part1": {
+                        "title": "Listening Part 1 - Short Conversations",
+                        "duration": "10 minutes",
+                        "questions": [
+                            {
+                                "id": "l1q1",
+                                "audioFile": "model-test1/conversation1.mp3",
+                                "question": "Where is the conversation taking place?",
+                                "options": [
+                                    "At a café",
+                                    "At a restaurant",
+                                    "At home"
+                                ],
+                                "correctAnswer": 0
+                            }
+                        ]
+                    },
+                    "part2": {
+                        "title": "Listening Part 2 - Public Announcements",
+                        "duration": "10 minutes",
+                        "questions": [
+                            {
+                                "id": "l2q1",
+                                "audioFile": "model-test1/announcement1.mp3",
+                                "question": "What time does the train depart?",
+                                "options": [
+                                    "13:45",
+                                    "14:45",
+                                    "15:45"
+                                ],
+                                "correctAnswer": 1
+                            }
+                        ]
+                    }
+                },
+                "reading": {
+                    "part1": {
+                        "title": "Reading Part 1 - Short Messages",
+                        "duration": "30 minutes",
+                        "texts": [
+                            {
+                                "id": "r1t1",
+                                "text": "Liebe Maria,\nich bin am Samstag um 14 Uhr in Berlin. Können wir uns im Café am Alexanderplatz treffen?\nLG,\nSofia",
+                                "questions": [
+                                    {
+                                        "id": "r1q1",
+                                        "question": "Where does Sofia want to meet?",
+                                        "options": [
+                                            "At the train station",
+                                            "At a café",
+                                            "At home"
+                                        ],
+                                        "correctAnswer": 1
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                },
+                "writing": {
+                    "part1": {
+                        "title": "Writing Part 1 - Form Filling",
+                        "duration": "15 minutes",
+                        "task": {
+                            "description": "Fill out a registration form for a German language course",
+                            "form": {
+                                "fields": [
+                                    "Name",
+                                    "Address",
+                                    "Phone number",
+                                    "Email",
+                                    "Course level"
+                                ]
+                            }
+                        }
+                    },
+                    "part2": {
+                        "title": "Writing Part 2 - Short Message",
+                        "duration": "15 minutes",
+                        "task": {
+                            "description": "Write a short email to your friend about your weekend plans",
+                            "minimumWords": 30,
+                            "maximumWords": 40
+                        }
+                    }
+                }
+            }
+        }
+    ]
+}

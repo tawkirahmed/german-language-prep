@@ -1,0 +1,725 @@
+{
+  "personalPronouns": [
+    {
+      "german": "ich",
+      "english": "I",
+      "examples": [
+        {"german": "Ich heiße Anna.", "english": "My name is Anna."},
+        {"german": "Ich komme aus Deutschland.", "english": "I come from Germany."}
+      ]
+    },
+    {
+      "german": "du",
+      "english": "you (informal singular)",
+      "examples": [
+        {"german": "Wo wohnst du?", "english": "Where do you live?"},
+        {"german": "Wie alt bist du?", "english": "How old are you?"}
+      ]
+    },
+    {
+      "german": "er",
+      "english": "he",
+      "examples": [
+        {"german": "Er heißt Thomas.", "english": "His name is Thomas."},
+        {"german": "Er kommt aus Österreich.", "english": "He comes from Austria."}
+      ]
+    },
+    {
+      "german": "sie",
+      "english": "she",
+      "examples": ["Sie heißt Maria.", "Sie kommt aus der Schweiz."]
+    },
+    {
+      "german": "es",
+      "english": "it",
+      "examples": ["Es ist kalt heute.", "Es regnet."]
+    },
+    {
+      "german": "wir",
+      "english": "we",
+      "examples": [
+        {"german": "Wir lernen Deutsch.", "english": "We are learning German."},
+        {"german": "Wir kommen aus England.", "english": "We come from England."}
+      ]
+    },
+    {
+      "german": "ihr",
+      "english": "you (informal plural)",
+      "examples": ["Wo wohnt ihr?", "Kommt ihr aus Spanien?"]
+    },
+    {
+      "german": "sie",
+      "english": "they",
+      "examples": ["Sie heißen Peter und Anna.", "Sie kommen aus Frankreich."]
+    },
+    {
+      "german": "Sie",
+      "english": "you (formal singular and plural)",
+      "examples": ["Wo wohnen Sie?", "Kommen Sie aus Italien?"]
+    }
+  ],
+  "articles": [
+    {
+      "german": "der (masculine)",
+      "english": "the",
+      "examples": [
+        {"german": "der Mann", "english": "the man"},
+        {"german": "der Tisch", "english": "the table"},
+        {"german": "der Computer", "english": "the computer"}
+      ]
+    },
+    {
+      "german": "die (feminine)",
+      "english": "the",
+      "examples": ["die Frau", "die Tasche", "die Lampe"]
+    },
+    {
+      "german": "das (neuter)",
+      "english": "the",
+      "examples": ["das Kind", "das Buch", "das Fenster"]
+    },
+    {
+      "german": "ein (masculine)",
+      "english": "a/an",
+      "examples": ["ein Mann", "ein Tisch", "ein Computer"]
+    },
+    {
+      "german": "eine (feminine)",
+      "english": "a/an",
+      "examples": ["eine Frau", "eine Tasche", "eine Lampe"]
+    },
+    {
+      "german": "ein (neuter)",
+      "english": "a/an",
+      "examples": ["ein Kind", "ein Buch", "ein Fenster"]
+    }
+  ],
+  "pluralForms": [
+    {
+      "german": "-e",
+      "english": "Common plural ending",
+      "explanation": "Many masculine nouns and some neuter nouns add -e in the plural form. Masculine nouns with a, o, u may add an umlaut.",
+      "examples": ["der Tisch → die Tische", "der Schuh → die Schuhe", "der Arm → die Arme", "der Ball → die Bälle", "der Sohn → die Söhne"]
+    },
+    {
+      "german": "-er",
+      "english": "Common plural ending (often with umlaut)",
+      "explanation": "Many neuter nouns and some masculine nouns add -er in the plural form. If the vowel is a, o, u, it often gets an umlaut.",
+      "examples": ["das Kind → die Kinder", "das Bild → die Bilder", "der Mann → die Männer", "das Buch → die Bücher", "das Haus → die Häuser"]
+    },
+    {
+      "german": "-n/-en",
+      "english": "Common plural ending",
+      "explanation": "Most feminine nouns and masculine nouns ending in -e add -n or -en in the plural. This pattern does not use umlauts.",
+      "examples": ["die Frau → die Frauen", "die Tasche → die Taschen", "der Student → die Studenten", "die Lehrerin → die Lehrerinnen", "der Junge → die Jungen"]
+    },
+    {
+      "german": "-en for nouns ending in -ung",
+      "english": "Words ending in -ung add -en",
+      "explanation": "All feminine nouns ending in -ung (a very common word ending in German) add -en in the plural. These nouns never take an umlaut in the plural.",
+      "examples": ["die Wohnung → die Wohnungen", "die Zeitung → die Zeitungen", "die Übung → die Übungen", "die Rechnung → die Rechnungen", "die Erklärung → die Erklärungen"]
+    },
+    {
+      "german": "-s",
+      "english": "Common for foreign words",
+      "explanation": "Many foreign words, abbreviations, and words ending in a vowel add -s in the plural. This is similar to English plurals.",
+      "examples": ["das Auto → die Autos", "das Handy → die Handys", "der Chef → die Chefs", "das Hotel → die Hotels", "das Hobby → die Hobbys"]
+    },
+    {
+      "german": "same form",
+      "english": "Some words don't change in plural (often with umlaut)",
+      "explanation": "Some nouns have the same form in singular and plural. Many masculine nouns ending in -er, -el, or -en belong to this group, as do most neuter nouns ending in -chen or -lein.",
+      "examples": ["der Lehrer → die Lehrer", "der Kuchen → die Kuchen", "das Fenster → die Fenster", "das Mädchen → die Mädchen", "der Computer → die Computer"]
+    },
+    {
+      "german": "umlaut only",
+      "english": "Some words only add an umlaut in plural",
+      "explanation": "A small group of nouns (mostly masculine) form their plural by only changing the vowel to an umlaut, without adding an ending.",
+      "examples": ["der Vater → die Väter", "die Mutter → die Mütter", "der Bruder → die Brüder", "der Garten → die Gärten", "der Apfel → die Äpfel"]
+    },
+    {
+      "german": "-nen",
+      "english": "For feminine forms of professions/people",
+      "explanation": "Feminine forms of professions or people that end in -in add -nen in the plural form.",
+      "examples": ["die Lehrerin → die Lehrerinnen", "die Ärztin → die Ärztinnen", "die Studentin → die Studentinnen", "die Freundin → die Freundinnen"]
+    },
+    {
+      "german": "-tum → -tümer",
+      "english": "For nouns ending in -tum",
+      "explanation": "Neuter nouns ending in -tum form their plural by adding -er and changing the vowel to an umlaut.",
+      "examples": ["das Eigentum → die Eigentümer", "das Heiligtum → die Heiligtümer", "das Reichtum → die Reichtümer"]
+    },
+    {
+      "german": "Latin/Greek origin nouns",
+      "english": "Special rules for Latin/Greek words",
+      "explanation": "Many words of Latin or Greek origin follow special plural patterns that reflect their origin.",
+      "examples": ["das Museum → die Museen", "das Visum → die Visa", "das Praktikum → die Praktika", "der Rhythmus → die Rhythmen"]
+    }
+  ],
+  "verbConjugationPresentTense": [
+    {
+      "german": "Regular verb pattern (arbeiten)",
+      "english": "Regular verb conjugation in present tense",
+      "examples": [
+        "ich arbeite - I work",
+        "du arbeitest - you work",
+        "er/sie/es arbeitet - he/she/it works",
+        "wir arbeiten - we work",
+        "ihr arbeitet - you work (plural)",
+        "sie/Sie arbeiten - they work / you work (formal)"
+      ]
+    },
+    {
+      "german": "Verb stem ending in -d or -t (arbeiten)",
+      "english": "Add -e- before personal endings -st, -t",
+      "examples": [
+        "ich arbeite - I work",
+        "du arbeitest - you work",
+        "er/sie/es arbeitet - he/she/it works",
+        "wir arbeiten - we work",
+        "ihr arbeitet - you work (plural)",
+        "sie/Sie arbeiten - they work / you work (formal)"
+      ]
+    },
+    {
+      "german": "Verb stem ending in -s, -ß, -z, -tz (heißen)",
+      "english": "The 'du' form has just -t instead of -st",
+      "examples": [
+        "ich heiße - I am called",
+        "du heißt - you are called",
+        "er/sie/es heißt - he/she/it is called",
+        "wir heißen - we are called",
+        "ihr heißt - you are called (plural)",
+        "sie/Sie heißen - they are called / you are called (formal)"
+      ]
+    }
+  ],
+  "cases": [
+    {
+      "german": "Nominativ (Wer? Was?)",
+      "english": "Nominative case (subject)",
+      "examples": [
+        "der Mann ist alt. - the man is old.",
+        "die Frau ist jung. - the woman is young.",
+        "das Kind spielt. - the child is playing."
+      ]
+    },
+    {
+      "german": "Akkusativ (Wen? Was?)",
+      "english": "Accusative case (direct object)",
+      "examples": [
+        "Ich sehe den Mann. - I see the man.",
+        "Ich sehe die Frau. - I see the woman.",
+        "Ich sehe das Kind. - I see the child."
+      ]
+    }
+  ],
+  "sentenceStructure": [
+    {
+      "german": "Aussagesatz (Statement)",
+      "english": "Statement sentence structure",
+      "examples": [
+        "Ich komme aus Deutschland. - I come from Germany.",
+        "Er trinkt einen Kaffee. - He drinks a coffee.",
+        "Wir lernen Deutsch. - We learn German."
+      ]
+    },
+    {
+      "german": "Fragesatz mit Fragewort (Question with question word)",
+      "english": "Question with question word structure",
+      "examples": [
+        "Wo wohnst du? - Where do you live?",
+        "Wann kommst du? - When are you coming?",
+        "Wie heißt du? - What is your name?"
+      ]
+    },
+    {
+      "german": "Ja/Nein-Fragesatz (Yes/No question)",
+      "english": "Yes/No question structure",
+      "examples": [
+        "Kommst du aus Deutschland? - Are you from Germany?",
+        "Trinkst du Kaffee? - Do you drink coffee?",
+        "Lernst du Deutsch? - Are you learning German?"
+      ]
+    }
+  ],
+  "negation": [
+    {
+      "german": "nicht",
+      "english": "not (for verbs and adjectives)",
+      "examples": [
+        "Ich komme nicht aus Deutschland. - I don't come from Germany.",
+        "Das Buch ist nicht teuer. - The book is not expensive.",
+        "Er arbeitet heute nicht. - He doesn't work today."
+      ]
+    },
+    {
+      "german": "kein/keine/kein",
+      "english": "no/not a (for nouns)",
+      "examples": [
+        "Das ist kein Buch. - That is not a book.",
+        "Ich habe keine Zeit. - I don't have time.",
+        "Er hat kein Geld. - He doesn't have money."
+      ]
+    }
+  ],
+  "possessivePronouns": [
+    {
+      "german": "mein/meine/mein",
+      "english": "my",
+      "examples": [
+        "Das ist mein Buch. - That is my book.",
+        "Das ist meine Tasche. - That is my bag.",
+        "Das ist mein Auto. - That is my car."
+      ]
+    },
+    {
+      "german": "dein/deine/dein",
+      "english": "your (informal singular)",
+      "examples": [
+        "Ist das dein Buch? - Is that your book?",
+        "Ist das deine Tasche? - Is that your bag?",
+        "Ist das dein Auto? - Is that your car?"
+      ]
+    },
+    {
+      "german": "sein/seine/sein",
+      "english": "his/its",
+      "examples": [
+        "Das ist sein Buch. - That is his book.",
+        "Das ist seine Tasche. - That is his bag.",
+        "Das ist sein Auto. - That is his car."
+      ]
+    },
+    {
+      "german": "ihr/ihre/ihr",
+      "english": "her",
+      "examples": [
+        "Das ist ihr Buch. - That is her book.",
+        "Das ist ihre Tasche. - That is her bag.",
+        "Das ist ihr Auto. - That is her car."
+      ]
+    },
+    {
+      "german": "unser/unsere/unser",
+      "english": "our",
+      "examples": [
+        "Das ist unser Buch. - That is our book.",
+        "Das ist unsere Tasche. - That is our bag.",
+        "Das ist unser Auto. - That is our car."
+      ]
+    },
+    {
+      "german": "euer/eure/euer",
+      "english": "your (informal plural)",
+      "examples": [
+        "Ist das euer Buch? - Is that your book?",
+        "Ist das eure Tasche? - Is that your bag?",
+        "Ist das euer Auto? - Is that your car?"
+      ]
+    },
+    {
+      "german": "ihr/ihre/ihr",
+      "english": "their",
+      "examples": [
+        "Das ist ihr Buch. - That is their book.",
+        "Das ist ihre Tasche. - That is their bag.",
+        "Das ist ihr Auto. - That is their car."
+      ]
+    },
+    {
+      "german": "Ihr/Ihre/Ihr",
+      "english": "your (formal)",
+      "examples": [
+        "Ist das Ihr Buch? - Is that your book?",
+        "Ist das Ihre Tasche? - Is that your bag?",
+        "Ist das Ihr Auto? - Is that your car?"
+      ]
+    }
+  ],
+  "prepositions": [
+    {
+      "german": "in",
+      "english": "in/into",
+      "examples": [
+        "Ich wohne in Berlin. - I live in Berlin.",
+        "Ich gehe in die Schule. - I go to school."
+      ]
+    },
+    {
+      "german": "auf",
+      "english": "on/onto",
+      "examples": [
+        "Das Buch liegt auf dem Tisch. - The book is on the table.",
+        "Ich lege das Buch auf den Tisch. - I put the book on the table."
+      ]
+    },
+    {
+      "german": "an",
+      "english": "at/on",
+      "examples": [
+        "Ich warte an der Bushaltestelle. - I'm waiting at the bus stop.",
+        "Das Bild hängt an der Wand. - The picture hangs on the wall."
+      ]
+    },
+    {
+      "german": "mit",
+      "english": "with",
+      "examples": [
+        "Ich fahre mit dem Bus. - I go by bus.",
+        "Ich spreche mit meinem Freund. - I speak with my friend."
+      ]
+    },
+    {
+      "german": "zu",
+      "english": "to",
+      "examples": [
+        "Ich gehe zu meinem Freund. - I go to my friend.",
+        "Ich gehe zur Schule. - I go to school."
+      ]
+    },
+    {
+      "german": "aus",
+      "english": "from/out of",
+      "examples": [
+        "Ich komme aus Deutschland. - I come from Germany.",
+        "Ich gehe aus dem Haus. - I go out of the house."
+      ]
+    },
+    {
+      "german": "nach",
+      "english": "to/after",
+      "examples": [
+        "Ich fahre nach Berlin. - I go to Berlin.",
+        "Nach dem Essen gehe ich spazieren. - After eating, I go for a walk."
+      ]
+    },
+    {
+      "german": "von",
+      "english": "from/of",
+      "examples": [
+        "Das Buch ist von meinem Freund. - The book is from my friend.",
+        "Ich komme von der Arbeit. - I come from work."
+      ]
+    },
+    {
+      "german": "bei",
+      "english": "at/with",
+      "examples": [
+        "Ich wohne bei meinen Eltern. - I live with my parents.",
+        "Ich arbeite bei einer Firma. - I work at a company."
+      ]
+    }
+  ],
+  "conjunctions": [
+    {
+      "german": "und",
+      "english": "and",
+      "examples": [
+        "Ich lerne Deutsch und Englisch. - I learn German and English.",
+        "Er trinkt Kaffee und isst Kuchen. - He drinks coffee and eats cake."
+      ]
+    },
+    {
+      "german": "oder",
+      "english": "or",
+      "examples": [
+        "Möchtest du Tee oder Kaffee? - Would you like tea or coffee?",
+        "Kommst du heute oder morgen? - Are you coming today or tomorrow?"
+      ]
+    },
+    {
+      "german": "aber",
+      "english": "but",
+      "examples": [
+        "Ich lerne Deutsch, aber es ist schwer. - I learn German, but it is difficult.",
+        "Er ist klein, aber stark. - He is small, but strong."
+      ]
+    },
+    {
+      "german": "denn",
+      "english": "because/for",
+      "examples": [
+        "Ich lerne Deutsch, denn ich möchte in Deutschland arbeiten. - I learn German because I want to work in Germany.",
+        "Er ist müde, denn er hat nicht geschlafen. - He is tired because he hasn't slept."
+      ]
+    }
+  ],
+  "timeExpressions": [
+    {
+      "german": "heute",
+      "english": "today",
+      "examples": [
+        "Heute ist es warm. - Today it is warm.",
+        "Ich gehe heute ins Kino. - I am going to the cinema today."
+      ]
+    },
+    {
+      "german": "morgen",
+      "english": "tomorrow",
+      "examples": [
+        "Morgen ist Sonntag. - Tomorrow is Sunday.",
+        "Ich fahre morgen nach Berlin. - I am going to Berlin tomorrow."
+      ]
+    },
+    {
+      "german": "gestern",
+      "english": "yesterday",
+      "examples": [
+        "Gestern war es kalt. - Yesterday it was cold.",
+        "Ich war gestern im Kino. - I was at the cinema yesterday."
+      ]
+    },
+    {
+      "german": "jetzt",
+      "english": "now",
+      "examples": [
+        "Ich bin jetzt beschäftigt. - I am busy now.",
+        "Jetzt verstehe ich. - Now I understand."
+      ]
+    },
+    {
+      "german": "später",
+      "english": "later",
+      "examples": [
+        "Ich rufe dich später an. - I will call you later.",
+        "Bis später! - See you later!"
+      ]
+    },
+    {
+      "german": "immer",
+      "english": "always",
+      "examples": [
+        "Ich trinke immer Kaffee zum Frühstück. - I always drink coffee for breakfast.",
+        "Er kommt immer zu spät. - He is always late."
+      ]
+    },
+    {
+      "german": "nie",
+      "english": "never",
+      "examples": [
+        "Ich trinke nie Alkohol. - I never drink alcohol.",
+        "Sie kommt nie zu spät. - She is never late."
+      ]
+    },
+    {
+      "german": "oft",
+      "english": "often",
+      "examples": [
+        "Ich gehe oft ins Kino. - I often go to the cinema.",
+        "Er besucht uns oft. - He visits us often."
+      ]
+    },
+    {
+      "german": "manchmal",
+      "english": "sometimes",
+      "examples": [
+        "Ich gehe manchmal schwimmen. - I sometimes go swimming.",
+        "Manchmal regnet es hier. - Sometimes it rains here."
+      ]
+    },
+    {
+      "german": "selten",
+      "english": "rarely",
+      "examples": [
+        "Ich esse selten Fleisch. - I rarely eat meat.",
+        "Er kommt selten zu Besuch. - He rarely comes to visit."
+      ]
+    }
+  ],
+  "imperatives": [
+    {
+      "german": "du-Form (informal singular)",
+      "english": "Imperative for 'du'",
+      "examples": [
+        {"german": "Komm! (kommen)", "english": "Come!"},
+        {"german": "Geh! (gehen)", "english": "Go!"},
+        {"german": "Sprich! (sprechen)", "english": "Speak!"}
+      ]
+    },
+    {
+      "german": "ihr-Form (informal plural)",
+      "english": "Imperative for 'ihr'",
+      "examples": [
+        {"german": "Kommt! (kommen)", "english": "Come!"},
+        {"german": "Geht! (gehen)", "english": "Go!"},
+        {"german": "Sprecht! (sprechen)", "english": "Speak!"}
+      ]
+    },
+    {
+      "german": "Sie-Form (formal)",
+      "english": "Imperative for 'Sie'",
+      "examples": [
+        {"german": "Kommen Sie! (kommen)", "english": "Come!"},
+        {"german": "Gehen Sie! (gehen)", "english": "Go!"},
+        {"german": "Sprechen Sie! (sprechen)", "english": "Speak!"}
+      ]
+    },
+    {
+      "german": "Classroom Imperatives",
+      "english": "Common instructions in German class",
+      "examples": [
+        {"german": "Wiederholen Sie!", "english": "Repeat!"},
+        {"german": "Lies den Text!", "english": "Read the text!"},
+        {"german": "Schreiben Sie!", "english": "Write!"},
+        {"german": "Hör zu!", "english": "Listen!"},
+        {"german": "Macht die Bücher auf!", "english": "Open your books!"}
+      ]
+    },
+    {
+      "german": "Direction and Emergency Imperatives",
+      "english": "Useful imperatives for directions and emergencies",
+      "examples": [
+        {"german": "Gehen Sie geradeaus!", "english": "Go straight ahead!"},
+        {"german": "Biegen Sie rechts ab!", "english": "Turn right!"},
+        {"german": "Folgen Sie mir!", "english": "Follow me!"},
+        {"german": "Rufen Sie einen Arzt!", "english": "Call a doctor!"},
+        {"german": "Bleiben Sie hier!", "english": "Stay here!"},
+        {"german": "Helfen Sie mir!", "english": "Help me!"}
+      ]
+    },
+    {
+      "german": "Verb-Specific Imperatives",
+      "english": "Imperative forms of common verbs",
+      "examples": [
+        {"german": "machen → Mach! Macht! Machen Sie!", "english": "Do! (informal sing., informal pl., formal)"},
+        {"german": "geben → Gib! Gebt! Geben Sie!", "english": "Give! (informal sing., informal pl., formal)"},
+        {"german": "nehmen → Nimm! Nehmt! Nehmen Sie!", "english": "Take! (informal sing., informal pl., formal)"},
+        {"german": "lesen → Lies! Lest! Lesen Sie!", "english": "Read! (informal sing., informal pl., formal)"},
+        {"german": "telefonieren → Telefonier! Telefoniert! Telefonieren Sie!", "english": "Call! (informal sing., informal pl., formal)"}
+      ]
+    },
+    {
+      "german": "Polite Imperatives with 'bitte'",
+      "english": "Polite requests using imperatives with 'please'",
+      "examples": [
+        {"german": "Komm bitte her!", "english": "Please come here!"},
+        {"german": "Helfen Sie mir bitte!", "english": "Please help me!"},
+        {"german": "Seid bitte leise!", "english": "Please be quiet!"},
+        {"german": "Warten Sie bitte einen Moment!", "english": "Please wait a moment!"},
+        {"german": "Gib mir bitte das Buch!", "english": "Please give me the book!"}
+      ]
+    }
+  ],
+  "separableVerbs": [
+    {
+      "german": "Separable Verbs (Trennbare Verben)",
+      "english": "Verbs with separable prefixes",
+      "examples": [
+        {"german": "ankommen → Ich komme um 8 Uhr an.", "english": "to arrive → I arrive at 8 o'clock."},
+        {"german": "aufstehen → Er steht früh auf.", "english": "to get up → He gets up early."},
+        {"german": "einkaufen → Wir kaufen am Samstag ein.", "english": "to shop → We go shopping on Saturday."}
+      ]
+    },
+    {
+      "german": "Position of Separable Prefixes",
+      "english": "Where to place the prefix in a sentence",
+      "examples": [
+        {"german": "Ich rufe dich morgen an. (main clause)", "english": "I will call you tomorrow."},
+        {"german": "Ich möchte dich anrufen. (infinitive)", "english": "I would like to call you."},
+        {"german": "...weil ich dich anrufe. (subordinate clause)", "english": "...because I call you."}
+      ]
+    },
+    {
+      "german": "Common Separable Prefixes",
+      "english": "Frequently used prefixes",
+      "examples": [
+        {"german": "an-: anrufen, ankommen, anfangen", "english": "to call, to arrive, to begin"},
+        {"german": "auf-: aufstehen, aufräumen, aufmachen", "english": "to get up, to tidy up, to open"},
+        {"german": "aus-: ausgehen, aussteigen, aussehen", "english": "to go out, to get off/out, to look/appear"},
+        {"german": "ein-: einkaufen, einladen, einschlafen", "english": "to shop, to invite, to fall asleep"},
+        {"german": "mit-: mitbringen, mitkommen, mitnehmen", "english": "to bring along, to come along, to take along"},
+        {"german": "zu-: zuhören, zumachen, zunehmen", "english": "to listen, to close, to gain weight"}
+      ]
+    }
+  ],
+  "wordOrderBasics": [
+    {
+      "topic": "Verb-second rule (V2) in main clauses",
+      "rule": "In main clauses, the conjugated verb is always in position 2.",
+      "explanation": "Any element can be in position 1 (subject, time, place, object). The finite verb stays in position 2.",
+      "examples": [
+        {"german": "Ich trinke Kaffee.", "english": "I drink coffee."},
+        {"german": "Heute trinke ich Kaffee.", "english": "Today I drink coffee."},
+        {"german": "In Berlin wohne ich.", "english": "In Berlin I live."}
+      ]
+    },
+    {
+      "topic": "Time–Manner–Place (TMP)",
+      "rule": "The typical order of adverbials is Time → Manner → Place.",
+      "explanation": "This is a common and natural order in German main clauses.",
+      "examples": [
+        {"german": "Ich gehe morgen mit dem Bus zur Arbeit.", "english": "I go to work tomorrow by bus."},
+        {"german": "Wir treffen uns heute Abend im Park.", "english": "We meet this evening in the park."}
+      ]
+    },
+    {
+      "topic": "Position of 'nicht' (negation)",
+      "rule": "'nicht' comes before the part it negates and usually at the end of the clause, but before non-separable verb prefixes and verbal complements.",
+      "explanation": "For verbs with complements, 'nicht' usually stands before place/time or the separable prefix in main clauses.",
+      "examples": [
+        {"german": "Ich trinke heute nicht Kaffee.", "english": "I am not drinking coffee today."},
+        {"german": "Er kommt nicht aus Spanien.", "english": "He is not from Spain."},
+        {"german": "Sie macht die Tür nicht auf.", "english": "She does not open the door."}
+      ]
+    },
+    {
+      "topic": "Yes/No questions (Ja/Nein)",
+      "rule": "The conjugated verb goes to position 1.",
+      "explanation": "Subject follows immediately after the verb.",
+      "examples": [
+        {"german": "Kommst du aus Deutschland?", "english": "Are you from Germany?"},
+        {"german": "Trinkst du Tee?", "english": "Do you drink tea?"}
+      ]
+    },
+    {
+      "topic": "W-questions (Fragewort-Fragen)",
+      "rule": "Question word + conjugated verb + subject + ...",
+      "explanation": "Common question words: wer, was, wo, wohin, woher, wann, wie, warum, was für, wie viel.",
+      "examples": [
+        {"german": "Wo wohnst du?", "english": "Where do you live?"},
+        {"german": "Wann beginnt der Kurs?", "english": "When does the course start?"}
+      ]
+    }
+  ],
+  "modalVerbsUsage": [
+    {
+      "topic": "Modal verbs with infinitive",
+      "rule": "Modal verb is conjugated in position 2; the main verb goes to the end in infinitive.",
+      "explanation": "Common modals at A1: können, müssen, wollen, dürfen, sollen, mögen, möchten.",
+      "examples": [
+        {"german": "Ich kann Deutsch sprechen.", "english": "I can speak German."},
+        {"german": "Wir müssen heute arbeiten.", "english": "We have to work today."},
+        {"german": "Möchtest du mitkommen?", "english": "Would you like to come along?"}
+      ]
+    },
+    {
+      "topic": "Negation with modal verbs",
+      "rule": "Place 'nicht' before the infinitive (end position).",
+      "explanation": "The modal stays in position 2.",
+      "examples": [
+        {"german": "Ich kann heute nicht kommen.", "english": "I cannot come today."}
+      ]
+    }
+  ],
+  "perfectTenseBasics": [
+    {
+      "topic": "Perfekt with haben/sein",
+      "rule": "Auxiliary (haben/sein) + Partizip II (past participle) at the end.",
+      "explanation": "Use 'haben' with most verbs. Use 'sein' with verbs of movement/change of state (gehen, kommen, fahren, aufstehen) and with 'sein/bleiben/passieren'.",
+      "examples": [
+      ]
+    },
+    {
+      "topic": "Forming Partizip II",
+      "rule": "ge- + verb stem + -t (regular) / irregular forms vary (gesehen, genommen, gewesen)",
+      "explanation": "For verbs ending in -ieren, no 'ge-': studieren → studiert. For inseparable prefixes (be-, ent-, er-, ge-, miss-, ver-, zer-), no 'ge-': besuchen → besucht. Separable: prefix + ge- + stem + -t: aufmachen → aufgemacht.",
+      "examples": [
+        {"german": "Ich habe gelernt.", "english": "I have learned."},
+        {"german": "Er hat studiert.", "english": "He has studied."},
+        {"german": "Sie hat besucht.", "english": "She visited."},
+        {"german": "Wir haben aufgemacht.", "english": "We opened."}
+      ]
+    }
+  ]
+}

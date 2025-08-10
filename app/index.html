@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Telc A1 German Flashcards</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/print.css" media="print">
+    <link rel="stylesheet" href="css/syllabus.css">
+    <link rel="stylesheet" href="css/listening.css">
+    <link rel="stylesheet" href="css/writing.css">
+    <link rel="stylesheet" href="css/telc-test.css">
+    <link rel="stylesheet" href="css/comprehensive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <h1>Telc A1 German Flashcards</h1>
+        <div class="action-buttons">
+            <div class="view-toggle">
+                <label class="toggle-switch">
+                    <input type="checkbox" id="view-mode-toggle">
+                    <span class="toggle-slider"></span>
+                </label>
+                <span class="toggle-label">Comprehensive View</span>
+            </div>
+            <button id="print-btn"><i class="fas fa-print"></i> Print Cards</button>
+            <button id="export-pdf-btn"><i class="fas fa-file-pdf"></i> Export as PDF</button>
+        </div>
+    </header>
+
+    <main>
+        <!-- Navigation Breadcrumb -->
+        <div class="breadcrumb" id="navigation-breadcrumb">
+            <span id="home-link" class="breadcrumb-link active">Home</span>
+            <span id="category-link" class="breadcrumb-link hidden"></span>
+            <span id="subcategory-link" class="breadcrumb-link hidden"></span>
+        </div>
+
+        <!-- Category Selection View -->
+        <div id="category-view" class="card-grid">
+            <!-- Categories will be dynamically loaded here -->
+        </div>
+        
+        <!-- Syllabus View -->
+        <div id="syllabus-view" class="hidden">
+            <div class="syllabus-container">
+                <h2>A1 German Exam Syllabus</h2>
+                <div id="syllabus-units" class="syllabus-units">
+                    <!-- Syllabus units will be loaded here -->
+                </div>
+                <div id="exam-format" class="exam-format">
+                    <h3>Exam Format</h3>
+                    <div id="exam-sections" class="exam-sections">
+                        <!-- Exam sections will be loaded here -->
+                    </div>
+                </div>
+                <div id="resources-section" class="resources-section">
+                    <h3>Recommended Resources</h3>
+                    <div id="resources-list" class="resources-list">
+                        <!-- Resources will be loaded here -->
+                    </div>
+                </div>
+                <button id="back-from-syllabus" class="back-button">
+                    <i class="fas fa-arrow-left"></i> Back to Categories
+                </button>
+            </div>
+        </div>
+
+        <!-- Subcategory Selection View -->
+        <div id="subcategory-view" class="card-grid hidden">
+            <!-- Subcategories will be dynamically loaded here -->
+            <button id="back-to-categories" class="back-button"><i class="fas fa-arrow-left"></i> Back to Categories</button>
+        </div>
+
+        <!-- Flashcard View -->
+        <div id="flashcard-view" class="hidden">
+            <div id="flashcard-container">
+                <div class="flashcard">
+                    <div class="flashcard-inner">
+                        <div class="flashcard-front">
+                            <p class="flashcard-text">Select a category and subcategory to start</p>
+                        </div>
+                        <div class="flashcard-back">
+                            <p class="flashcard-text">The translation will appear here</p>
+                            <div class="examples">
+                                <p>Examples will appear here</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="controls">
+                <button id="prev-btn" disabled><i class="fas fa-arrow-left"></i> Previous</button>
+                <span id="card-count">0/0</span>
+                <button id="next-btn" disabled>Next <i class="fas fa-arrow-right"></i></button>
+                <button id="flip-btn"><i class="fas fa-sync-alt"></i> Flip Card</button>
+                <button id="back-to-subcategories" class="back-button"><i class="fas fa-th"></i> Back to Menu</button>
+            </div>
+            
+            <div class="additional-resources">
+                <button id="show-plural-rules" class="resource-btn"><i class="fas fa-info-circle"></i> Show Plural Rules</button>
+            </div>
+        </div>
+
+        <!-- Reading View -->
+        <div id="reading-view" class="hidden">
+            <div class="reading-container">
+                <div class="reading-text-section">
+                    <h2 id="reading-title">Reading Text Title</h2>
+                    <div id="reading-text" class="reading-text">
+                        The reading text will appear here.
+                    </div>
+                    <div class="vocabulary-toggle">
+                        <button id="toggle-vocabulary-btn" class="toggle-btn">
+                            <i class="fas fa-book"></i> Show Vocabulary
+                        </button>
+                    </div>
+                </div>
+                
+                <div id="vocabulary-panel" class="vocabulary-panel hidden">
+                    <h3>Vocabulary</h3>
+                    <div id="vocabulary-list" class="vocabulary-list">
+                        <!-- Vocabulary will be loaded here -->
+                    </div>
+                </div>
+                
+                <div class="reading-questions-section">
+                    <h3>Comprehension Questions</h3>
+                    <div id="reading-questions" class="reading-questions">
+                        <!-- Questions will be loaded here -->
+                    </div>
+                    <button id="check-answers-btn" class="check-answers-btn">Check Answers</button>
+                    <div id="results-feedback" class="results-feedback hidden">
+                        <!-- Results feedback will appear here -->
+                    </div>
+                </div>
+                
+                <button id="back-to-reading-subcategories" class="back-button">
+                    <i class="fas fa-arrow-left"></i> Back to Reading Texts
+                </button>
+            </div>
+        </div>
+        
+        <!-- Writing View -->
+        <div id="writing-view" class="hidden">
+            <div class="writing-container">
+                <!-- Writing exercises will be loaded here dynamically -->
+            </div>
+            <button id="back-to-writing-subcategories" class="back-button">
+                <i class="fas fa-arrow-left"></i> Back to Writing Exercises
+            </button>
+        </div>
+
+        <!-- Listening View -->
+        <div id="listening-view" class="hidden">
+            <div class="listening-container">
+                <div class="listening-section">
+                    <h2 id="listening-title">Listening Exercise Title</h2>
+                    <div class="audio-player-container">
+                        <audio id="audio-player" controls preload="auto" controlsList="nodownload">
+                            <source id="audio-source-mp3" src="" type="audio/mpeg">
+                            <source id="audio-source-wav" src="" type="audio/wav">
+                            <source id="audio-source-aac" src="" type="audio/aac">
+                            Your browser does not support the audio element.
+                        </audio>
+                        <div class="audio-controls">
+                            <button id="replay-btn" class="audio-btn">
+                                <i class="fas fa-redo"></i> Replay
+                            </button>
+                            <button id="slower-btn" class="audio-btn">
+                                <i class="fas fa-backward"></i> Slower
+                            </button>
+                            <button id="faster-btn" class="audio-btn">
+                                <i class="fas fa-forward"></i> Faster
+                            </button>
+                        </div>
+                    </div>
+                    <div class="transcript-toggle">
+                        <button id="toggle-transcript-btn" class="toggle-btn">
+                            <i class="fas fa-file-alt"></i> Show Transcript
+                        </button>
+                    </div>
+                </div>
+                
+                <div class="panels-container">
+                    <div id="transcript-panel" class="transcript-panel hidden">
+                        <div class="panel-header">
+                            <h3>Transcript</h3>
+                            <button id="close-transcript-btn" class="close-panel-btn">
+                                <i class="fas fa-times"></i>
+                            </button>
+                        </div>
+                        <div id="transcript-text" class="transcript-text">
+                            <!-- Transcript will be loaded here -->
+                        </div>
+                    </div>
+                    
+                    <div id="vocabulary-panel-listening" class="vocabulary-panel hidden">
+                        <div class="panel-header">
+                            <h3>Vocabulary</h3>
+                            <button id="close-vocabulary-btn" class="close-panel-btn">
+                                <i class="fas fa-times"></i>
+                            </button>
+                        </div>
+                        <div id="vocabulary-list-listening" class="vocabulary-list">
+                            <!-- Vocabulary will be loaded here -->
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="listening-questions-section">
+                    <h3>Comprehension Questions</h3>
+                    <div id="listening-questions" class="listening-questions">
+                        <!-- Questions will be loaded here -->
+                    </div>
+                    <button id="check-listening-answers-btn" class="check-answers-btn">Check Answers</button>
+                    <div id="listening-results-feedback" class="results-feedback hidden">
+                        <!-- Results feedback will appear here -->
+                    </div>
+                </div>
+                
+                <div class="buttons-container">
+                    <button id="toggle-vocabulary-listening-btn" class="toggle-btn">
+                        <i class="fas fa-book"></i> Show Vocabulary
+                    </button>
+                    <button id="back-to-listening-subcategories" class="back-button">
+                        <i class="fas fa-arrow-left"></i> Back to Listening Exercises
+                    </button>
+                </div>
+            </div>
+        </div>
+    <!-- Model Tests View -->
+    <div id="model-tests-view" class="hidden">
+        <div class="telc-test-container">
+            <!-- Test content will be loaded here by telc-test-ui.js -->
+        </div>
+    </div>
+    </main>
+
+    <!-- Comprehensive View -->
+    <div id="comprehensive-view" class="comprehensive-view hidden">
+        <div class="sidebar">
+            <ul class="sidebar-nav">
+                <!-- Navigation links will be added here -->
+            </ul>
+        </div>
+        <div class="content-area">
+            <!-- Content will be loaded here -->
+        </div>
+    </div>
+
+    <div id="all-cards-container" class="print-only">
+        <!-- All cards will be generated here for printing -->
+    </div>
+
+    <!-- Timer Modal -->
+    <div id="timer-modal" class="modal hidden">
+        <div class="modal-content">
+            <h2>Zeitablauf!</h2>
+            <p>Die Zeit für diesen Testteil ist abgelaufen.</p>
+            <button id="continue-test-btn" class="nav-button">Weiter zum nächsten Teil</button>
+        </div>
+    </div>
+
+    <!-- Plural Rules Modal -->
+    <div id="plural-rules-modal" class="modal hidden">
+        <div class="modal-content">
+            <span class="close-button">&times;</span>
+            <h2>German Plural Rules</h2>
+            <div class="modal-body">
+                <p>In German, there are several patterns for forming plurals:</p>
+                
+                <div class="rule-section">
+                    <h3>1. Add -e</h3>
+                    <p>Many masculine nouns and some neuter nouns add -e in the plural.</p>
+                    <p>Masculine nouns with vowels a, o, u often add an umlaut.</p>
+                    <ul>
+                        <li>der Tisch → die Tische (table)</li>
+                        <li>der Schuh → die Schuhe (shoe)</li>
+                        <li>der Ball → die Bälle (ball) - note the umlaut</li>
+                    </ul>
+                </div>
+                
+                <div class="rule-section">
+                    <h3>2. Add -er</h3>
+                    <p>Many neuter nouns and some masculine nouns add -er in the plural.</p>
+                    <p>If the vowel is a, o, u, it often gets an umlaut.</p>
+                    <ul>
+                        <li>das Kind → die Kinder (child)</li>
+                        <li>das Bild → die Bilder (picture)</li>
+                        <li>das Buch → die Bücher (book) - note the umlaut</li>
+                    </ul>
+                </div>
+                
+                <div class="rule-section">
+                    <h3>3. Add -n/-en</h3>
+                    <p>Most feminine nouns and masculine nouns ending in -e add -n or -en in the plural.</p>
+                    <p>This pattern does not use umlauts.</p>
+                    <ul>
+                        <li>die Frau → die Frauen (woman)</li>
+                        <li>die Tasche → die Taschen (bag)</li>
+                        <li>der Student → die Studenten (student)</li>
+                    </ul>
+                </div>
+                
+                <div class="rule-section">
+                    <h3>4. Words ending in -ung</h3>
+                    <p>All feminine nouns ending in -ung add -en in the plural. These never take an umlaut.</p>
+                    <ul>
+                        <li>die Wohnung → die Wohnungen (apartment)</li>
+                        <li>die Zeitung → die Zeitungen (newspaper)</li>
+                        <li>die Übung → die Übungen (exercise)</li>
+                    </ul>
+                </div>
+                
+                <div class="rule-section">
+                    <h3>5. Add -s</h3>
+                    <p>Many foreign words, abbreviations, and words ending in a vowel add -s in the plural.</p>
+                    <ul>
+                        <li>das Auto → die Autos (car)</li>
+                        <li>das Handy → die Handys (mobile phone)</li>
+                        <li>das Hotel → die Hotels (hotel)</li>
+                    </ul>
+                </div>
+                
+                <div class="rule-section">
+                    <h3>6. No Change</h3>
+                    <p>Some nouns have the same form in singular and plural.</p>
+                    <p>Many masculine nouns ending in -er, -el, or -en belong to this group.</p>
+                    <ul>
+                        <li>der Lehrer → die Lehrer (teacher)</li>
+                        <li>das Fenster → die Fenster (window)</li>
+                        <li>der Computer → die Computer (computer)</li>
+                    </ul>
+                </div>
+                
+                <div class="rule-section">
+                    <h3>7. Umlaut Only</h3>
+                    <p>A small group of nouns form their plural by only changing the vowel to an umlaut.</p>
+                    <ul>
+                        <li>der Vater → die Väter (father)</li>
+                        <li>die Mutter → die Mütter (mother)</li>
+                        <li>der Bruder → die Brüder (brother)</li>
+                    </ul>
+                </div>
+                
+                <div class="rule-section">
+                    <h3>8. Special Case: -in → -innen</h3>
+                    <p>Feminine forms of professions or people that end in -in add -nen in the plural form.</p>
+                    <ul>
+                        <li>die Lehrerin → die Lehrerinnen (female teacher)</li>
+                        <li>die Ärztin → die Ärztinnen (female doctor)</li>
+                        <li>die Freundin → die Freundinnen (female friend)</li>
+                    </ul>
+                </div>
+                
+                <div class="rule-section">
+                    <h3>9. Words ending in -tum</h3>
+                    <p>Neuter nouns ending in -tum form their plural by adding -er and changing the vowel to an umlaut.</p>
+                    <ul>
+                        <li>das Eigentum → die Eigentümer (property)</li>
+                        <li>das Heiligtum → die Heiligtümer (sanctuary)</li>
+                        <li>das Reichtum → die Reichtümer (wealth)</li>
+                    </ul>
+                </div>
+                
+                <div class="rule-section">
+                    <h3>10. Latin/Greek Origin Words</h3>
+                    <p>Words borrowed from Latin or Greek often follow special plural patterns.</p>
+                    <ul>
+                        <li>das Museum → die Museen (museum)</li>
+                        <li>das Visum → die Visa (visa)</li>
+                        <li>das Praktikum → die Praktika (internship)</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Telc A1 German Flashcards</p>
+    </footer>
+
+    <script type="module" src="js/flashcards.js"></script>
+    <script type="module" src="js/listening-functions.js"></script>
+    <script type="module" src="js/writing-functions.js"></script>
+    <script type="module" src="js/model-tests-manager.js"></script>
+    <script type="module" src="js/audio-manager.js"></script>
+    <script type="module" src="js/telc-test-ui.js"></script>
+</body>
+</html>

@@ -1,0 +1,158 @@
+/* Writing section styles */
+.writing-view {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.writing-exercise {
+    background-color: var(--card-bg);
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.writing-title {
+    font-size: 1.5em;
+    color: var(--text-primary);
+    margin-bottom: 15px;
+}
+
+.writing-description {
+    color: var(--text-secondary);
+    margin-bottom: 20px;
+}
+
+.writing-prompt {
+    background-color: var(--primary-dark);
+    color: white;
+    padding: 15px;
+    border-radius: 4px;
+    margin-bottom: 20px;
+}
+
+.writing-template {
+    background-color: var(--background-light);
+    padding: 15px;
+    border-radius: 4px;
+    margin-bottom: 20px;
+    white-space: pre-wrap;
+    font-family: monospace;
+}
+
+.writing-textarea {
+    width: 100%;
+    min-height: 200px;
+    padding: 15px;
+    border: 1px solid var(--border-color);
+    border-radius: 4px;
+    margin-bottom: 20px;
+    font-family: inherit;
+    resize: vertical;
+}
+
+.useful-phrases {
+    background-color: var(--background-light);
+    padding: 15px;
+    border-radius: 4px;
+    margin-bottom: 20px;
+}
+
+.useful-phrases h3 {
+    color: var(--text-primary);
+    margin-bottom: 10px;
+}
+
+.phrase-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 0;
+    border-bottom: 1px solid var(--border-color);
+}
+
+.tips-section {
+    background-color: var(--primary-light);
+    padding: 15px;
+    border-radius: 4px;
+    margin-bottom: 20px;
+}
+
+.tips-section h3 {
+    color: var(--text-primary);
+    margin-bottom: 10px;
+}
+
+.tips-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.tips-list li {
+    padding: 5px 0;
+    color: var(--text-secondary);
+}
+
+.tips-list li:before {
+    content: "💡";
+    margin-right: 10px;
+}
+
+.keywords {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.keyword {
+    background-color: var(--primary-dark);
+    color: white;
+    padding: 5px 10px;
+    border-radius: 15px;
+    font-size: 0.9em;
+}
+
+.writing-controls {
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.writing-controls button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.show-solution-btn {
+    background-color: var(--primary-dark);
+    color: white;
+}
+
+.show-solution-btn:hover {
+    background-color: var(--primary-darker);
+}
+
+.reset-btn {
+    background-color: var(--background-light);
+    color: var(--text-primary);
+}
+
+.reset-btn:hover {
+    background-color: var(--background-lighter);
+}
+
+.solution-section {
+    display: none;
+    background-color: var(--success-light);
+    padding: 15px;
+    border-radius: 4px;
+    margin-top: 20px;
+}
+
+.solution-section.visible {
+    display: block;
+}

@@ -1,0 +1,405 @@
+{
+  "basicDialogues": [
+    {
+      "title": "Im Café",
+      "audioUrl": "audio/im-cafe.mp3",
+      "transcript": "Philip: Guten Tag.\nKellnerin: Guten Tag. Was möchten Sie trinken?\nPhilip: Einen Kaffee, bitte.\nKellnerin: Mit Milch und Zucker?\nPhilip: Mit Milch, aber ohne Zucker.\nKellnerin: Möchten Sie auch etwas essen?\nPhilip: Ja, ein Stück Kuchen, bitte.\nKellnerin: Wir haben Apfelkuchen und Schokoladenkuchen.\nPhilip: Dann nehme ich ein Stück Apfelkuchen.\nKellnerin: Also, ein Kaffee mit Milch und ein Stück Apfelkuchen. Das macht 5,80 Euro.\nPhilip: Hier sind 10 Euro.\nKellnerin: Danke. Hier ist Ihr Wechselgeld. Guten Appetit!",
+      "questions": [
+        {
+          "question": "Was bestellt Philip zu trinken?",
+          "options": ["Einen Tee", "Einen Kaffee", "Eine Cola", "Ein Wasser"],
+          "correctAnswer": 1
+        },
+        {
+          "question": "Wie trinkt Philip seinen Kaffee?",
+          "options": ["Mit Milch und Zucker", "Mit Milch, ohne Zucker", "Ohne Milch, mit Zucker", "Schwarz (ohne Milch und Zucker)"],
+          "correctAnswer": 1
+        },
+        {
+          "question": "Welche Kuchenoptionen gibt es im Café?",
+          "options": ["Apfelkuchen und Erdbeerkuchen", "Apfelkuchen und Käsekuchen", "Apfelkuchen und Schokoladenkuchen", "Schokoladenkuchen und Käsekuchen"],
+          "correctAnswer": 2
+        },
+        {
+          "question": "Wie viel kostet die Bestellung insgesamt?",
+          "options": ["4,80 Euro", "5,80 Euro", "6,80 Euro", "7,80 Euro"],
+          "correctAnswer": 1
+        }
+      ],
+      "vocabulary": {
+        "Kellnerin": "waitress",
+        "Guten Tag": "good day/hello",
+        "Was möchten Sie trinken": "what would you like to drink",
+        "Kaffee": "coffee",
+        "mit": "with",
+        "ohne": "without",
+        "Milch": "milk",
+        "Zucker": "sugar",
+        "etwas essen": "to eat something",
+        "Kuchen": "cake",
+        "Stück": "piece",
+        "Apfelkuchen": "apple cake",
+        "Schokoladenkuchen": "chocolate cake",
+        "dann nehme ich": "then I'll take",
+        "das macht": "that's",
+        "Wechselgeld": "change (money)",
+        "Guten Appetit": "enjoy your meal"
+      }
+    },
+    {
+      "title": "Am Bahnhof",
+      "audioUrl": "audio/am-bahnhof.mp3",
+      "transcript": "Philip: Entschuldigung, wann fährt der nächste Zug nach Berlin?\nBahnmitarbeiter: Der nächste Zug nach Berlin fährt um 14:30 Uhr von Gleis 7.\nPhilip: Wie lange dauert die Fahrt?\nBahnmitarbeiter: Die Fahrt dauert etwa zwei Stunden.\nPhilip: Muss ich umsteigen?\nBahnmitarbeiter: Nein, das ist ein direkter Zug.\nPhilip: Gut. Und was kostet eine Fahrkarte?\nBahnmitarbeiter: Eine einfache Fahrt kostet 39 Euro. Hin und zurück kostet 68 Euro.\nPhilip: Ich nehme eine Fahrkarte für die einfache Fahrt, bitte.\nBahnmitarbeiter: Hier ist Ihre Fahrkarte. Der Zug fährt pünktlich um 14:30 Uhr. Bitte seien Sie 10 Minuten vor Abfahrt am Gleis.",
+      "questions": [
+        {
+          "question": "Nach welcher Stadt möchte Philip fahren?",
+          "options": ["München", "Hamburg", "Berlin", "Frankfurt"],
+          "correctAnswer": 2
+        },
+        {
+          "question": "Um wie viel Uhr fährt der Zug?",
+          "options": ["13:30 Uhr", "14:30 Uhr", "15:30 Uhr", "16:30 Uhr"],
+          "correctAnswer": 1
+        },
+        {
+          "question": "Von welchem Gleis fährt der Zug ab?",
+          "options": ["Gleis 5", "Gleis 6", "Gleis 7", "Gleis 8"],
+          "correctAnswer": 2
+        },
+        {
+          "question": "Wie lange dauert die Fahrt?",
+          "options": ["Eine Stunde", "Zwei Stunden", "Drei Stunden", "Vier Stunden"],
+          "correctAnswer": 1
+        },
+        {
+          "question": "Was kostet eine Fahrkarte für die einfache Fahrt?",
+          "options": ["29 Euro", "39 Euro", "49 Euro", "59 Euro"],
+          "correctAnswer": 1
+        }
+      ],
+      "vocabulary": {
+        "Bahnhof": "train station",
+        "Entschuldigung": "excuse me",
+        "wann": "when",
+        "der nächste Zug": "the next train",
+        "nach": "to",
+        "fährt": "departs",
+        "Gleis": "platform/track",
+        "dauert": "takes (time)",
+        "etwa": "approximately/about",
+        "Stunden": "hours",
+        "umsteigen": "to change (trains)",
+        "direkter Zug": "direct train",
+        "Fahrkarte": "ticket",
+        "einfache Fahrt": "one-way trip",
+        "hin und zurück": "round trip",
+        "pünktlich": "on time",
+        "vor Abfahrt": "before departure",
+        "Bahnmitarbeiter": "railway employee"
+      }
+    },
+    {
+      "title": "Beim Einkaufen",
+      "audioUrl": "audio/beim-einkaufen.mp3",
+      "transcript": "Verkäuferin: Guten Tag! Kann ich Ihnen helfen?\nPhilip: Ja, bitte. Ich suche ein Geschenk für meine Mutter.\nVerkäuferin: Was möchten Sie denn kaufen? Ein Buch, Schmuck oder vielleicht Kleidung?\nPhilip: Ich denke an Schmuck. Haben Sie Halsketten?\nVerkäuferin: Ja, natürlich. Hier drüben haben wir verschiedene Halsketten. Diese silberne Kette ist sehr schön und kostet 45 Euro.\nPhilip: Die gefällt mir gut. Gibt es die auch in Gold?\nVerkäuferin: Ja, hier ist die goldene Version. Die kostet 65 Euro.\nPhilip: Ich nehme die goldene Kette. Können Sie sie bitte als Geschenk einpacken?\nVerkäuferin: Natürlich, sehr gerne. Das kostet nichts extra.\nPhilip: Perfekt, danke schön.\nVerkäuferin: Möchten Sie mit Karte oder bar bezahlen?\nPhilip: Ich bezahle mit Karte, bitte.",
+      "questions": [
+        {
+          "question": "Für wen sucht Philip ein Geschenk?",
+          "options": ["Für seinen Vater", "Für seine Mutter", "Für seine Schwester", "Für seinen Freund"],
+          "correctAnswer": 1
+        },
+        {
+          "question": "Welches Geschenk möchte Philip kaufen?",
+          "options": ["Ein Buch", "Ein Kleidungsstück", "Eine Halskette", "Einen Ring"],
+          "correctAnswer": 2
+        },
+        {
+          "question": "Welche Farbe wählt Philip für die Kette?",
+          "options": ["Silber", "Gold", "Rosé", "Bronze"],
+          "correctAnswer": 1
+        },
+        {
+          "question": "Wie viel kostet die gewählte Kette?",
+          "options": ["45 Euro", "55 Euro", "65 Euro", "75 Euro"],
+          "correctAnswer": 2
+        },
+        {
+          "question": "Wie bezahlt Philip?",
+          "options": ["Bar", "Mit Karte", "Mit Scheck", "Mit Überweisung"],
+          "correctAnswer": 1
+        }
+      ],
+      "vocabulary": {
+        "Verkäuferin": "saleswoman",
+        "helfen": "to help",
+        "suchen": "to look for",
+        "Geschenk": "gift",
+        "kaufen": "to buy",
+        "Schmuck": "jewelry",
+        "Kleidung": "clothing",
+        "Halskette": "necklace",
+        "verschiedene": "different",
+        "silberne": "silver",
+        "goldene": "gold",
+        "gefallen": "to like",
+        "nehmen": "to take",
+        "einpacken": "to wrap",
+        "als Geschenk": "as a gift",
+        "extra": "additional",
+        "bezahlen": "to pay",
+        "Karte": "card",
+        "bar": "in cash"
+      }
+    }
+  ],
+  "phoneConversations": [
+    {
+      "title": "Termin vereinbaren",
+      "audioUrl": "audio/termin-vereinbaren.mp3",
+      "transcript": "Rezeptionistin: Praxis Dr. Müller, guten Tag.\nPhilip: Guten Tag. Mein Name ist Weber, Philip Weber. Ich möchte gerne einen Termin vereinbaren.\nRezeptionistin: Ja, gerne. Sind Sie schon Patient bei uns?\nPhilip: Ja, ich war letztes Jahr schon einmal da.\nRezeptionistin: Gut. Worum geht es denn?\nPhilip: Ich habe seit drei Tagen Rückenschmerzen.\nRezeptionistin: Ich verstehe. Wann würde es Ihnen passen? Diese Woche haben wir noch Termine am Mittwoch um 10 Uhr oder am Freitag um 15 Uhr.\nPhilip: Mittwoch um 10 Uhr wäre gut für mich.\nRezeptionistin: In Ordnung. Dann habe ich Sie für Mittwoch, den 13. August, um 10 Uhr eingetragen. Bitte bringen Sie Ihre Versichertenkarte mit.\nPhilip: Das mache ich. Vielen Dank und auf Wiederhören.\nRezeptionistin: Auf Wiederhören.",
+      "questions": [
+        {
+          "question": "Wie heißt der Anrufer?",
+          "options": ["Dr. Müller", "Thomas Weber", "Philip Weber", "Herr Müller"],
+          "correctAnswer": 2
+        },
+        {
+          "question": "Warum ruft er an?",
+          "options": ["Um einen Termin abzusagen", "Um einen Termin zu vereinbaren", "Um nach Öffnungszeiten zu fragen", "Um Medikamente zu bestellen"],
+          "correctAnswer": 1
+        },
+        {
+          "question": "Was hat der Anrufer für ein Problem?",
+          "options": ["Kopfschmerzen", "Rückenschmerzen", "Bauchschmerzen", "Erkältung"],
+          "correctAnswer": 1
+        },
+        {
+          "question": "Wann ist der vereinbarte Termin?",
+          "options": ["Montag um 10 Uhr", "Mittwoch um 10 Uhr", "Freitag um 15 Uhr", "Donnerstag um 9 Uhr"],
+          "correctAnswer": 1
+        },
+        {
+          "question": "Was soll der Patient mitbringen?",
+          "options": ["Seinen Personalausweis", "Geld", "Seine Versichertenkarte", "Ein Formular"],
+          "correctAnswer": 2
+        }
+      ],
+      "vocabulary": {
+        "Praxis": "medical practice",
+        "Rezeptionistin": "receptionist (female)",
+        "Termin": "appointment",
+        "vereinbaren": "to arrange/make",
+        "Patient": "patient",
+        "letztes Jahr": "last year",
+        "worum geht es": "what is it about",
+        "Rückenschmerzen": "back pain",
+        "verstehen": "to understand",
+        "passen": "to suit/fit",
+        "diese Woche": "this week",
+        "eintragen": "to register/note down",
+        "Versichertenkarte": "health insurance card",
+        "mitbringen": "to bring along",
+        "auf Wiederhören": "goodbye (on phone)"
+      }
+    },
+    {
+      "title": "Restaurantreservierung",
+      "audioUrl": "audio/restaurantreservierung.mp3",
+      "transcript": "Restaurantmitarbeiter: Restaurant Zur Linde, guten Abend.\nPhilip: Guten Abend. Ich würde gerne einen Tisch reservieren.\nRestaurantmitarbeiter: Ja, gerne. Für welchen Tag?\nPhilip: Für Samstag, den 15. August.\nRestaurantmitarbeiter: Und um wie viel Uhr?\nPhilip: Um 19:30 Uhr, bitte.\nRestaurantmitarbeiter: Für wie viele Personen?\nPhilip: Für vier Personen.\nRestaurantmitarbeiter: Moment bitte, ich schaue nach... Ja, das ist möglich. Darf ich Ihren Namen haben?\nPhilip: Mein Name ist Weber, Philip Weber.\nRestaurantmitarbeiter: Gut, Herr Weber. Ich habe einen Tisch für vier Personen am Samstag, den 15. August, um 19:30 Uhr reserviert.\nPhilip: Vielen Dank!\nRestaurantmitarbeiter: Gerne. Auf Wiederhören.\nPhilip: Auf Wiederhören.",
+      "questions": [
+        {
+          "question": "Wie heißt das Restaurant?",
+          "options": ["Restaurant Zur Eiche", "Restaurant Zur Linde", "Restaurant Zum Hirsch", "Restaurant Zur Rose"],
+          "correctAnswer": 1
+        },
+        {
+          "question": "Für welchen Tag reserviert Philip einen Tisch?",
+          "options": ["Freitag", "Samstag", "Sonntag", "Montag"],
+          "correctAnswer": 1
+        },
+        {
+          "question": "Um wie viel Uhr ist die Reservierung?",
+          "options": ["18:30 Uhr", "19:00 Uhr", "19:30 Uhr", "20:00 Uhr"],
+          "correctAnswer": 2
+        },
+        {
+          "question": "Für wie viele Personen ist die Reservierung?",
+          "options": ["Zwei", "Drei", "Vier", "Fünf"],
+          "correctAnswer": 2
+        },
+        {
+          "question": "Wie heißt die Person, die anruft?",
+          "options": ["Philip Schmidt", "Philip Weber", "Thomas Weber", "Thomas Schmidt"],
+          "correctAnswer": 1
+        }
+      ],
+      "vocabulary": {
+        "Restaurant": "restaurant",
+        "Restaurantmitarbeiter": "restaurant employee",
+        "Abend": "evening",
+        "reservieren": "to reserve",
+        "Tisch": "table",
+        "Tag": "day",
+        "um wie viel Uhr": "at what time",
+        "Personen": "people",
+        "Moment bitte": "just a moment please",
+        "nachschauen": "to check",
+        "möglich": "possible",
+        "Name": "name",
+        "gerne": "with pleasure/you're welcome",
+        "Auf Wiederhören": "goodbye (on phone)",
+        "Herr": "Mr."
+      }
+    }
+  ],
+  "announcements": [
+    {
+      "title": "Bahnhofsdurchsage",
+      "audioUrl": "audio/bahnhofsdurchsage.mp3",
+      "transcript": "Achtung, Achtung! Eine wichtige Durchsage. Der Intercity-Express 732 von Frankfurt nach Berlin über Hannover hat voraussichtlich 25 Minuten Verspätung. Die planmäßige Ankunft in Berlin war 17:45 Uhr. Der Zug kommt jetzt voraussichtlich um 18:10 Uhr an. Die Verspätung ist auf eine technische Störung zurückzuführen. Wir bitten um Ihr Verständnis.",
+      "questions": [
+        {
+          "question": "Um welchen Zug geht es in der Durchsage?",
+          "options": ["Regionalexpress 732", "Intercity-Express 732", "Intercity 732", "S-Bahn 732"],
+          "correctAnswer": 1
+        },
+        {
+          "question": "Von wo nach wo fährt der Zug?",
+          "options": ["Von Berlin nach Frankfurt", "Von Frankfurt nach Berlin", "Von Hamburg nach Berlin", "Von Berlin nach München"],
+          "correctAnswer": 1
+        },
+        {
+          "question": "Wie viele Minuten Verspätung hat der Zug?",
+          "options": ["15 Minuten", "20 Minuten", "25 Minuten", "30 Minuten"],
+          "correctAnswer": 2
+        },
+        {
+          "question": "Wann war die planmäßige Ankunft in Berlin?",
+          "options": ["16:45 Uhr", "17:45 Uhr", "18:45 Uhr", "19:45 Uhr"],
+          "correctAnswer": 1
+        },
+        {
+          "question": "Was ist der Grund für die Verspätung?",
+          "options": ["Schlechtes Wetter", "Bauarbeiten", "Eine technische Störung", "Ein Unfall"],
+          "correctAnswer": 2
+        }
+      ],
+      "vocabulary": {
+        "Achtung": "attention",
+        "Durchsage": "announcement",
+        "Intercity-Express": "intercity express train",
+        "voraussichtlich": "expected/anticipated",
+        "Verspätung": "delay",
+        "planmäßig": "scheduled",
+        "Ankunft": "arrival",
+        "technische Störung": "technical problem",
+        "zurückzuführen auf": "due to",
+        "Verständnis": "understanding",
+        "bitten um": "to ask for"
+      }
+    },
+    {
+      "title": "Supermarktdurchsage",
+      "audioUrl": "audio/supermarktdurchsage.mp3",
+      "transcript": "Liebe Kundinnen und Kunden, willkommen bei Edeka. Wir haben heute ein Sonderangebot in der Obst- und Gemüseabteilung. Äpfel kosten nur 1,99 Euro pro Kilogramm. Außerdem gibt es in der Bäckereiabtelung frische Brötchen für nur 0,35 Euro pro Stück. Die Angebote gelten nur heute. Unsere Öffnungszeiten sind Montag bis Samstag von 8 bis 21 Uhr. Wir wünschen Ihnen einen angenehmen Einkauf.",
+      "questions": [
+        {
+          "question": "In welchem Supermarkt befindet man sich?",
+          "options": ["Aldi", "Lidl", "Rewe", "Edeka"],
+          "correctAnswer": 3
+        },
+        {
+          "question": "Was kostet ein Kilogramm Äpfel im Angebot?",
+          "options": ["0,99 Euro", "1,50 Euro", "1,99 Euro", "2,50 Euro"],
+          "correctAnswer": 2
+        },
+        {
+          "question": "Was kostet ein Brötchen im Angebot?",
+          "options": ["0,25 Euro", "0,35 Euro", "0,45 Euro", "0,55 Euro"],
+          "correctAnswer": 1
+        },
+        {
+          "question": "Wie lange gelten die Angebote?",
+          "options": ["Nur heute", "Das ganze Wochenende", "Eine Woche", "Bis Ende des Monats"],
+          "correctAnswer": 0
+        },
+        {
+          "question": "Wann schließt der Supermarkt?",
+          "options": ["Um 19 Uhr", "Um 20 Uhr", "Um 21 Uhr", "Um 22 Uhr"],
+          "correctAnswer": 2
+        }
+      ],
+      "vocabulary": {
+        "Kundinnen und Kunden": "customers",
+        "willkommen": "welcome",
+        "Sonderangebot": "special offer",
+        "Obst- und Gemüseabteilung": "fruit and vegetable department",
+        "Äpfel": "apples",
+        "kosten": "to cost",
+        "Kilogramm": "kilogram",
+        "außerdem": "furthermore",
+        "Bäckereiabtelung": "bakery department",
+        "frisch": "fresh",
+        "Brötchen": "bread rolls",
+        "Stück": "piece",
+        "gelten": "to be valid",
+        "Öffnungszeiten": "opening hours",
+        "angenehm": "pleasant",
+        "Einkauf": "shopping"
+      }
+    }
+  ],
+  "weatherReports": [
+    {
+      "title": "Wettervorhersage",
+      "audioUrl": "audio/wettervorhersage.mp3",
+      "transcript": "Und nun zum Wetter. Heute wird es in Norddeutschland regnerisch mit Temperaturen zwischen 10 und 15 Grad. In Mitteldeutschland ist es teilweise bewölkt mit Temperaturen um die 17 Grad. In Süddeutschland scheint die Sonne und die Temperaturen steigen auf bis zu 22 Grad. Morgen wird es im ganzen Land sonniger und wärmer mit Temperaturen zwischen 18 und 25 Grad. Am Wochenende bleibt es meist trocken und warm. Perfektes Wetter für Ausflüge! Das war der Wetterbericht für heute, den 12. August.",
+      "questions": [
+        {
+          "question": "Wie ist das Wetter heute in Norddeutschland?",
+          "options": ["Sonnig", "Bewölkt", "Regnerisch", "Neblig"],
+          "correctAnswer": 2
+        },
+        {
+          "question": "Welche Temperaturen werden heute für Süddeutschland vorhergesagt?",
+          "options": ["Bis zu 15 Grad", "Bis zu 17 Grad", "Bis zu 20 Grad", "Bis zu 22 Grad"],
+          "correctAnswer": 3
+        },
+        {
+          "question": "Wie wird das Wetter morgen im Vergleich zu heute sein?",
+          "options": ["Kälter und regnerisch", "Gleich bleibend", "Sonniger und wärmer", "Bewölkter"],
+          "correctAnswer": 2
+        },
+        {
+          "question": "Wie wird das Wetter am Wochenende sein?",
+          "options": ["Regnerisch und kalt", "Meist trocken und warm", "Bewölkt und windig", "Neblig und kühl"],
+          "correctAnswer": 1
+        },
+        {
+          "question": "Für welches Datum gilt dieser Wetterbericht?",
+          "options": ["10. August", "11. August", "12. August", "13. August"],
+          "correctAnswer": 2
+        }
+      ],
+      "vocabulary": {
+        "Wetter": "weather",
+        "Wettervorhersage": "weather forecast",
+        "regnerisch": "rainy",
+        "Temperaturen": "temperatures",
+        "zwischen": "between",
+        "Grad": "degrees",
+        "teilweise bewölkt": "partly cloudy",
+        "scheinen": "to shine",
+        "Sonne": "sun",
+        "steigen": "to rise",
+        "bis zu": "up to",
+        "sonniger": "sunnier",
+        "wärmer": "warmer",
+        "trocken": "dry",
+        "warm": "warm",
+        "Ausflüge": "excursions/outings",
+        "Wetterbericht": "weather report"
+      }
+    }
+  ]
+}

@@ -1,0 +1,248 @@
+{
+  "syllabus": [
+    {
+      "title": "Personal Information",
+      "topics": [
+        "Introducing yourself and others",
+        "Greeting and farewell expressions",
+        "Personal details (name, age, nationality, occupation, etc.)",
+        "Numbers 1-100",
+        "Countries and nationalities",
+        "The alphabet and spelling"
+      ],
+      "grammar": [
+        "Personal pronouns (ich, du, er/sie/es, etc.)",
+        "Present tense of regular verbs",
+        "Present tense of irregular verbs (sein, haben)",
+        "W-questions (wer, wie, wo, woher, etc.)",
+        "Yes/no questions",
+        "Definite and indefinite articles (der/die/das, ein/eine)"
+      ]
+    },
+    {
+      "title": "Family and Friends",
+      "topics": [
+        "Family members and relationships",
+        "Physical appearance and personality traits",
+        "Hobbies and leisure activities",
+        "Possessions"
+      ],
+      "grammar": [
+        "Possessive articles (mein, dein, sein, etc.)",
+        "Plural forms of nouns",
+        "Present tense of more irregular verbs",
+        "Modal verbs (können, mögen)",
+        "Negation with 'nicht' and 'kein'"
+      ]
+    },
+    {
+      "title": "Daily Life",
+      "topics": [
+        "Time and schedules",
+        "Days of the week, months, seasons",
+        "Daily routines and activities",
+        "Household chores",
+        "Separable verbs"
+      ],
+      "grammar": [
+        "Time expressions",
+        "Telling time",
+        "Adverbs of frequency",
+        "Separable prefix verbs",
+        "Position of 'nicht' in sentences"
+      ]
+    },
+    {
+      "title": "Housing and Environment",
+      "topics": [
+        "Types of accommodation",
+        "Rooms and furniture",
+        "Location and directions",
+        "Describing your home",
+        "Neighborhood and surroundings"
+      ],
+      "grammar": [
+        "Prepositions of place (in, auf, an, etc.)",
+        "Dative case with location prepositions",
+        "There is/are (Es gibt)",
+        "Adjectives in predicative use"
+      ]
+    },
+    {
+      "title": "Food and Drink",
+      "topics": [
+        "Food items and beverages",
+        "Meals and mealtimes",
+        "Ordering in a restaurant",
+        "Shopping for groceries",
+        "Prices and quantities"
+      ],
+      "grammar": [
+        "Accusative case",
+        "Modal verb 'möchten'",
+        "Polite requests with 'hätte gern'",
+        "Quantity expressions"
+      ]
+    },
+    {
+      "title": "Shopping and Services",
+      "topics": [
+        "Shops and shopping",
+        "Clothing and accessories",
+        "Colors and sizes",
+        "Prices and payment",
+        "Basic services (post office, bank, etc.)"
+      ],
+      "grammar": [
+        "Comparative forms (gern, lieber, am liebsten)",
+        "Accusative case with direct objects",
+        "Modal verb 'wollen'",
+        "Demonstrative articles (dieser, diese, dieses)"
+      ]
+    },
+    {
+      "title": "Health and Body",
+      "topics": [
+        "Parts of the body",
+        "Health and illness",
+        "Visiting a doctor",
+        "Medications and pharmacies",
+        "Feeling and emotions"
+      ],
+      "grammar": [
+        "Modal verb 'müssen'",
+        "Imperatives",
+        "Possessive pronouns with body parts",
+        "Reflexive pronouns"
+      ]
+    },
+    {
+      "title": "Transportation and Travel",
+      "topics": [
+        "Means of transportation",
+        "Buying tickets",
+        "Asking for and giving directions",
+        "Simple travel plans",
+        "Weather expressions"
+      ],
+      "grammar": [
+        "Prepositions of movement (zu, nach, in)",
+        "Modal verb 'dürfen'",
+        "Future expressions with 'werden'",
+        "Conjunctions (und, aber, oder, denn)"
+      ]
+    },
+    {
+      "title": "Work and Profession",
+      "topics": [
+        "Jobs and professions",
+        "Workplace vocabulary",
+        "Simple job applications",
+        "Talking about work experience",
+        "Education and training"
+      ],
+      "grammar": [
+        "Past tense (Perfekt) introduction",
+        "Modal verb 'sollen'",
+        "Subordinating conjunctions (weil, dass)",
+        "Word order in subordinate clauses"
+      ]
+    },
+    {
+      "title": "Leisure and Entertainment",
+      "topics": [
+        "Free time activities",
+        "Cultural events",
+        "Appointments and invitations",
+        "Making and responding to suggestions",
+        "Expressing likes and dislikes"
+      ],
+      "grammar": [
+        "Time prepositions (am, um, von...bis)",
+        "Coordinating conjunctions",
+        "Adverbs of time and place",
+        "Review of all grammar from A1 level"
+      ]
+    },
+    {
+      "title": "Exam Preparation",
+      "topics": [
+        "Reading comprehension strategies",
+        "Listening comprehension strategies",
+        "Writing simple texts",
+        "Speaking in simple situations",
+        "Exam format and requirements"
+      ],
+      "grammar": [
+        "Comprehensive review of A1 grammar points",
+        "Common question patterns",
+        "Appropriate responses to typical exam questions"
+      ]
+    }
+  ],
+  "examFormat": {
+    "sections": [
+      {
+        "name": "Hören (Listening)",
+        "duration": "20 minutes",
+        "description": "Understanding short conversations, announcements, and phone messages in everyday situations.",
+        "parts": 3,
+        "maximumPoints": 20
+      },
+      {
+        "name": "Lesen (Reading)",
+        "duration": "25 minutes",
+        "description": "Reading and understanding short texts like notices, advertisements, and personal messages.",
+        "parts": 3,
+        "maximumPoints": 20
+      },
+      {
+        "name": "Schreiben (Writing)",
+        "duration": "20 minutes",
+        "description": "Writing a short personal text (e.g., filling out a form, writing a simple email or postcard).",
+        "parts": 1,
+        "maximumPoints": 20
+      },
+      {
+        "name": "Sprechen (Speaking)",
+        "duration": "15 minutes",
+        "description": "Basic conversation, asking and answering questions, introducing yourself, and describing simple situations.",
+        "parts": 3,
+        "maximumPoints": 25
+      }
+    ],
+    "passingScore": "60% overall, with at least 40% in each section"
+  },
+  "resources": [
+    {
+      "type": "textbook",
+      "title": "Menschen A1",
+      "publisher": "Hueber Verlag"
+    },
+    {
+      "type": "textbook",
+      "title": "Schritte International Neu A1",
+      "publisher": "Hueber Verlag"
+    },
+    {
+      "type": "textbook",
+      "title": "Studio d A1",
+      "publisher": "Cornelsen"
+    },
+    {
+      "type": "online",
+      "title": "Deutsche Welle - Nicos Weg A1",
+      "url": "https://learngerman.dw.com/en/overview"
+    },
+    {
+      "type": "practice",
+      "title": "Goethe-Institut A1 Sample Exams",
+      "url": "https://www.goethe.de/en/spr/kup/prf/prf/sd1/ued.html"
+    },
+    {
+      "type": "practice",
+      "title": "telc Deutsch A1 Sample Tests",
+      "url": "https://www.telc.net/pruefungsteilnehmende/sprachpruefungen/pruefung/telc-deutsch-a1.html"
+    }
+  ]
+}
